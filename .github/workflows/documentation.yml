@@ -26,6 +26,12 @@ jobs:
           python-version: ${{ matrix.python-version }}
           cache: pip
           cache-dependency-path: pyproject.toml
+      - name: Set up build cache
+        uses: actions/cache/restore@v4
+        with:
+          key: mkdocs-${{ matrix.python-version }}-${{ hashfiles('.cache/**') }}
+          path: .cache
+          restore-keys: mkdocs-${{ matrix.python-version }}-
       - name: Install Python dependencies
         run: pip install -e .
       - name: Build documentation
@@ -36,14 +42,14 @@ jobs:
       - name: Save build cache
         uses: actions/cache/save@v4
         with:
-          key: mkdocs-material-${{ hashfiles('.cache/**') }}
+          key: mkdocs-${{ matrix.python-version }}-${{ hashfiles('.cache/**') }}
           path: .cache
 
   deploy:
     name: Deploy documentation
     runs-on: ubuntu-latest
     needs: [test]
-#    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
