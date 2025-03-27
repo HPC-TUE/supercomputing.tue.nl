@@ -1,75 +1,58 @@
 name: build
 on:
-  push:
-    branches:
-      - main
-
-env:
-  PYTHON_VERSION: 3.x
+  workflow_run:
+    workflows: [test]
+    branches: [main]
 
 permissions:
   contents: write
   id-token: write
   pages: write
 
+env:
+  PYTHON_VERSION: 3.13
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  documentation:
+  build:
     name: Build documentation
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Set up Python runtime
         uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
           cache: pip
-          cache-dependency-path: |
-            pyproject.toml
-            requirements.txt
-
+          cache-dependency-path: pyproject.toml
       - name: Set up build cache
         uses: actions/cache/restore@v4
         with:
           key: mkdocs-material-${{ hashfiles('.cache/**') }}
           path: .cache
-          restore-keys: |
-            mkdocs-material-
-
+          restore-keys: mkdocs-material-
       - name: Install dependencies
         run: sudo apt-get install pngquant
-
       - name: Install Python dependencies
-        run: |
-          pip install -e .          
-
+        run: pip install -e .
       - name: Build documentation
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GOOGLE_ANALYTICS_KEY: ${{ secrets.GOOGLE_ANALYTICS_KEY }}
         run: |
           export PYTHONPATH=$PYTHONPATH:$PWD/src
           mkdocs build --clean
           mkdocs --version
-
-      - name: Adjust permissions
-        run: |
-          chmod -c -R +rX site/ | while read line; do
-            echo "::warning title=Invalid file permissions automatically fixed::$line"
-          done
-
       - name: Upload to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
-
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-
       - name: Save build cache
         uses: actions/cache/save@v4
         with:
