@@ -2,7 +2,7 @@ name: build
 on:
   workflow_run:
     workflows: [test]
-    branches: [main]
+    branches: [main, github-matrix-testing]
 
 permissions:
   contents: write
@@ -47,12 +47,12 @@ jobs:
           export PYTHONPATH=$PYTHONPATH:$PWD/src
           mkdocs build --clean
           mkdocs --version
-      - name: Upload to GitHub Pages
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+#      - name: Upload to GitHub Pages
+#        uses: actions/upload-pages-artifact@v3
+#        with:
+#          path: site
+#      - name: Deploy to GitHub Pages
+#        uses: actions/deploy-pages@v4
       - name: Save build cache
         uses: actions/cache/save@v4
         with:
