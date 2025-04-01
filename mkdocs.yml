@@ -1,8 +1,9 @@
 site_name: TU/e Supercomputing Center
 site_url: https://supercomputing.tue.nl/
 docs_dir: &base_path docs
-not_in_nav: |
-  includes
+repo_name: HPC-TUE/supercomputing.tue.nl
+repo_url: https://github.com/HPC-TUE/supercomputing.tue.nl
+edit_uri: edit/main/docs/
 theme:
   name: material
   custom_dir: overrides
@@ -145,8 +146,6 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-repo_url: https://github.com/HPC-TUE/supercomputing.tue.nl
-edit_uri: https://github.com/HPC-TUE/supercomputing.tue.nl/edit/main/docs
 copyright: TU/e Supercomputing Center
 extra:
   analytics:
