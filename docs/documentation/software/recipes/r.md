@@ -91,3 +91,11 @@ Rscript -e "install.packages('Rmpfr','~/Rlibs','http://ftp.ussg.iu.edu/CRAN')"
 ```
 
 NOTE : In your job script, you **don't** need to install the package again! In the previous part you installed it in your home directory, which is also available on the compute nodes, hence the package is automatically also installed there.
+
+## Parallelize R code on a Slurm cluster (rslurm)
+
+Many computing-intensive processes in R involve the repeated evaluation of a function over many items or parameter sets. These so-called embarrassingly parallel calculations can be run serially with the lapply or Map function, or in parallel on a single machine with mclapply or mcMap (from the parallel package).
+
+[rslurm package](https://cran.r-project.org/web/packages/rslurm/vignettes/rslurm.html)
+
+The rslurm package simplifies the process of distributing this type of calculation across a computing cluster that uses the Slurm workload manager. Its main function, slurm_apply (and the related slurm_map) automatically divide the computation over multiple nodes and write the necessary submission scripts. The package also includes functions to retrieve and combine the output from different nodes, as well as wrappers for common Slurm commands.
