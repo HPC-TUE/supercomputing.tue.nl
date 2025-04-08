@@ -19,14 +19,14 @@ Load the module(s)
 
 ```shell 
 [user@umbrella]$ module purge
-[user@umbrella]$ module load R/4.4.0-gfbf-2023a
+[user@umbrella]$ module load R/4.4.2-gfbf-2024a
 ```
 
 Check the version of R
 
 ```shell
 [user@umbrella]$ R --version
-R version 4.4.0 (2024-04-24) -- "Puppy Cup"
+R version 4.4.2 (2024-10-31) -- "Pile of Leaves"
 Copyright (C) 2024 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu
 ...
@@ -51,7 +51,7 @@ Check Rscript
 #SBATCH --time=00:05:00
 
 module purge
-module load R/4.4.0-gfbf-2023a
+module load R/4.4.2-gfbf-2024a
 
 Rscript simple.r
 ```
@@ -81,7 +81,7 @@ mkdir Rlibs
 
 Load the module with a s specific version of R
 ```shell
-module load R/4.4.0-gfbf-2023a
+module load R/4.4.2-gfbf-2024a
 ```
 
 Install a package and its dependency, in this example Rmpfr depends on gmp
