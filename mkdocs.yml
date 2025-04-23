@@ -103,7 +103,6 @@ plugins:
       tags: false
 watch:
   - overrides
-  - layouts
 markdown_extensions:
   # Python Markdown
   - abbr
