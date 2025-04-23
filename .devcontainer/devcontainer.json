@@ -1,0 +1,25 @@
+// https://aka.ms/devcontainer.json
+{
+  "name": "supercomputing.tue.nl",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": "..",
+    "target": "devcontainer"
+  },
+  "features": {
+    "ghcr.io/davzucky/devcontainers-features-wolfi/bash:1": {},
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "forwardPorts": [
+    8000
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "shd101wyy.markdown-preview-enhanced",
+        "ms-python.python",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  }
+}

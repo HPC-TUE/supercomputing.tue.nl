@@ -1,9 +1,34 @@
-/.cache
-/.vscode
-/Pipfile*
-/cluster
-/public
-/pyvenv
-/site
-*.egg-info
-**/__pycache__/
+# Dependencies
+__pycache__
+venv
+.venv
+
+# Build files
+build
+public
+site
+
+# Distribution files
+dist
+mkdocs_scc.egg-info
+
+# Caches and logs
+*.cpuprofile
+*.log
+*.tsbuildinfo
+.cache
+.eslintcache
+__pycache__
+
+# Never ignore .gitkeep files
+!**/.gitkeep
+
+# macOS internals
+.DS_Store
+
+# Temporary files
+TODO
+tmp
+
+# Editors
+*~
