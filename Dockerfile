@@ -8,7 +8,8 @@ ENV PYTHONPATH="/app" \
 COPY pyproject.toml pyproject.toml
 COPY src/ src/
 
-RUN pip3 install -e .
+RUN apk --no-cache add git \
+ && pip3 install -e .
 
 CMD ["mkdocs", "serve", "--dev-addr", "0.0.0.0:8000"]
 
