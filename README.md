@@ -4,6 +4,12 @@
 
 The official website of the TU/e Supercomputing Center (SCC).
 
+## Deployment
+
+```shell
+docker run -p 8000:8000 ghcr.io/hpc-tue/supercomputing.tue.nl:latest
+```
+
 ## Development
 
 Normal development installation
@@ -35,7 +41,7 @@ following [Metadata](https://squidfunk.github.io/mkdocs-material/plugins/blog/#m
 
 | Property        | Value                          | Description              |
 |-----------------|--------------------------------|--------------------------|
-| type (required) | `news`, `maintenance`, `event` | Article type (see below) | 
+| type (required) | `news`, `maintenance`, `event` | Article type (see below) |
 
 ##### Type `news`
 
@@ -48,10 +54,10 @@ In addition to `news`:
 
 | Property       | Value                              | Description                        |
 |----------------|------------------------------------|------------------------------------|
-| start          | YYYY-MM-DD<br/>YYYY-MM-DDTHH:II:SS | Start date/time of the maintenance | 
-| end            | YYYY-MM-DD<br/>YYYY-MM-DDTHH:II:SS | End date/time of the maintenance   | 
+| start          | YYYY-MM-DD<br/>YYYY-MM-DDTHH:II:SS | Start date/time of the maintenance |
+| end            | YYYY-MM-DD<br/>YYYY-MM-DDTHH:II:SS | End date/time of the maintenance   |
 | banner.enabled | Boolean                            | Show banner                        |
-| banner.message | String                             | Message to show within the banner  | 
+| banner.message | String                             | Message to show within the banner  |
 
 ##### Type `event`
 
@@ -59,8 +65,8 @@ In addition to `news`:
 
 | Property | Value                                                                                                           | Description                                        |
 |----------|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| start    | YYYY-MM-DD<br/>YYYY-MM-DDTHH:II:SS                                                                              | Start date/time of the event                       | 
-| end      | YYYY-MM-DD<br/>YYYY-MM-DDTHH:II:SS                                                                              | End date/time of the event                         | 
+| start    | YYYY-MM-DD<br/>YYYY-MM-DDTHH:II:SS                                                                              | Start date/time of the event                       |
+| end      | YYYY-MM-DD<br/>YYYY-MM-DDTHH:II:SS                                                                              | End date/time of the event                         |
 | price    | 0.00 (free), or any other digit number                                                                          | The entree fee of the event                        |
 | location | String, Event location                                                                                          | Location of where the event will take place        |
 | image    | URL or relative path from the `/docs` folder                                                                    | Image shown with the event                         |
@@ -73,7 +79,7 @@ In addition to `news`:
 
 | Property | Value                                                                                                     | Description                 |
 |----------|-----------------------------------------------------------------------------------------------------------|-----------------------------|
-| start    | YYYY-MM-DD<br/>YYYY-MM-DDTHH:II:SS                                                                        | Start date/time of the item | 
+| start    | YYYY-MM-DD<br/>YYYY-MM-DDTHH:II:SS                                                                        | Start date/time of the item |
 | end      | YYYY-MM-DD<br/>YYYY-MM-DDTHH:II:SS                                                                        | End date/time of the item   |
 | title    | String                                                                                                    | The shown title of the item |
 | icon     | See [supported icons](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/){target=_blank} | Icon of the item            |
