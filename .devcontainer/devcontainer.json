@@ -4,11 +4,10 @@
   "build": {
     "dockerfile": "../Dockerfile",
     "context": "..",
-    "target": "devcontainer"
+    "target": "dev"
   },
   "features": {
-    "ghcr.io/davzucky/devcontainers-features-wolfi/bash:1": {},
-    "ghcr.io/devcontainers/features/git:1": {}
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-openssh:0": {}
   },
   "forwardPorts": [
     8000
@@ -18,8 +17,7 @@
       "extensions": [
         "shd101wyy.markdown-preview-enhanced",
         "ms-python.python",
-        "ms-azuretools.vscode-docker",
-        "github.vscode-github-actions"
+        "ms-azuretools.vscode-docker"
       ]
     }
   }

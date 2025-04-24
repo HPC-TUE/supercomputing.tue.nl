@@ -1,37 +1,38 @@
-FROM python:3-alpine@sha256:18159b2be11db91f84b8f8f655cd860f805dbd9e49a583ddaac8ab39bf4fe1a7 AS devcontainer
+ARG CI="false"
 
-WORKDIR /app
+FROM python:3.13-alpine AS dev
 
-ENV PYTHONPATH="/app" \
-    GIT_PYTHON_REFRESH="quiet"
+WORKDIR /tmp
 
 COPY pyproject.toml pyproject.toml
-COPY src/ src/
+COPY src src
 
-RUN apk --no-cache add git openssh \
- && pip3 install -e .
+RUN apk --no-cache add git \
+ && pip3 install --root-user-action ignore -e .
 
 CMD ["mkdocs", "serve", "--dev-addr", "0.0.0.0:8000"]
 
-FROM python:3-alpine@sha256:18159b2be11db91f84b8f8f655cd860f805dbd9e49a583ddaac8ab39bf4fe1a7 AS build
+FROM scratch AS build
 
-WORKDIR /app
+ARG CI
 
-ENV PYTHONPATH="/app"
+WORKDIR /tmp
 
-COPY --from=devcontainer /usr/local /usr/local
+COPY --from=dev / /
 
-COPY src/ src/
+COPY README.md README.md
 COPY mkdocs.yml mkdocs.yml
-COPY docs/ docs/
-COPY overrides/ overrides/
-COPY .git/ .git/
+COPY docs docs
+COPY overrides overrides
+COPY .git .git
 
-RUN apk --no-cache add git \
- && mkdocs build --site-dir /site
+ENV PYTHONPATH="/tmp" \
+    CI="${CI}"
 
-FROM caddy:2-alpine@sha256:e2e3a089760c453bc51c4e718342bd7032d6714f15b437db7121bfc2de2654a6
+RUN mkdocs build
 
-EXPOSE 80
+FROM caddy:2-alpine
 
-COPY --from=build /site /usr/share/caddy
+COPY --from=build /tmp/site .
+
+CMD ["caddy", "file-server"]
