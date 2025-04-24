@@ -1,11 +1,13 @@
-name: build
+name: Deploy Pages
 on:
-  push:
+  workflow_run:
+    workflows: ["Python Tests"]
     branches: [main]
+    types:
+      - completed
 
 permissions:
-  contents: write
-  id-token: write
+  contents: read
   pages: write
 
 concurrency:
@@ -16,9 +18,10 @@ env:
   PYTHONPATH: ${{ github.workspace }}
 
 jobs:
-  deploy:
+  on-success:
     name: Deploy documentation
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -30,27 +33,13 @@ jobs:
           python-version-file: 'pyproject.toml'
           cache: pip
           cache-dependency-path: pyproject.toml
-      - name: Set up build cache
-        uses: actions/cache/restore@v4
-        with:
-          key: mkdocs-scc-${{ hashfiles('.cache/**') }}
-          path: .cache
-          restore-keys: mkdocs-material-
       - name: Install Python dependencies
         run: pip install -e .
       - name: Build documentation
-        run: |
-          export PYTHONPATH=$PYTHONPATH:$PWD/src
-          mkdocs build --clean
-          mkdocs --version
+        run: mkdocs build --clean
       - name: Upload to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-      - name: Save build cache
-        uses: actions/cache/save@v4
-        with:
-          key: mkdocs-scc-${{ hashfiles('.cache/**') }}
-          path: .cache

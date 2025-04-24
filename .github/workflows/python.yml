@@ -1,4 +1,4 @@
-name: python
+name: Python Tests
 on: [push, fork]
 
 concurrency:
@@ -13,7 +13,7 @@ env:
 
 jobs:
   test:
-    name: Testing Python
+    name: Python
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -21,8 +21,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v5
         with:
@@ -34,13 +32,11 @@ jobs:
       - name: Build documentation
         run: mkdocs build --clean
   python:
-    name: Testing Python (pyproject.toml)
+    name: Python
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
