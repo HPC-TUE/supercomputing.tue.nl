@@ -1,4 +1,4 @@
-name: Python Tests
+name: MkDocs
 on: [push, fork]
 
 concurrency:
@@ -6,13 +6,13 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  contents: read
+  contents: write
 
 env:
   PYTHONPATH: ${{ github.workspace }}
 
 jobs:
-  test:
+  tests:
     name: Python
     runs-on: ubuntu-latest
     strategy:
@@ -27,14 +27,21 @@ jobs:
           python-version: ${{ matrix.python-version }}
           cache: pip
           cache-dependency-path: pyproject.toml
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
       - name: Install Python dependencies
         run: pip install -e .
       - name: Build documentation
         run: mkdocs build --clean
-  python:
+  pyproject:
     name: Python
     runs-on: ubuntu-latest
-    needs: [test]
+    needs: [tests]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -46,7 +53,32 @@ jobs:
           python-version-file: 'pyproject.toml'
           cache: pip
           cache-dependency-path: pyproject.toml
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
+      - uses: actions/cache@v4
+        with:
+          key: mkdocs-material-${{ env.cache_id }}
+          path: .cache
+          restore-keys: |
+            mkdocs-material-
       - name: Install Python dependencies
         run: pip install -e .
       - name: Build documentation
-        run:  mkdocs build --clean
+        run: mkdocs build --clean
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          path: site/
+  pages:
+    name: Deploy documentation
+    if: github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: [pyproject]
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
