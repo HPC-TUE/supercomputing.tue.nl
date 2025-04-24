@@ -35,4 +35,6 @@ FROM caddy:2-alpine
 
 COPY --from=build /tmp/site .
 
-CMD ["caddy", "file-server"]
+EXPOSE 8000
+
+CMD ["caddy", "file-server", "--listen", ":8000"]
