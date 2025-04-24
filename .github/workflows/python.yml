@@ -34,6 +34,7 @@ jobs:
       - name: Build documentation
         run: mkdocs build --clean
   python:
+    name: Testing Python
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
