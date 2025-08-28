@@ -1,12 +1,12 @@
 ---
 hide: [toc]
-title: Datasets
+title: Datasets and Models
 ---
-# Datasets
+# Datasets and Models
 
-!!! tip "No need to download common datasets yourselves!"
+!!! tip "No need to download common models and datasets yourselves!"
 
-    On the Umbrella Cluster, we maintain a list of datasets frequently used to either train or benchmark a model, usually in the context of machine learning. Instead of occupying space on your own space or waiting for the download of the data to finish to your own space, freely use the available datasets at the dataset folder on Umbrella Cluster.
+    On the Umbrella Cluster, we maintain a list of open models and datasets frequently used to either train or benchmark a model, usually in the context of machine learning. Instead of occupying space on your own space or waiting for the download of the data to finish to your own space, freely use the available models and datasets at the dataset folder on Umbrella Cluster.
 
 ## List of available datasets
 
@@ -77,14 +77,6 @@ unzip /dataset/ADE20K/ADE20K.zip -d $datadir
     <td><a href="https://www.cs.toronto.edu/~kriz/cifar.html">Website</a></td>
   </tr>
   <tr>
-    <td>DeepSeek</td>
-    <td>v3.1</td>
-    <td><a href="#free">free</a></td>
-    <td><code>/dataset/DeepSeek-v3.1</code></td>
-    <td>MIT</td>
-    <td><a href="https://huggingface.co/deepseek-ai/DeepSeek-V3.1">Website</a></td>
-  </tr>
-  <tr>
     <td>ImageNet</td>
     <td>&mdash;</td>
     <td><a href="#poa">POA</a></td>
@@ -99,6 +91,30 @@ unzip /dataset/ADE20K/ADE20K.zip -d $datadir
     <td><code>/dataset/MNIST</code></td>
     <td><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></td>
     <td><a href="https://yann.lecun.com/exdb/mnist/">Website</a></td>
+  </tr>
+</table>
+
+## List of available models
+
+If you want access to a restricted model, please see [Getting access to restricted datasets](#getting-access-to-restricted-datasets).
+If your model is not listed here, please see [Dataset not listed?](#dataset-not-listed)
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Versions</th>
+    <th>Access</th>
+    <th>Path</th>
+    <th>License</th>
+    <th>References</th>
+  </tr>
+  <tr>
+    <td>DeepSeek</td>
+    <td>v3.1</td>
+    <td><a href="#free">free</a></td>
+    <td><code>/dataset/DeepSeek-v3.1</code></td>
+    <td>MIT</td>
+    <td><a href="https://huggingface.co/deepseek-ai/DeepSeek-V3.1">Website</a></td>
   </tr>
 </table>
 
