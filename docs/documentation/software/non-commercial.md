@@ -82,7 +82,7 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 |---------------------------------------------|--------------------------------------------------------------------------------------|---------------------|-----------------------------|
 | ADIOS2                                      | 2.10.2-gompi-2024a                                                                   | `ADIOS2`            |                             |
 | Amber                                       | 24.0-foss-2022a-AmberTools-24.0-CUDA-11.7.0<br>24.0-foss-2024a-AmberTools-24.0       | `Amber`             |                             |
-| Blender                                     | 4.4.3-linux-x86_64-CUDA-12.8.0                                                       | `Blender`           | Yes                         |
+| Blender                                     | 4.5.3-linux-x86_64-CUDA-12.8.0                                                       | `Blender`           | Yes                         |
 | [CP2K](recipes/cp2k.md)                     | 2023.1-foss-2023a                                                                    | `CP2K`              |                             |
 | dask                                        | 2024.9.1-gfbf-2024a                                                                  | `dask`              |                             |
 | git                                         | 2.50.0-GCCcore-14.2.0                                                                | `git`               |                             |
