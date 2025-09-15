@@ -12,10 +12,10 @@ tags: [ Software ]
 | CuPy                             | `13.0.0-foss-2023a-CUDA-12.1.1`                                              | `ml avail CuPy`.        |                                                                 |
 | IPython                          | `8.28.0-GCCcore-13.3.0`<br/>`8.14.0-GCCcore-12.3.0`                          | `ml avail IPython`      |                                                                 |
 | Jax                              | `0.4.25-gfbf-2023a`<br/>`0.4.25-gfbf-2023a-CUDA-12.1.1`                      | `ml avail jax`          |                                                                 |
-| [JupyterLab](recipes/jupyter.md) | `4.0.5-GCCcore-12.3.0`<br/>`3.5.0-GCCcore-11.3.0`                            | `ml avail Jupyter`      | Yes](https://hpc.tue.nl "via Jupyter"){:target=_blank}          |
+| [JupyterLab](recipes/jupyter.md) | `4.0.5-GCCcore-12.3.0`<br/>`3.5.0-GCCcore-11.3.0`                            | `ml avail Jupyter`      | [Yes](https://hpc.tue.nl){:target=_blank}          |
 | LightGBM                         | `4.5.0-foss-2023a`<br>`4.5.0-foss-2023a-CUDA-12.1.1`                         | `ml avail LightGBM`     |                                                                 |
 | MLflow                           | `MLflow/2.10.2-gfbf-2023a`                                                   | `ml avail MLflow`       | [Yes](https://hpc.tue.nl){:target=_blank}                       |
-| numba                            | `0.58.1-foss-2023a`<br>`0.56.4-foss-2022a`                                   | `ml avail numba`        |                                                                 |
+| numba                            | `0.60.0-foss-2024a`<br>`0.58.1-foss-2023a`                                   | `ml avail numba`        |                                                                 |
 | OpenCV                           | `4.8.1-foss-2023a-contrib`<br>`4.8.1-foss-2023a-CUDA-12.1.1-contrib`         | `ml avail OpenCV`       |                                                                 |
 | OpenFold                         | `2.0.0-foss-2023a-CUDA-12.1.1`<br>`1.0.1-foss-2022a-CUDA-11.7.0`                    | `ml av OpenFold`       |                                                                 |
 | OpenMM                           | `8.0.0-foss-2023a`<br>`8.0.0-foss-2023a-CUDA-12.1.1` | `ml avail OpenMM`       |                                                                 |
