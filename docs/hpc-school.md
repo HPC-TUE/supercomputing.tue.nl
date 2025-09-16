@@ -35,18 +35,18 @@ Stay tuned for announcements on future editions through the official channels.
     </p>
     <small>April 9, 2025</small>
   </figure>
-  
+
 - <figure markdown>
     ![Evert van Vliet](/assets/images/people/evertvanvlietcfd.png)
-    <figcaption>[Evert van Vliet](???){ target=_blank }</figcaption>
+    <figcaption>Evert van Vliet</figcaption>
     <p style="font-style: italic">
       Computational work at ASML
     </p>
     <small>April 10, 2025</small>
   </figure>
-  
+
 - <figure markdown>
-    ![Esmee Tetterloo & Matthijs Wijmans](/assets/images/people/c.campos.png)
+    ![Esmee Tetterloo & Matthijs Wijmans](/assets/images/logo/universityracing.png){ width=135px }
     <figcaption>[URE](https://www.universityracing.nl/){ target=_blank }</figcaption>
     <p style="font-style: italic">
       University Racing Eindhoven
@@ -67,7 +67,7 @@ Stay tuned for announcements on future editions through the official channels.
     </p>
     <small>November 4, 2024</small>
   </figure>
-  
+
 - <figure markdown>
     ![Shuxia Tao](/assets/images/people/s.x.tao.png)
     <figcaption>[Shuxia Tao](https://www.tue.nl/en/research/researchers/shuxia-tao/){ target=_blank }</figcaption>
@@ -76,7 +76,7 @@ Stay tuned for announcements on future editions through the official channels.
     </p>
     <small>November 5, 2024</small>
   </figure>
-  
+
 </div>
 
 ### Spring School 2024
@@ -94,7 +94,7 @@ Stay tuned for announcements on future editions through the official channels.
     ![Ivo Filot](/assets/images/people/i.filot.png)
     <figcaption>[Ivo Filot](https://www.tue.nl/en/research/researchers/ivo-filot/){ target=_blank }</figcaption>
     <p style="font-style: italic">
-      Multiscale modeling of heterogeneous catalysis  
+      Multiscale modeling of heterogeneous catalysis
     </p>
     <small>April 16, 2024</small>
   </figure>
@@ -102,7 +102,7 @@ Stay tuned for announcements on future editions through the official channels.
     ![Cassio De Campos](/assets/images/people/c.campos.png)
     <figcaption>[Cassio De Campos](https://www.tue.nl/en/research/researchers/cassio-de-campos/){ target=_blank }</figcaption>
     <p style="font-style: italic">
-      Perspectives for Artificial Intelligence, Tractable Models, Sparse Models, and beyond    
+      Perspectives for Artificial Intelligence, Tractable Models, Sparse Models, and beyond
     </p>
     <small>April 17, 2024</small>
   </figure>
@@ -110,7 +110,7 @@ Stay tuned for announcements on future editions through the official channels.
     ![Yali Tang](/assets/images/people/y.tang.png)
     <figcaption>[Yali Tang](https://www.tue.nl/en/research/researchers/yali-tang/){ target=_blank }</figcaption>
     <p style="font-style: italic">
-      HPC for energy transition - Storage   
+      HPC for energy transition - Storage
     </p>
     <small>April 18, 2024</small>
   </figure>
