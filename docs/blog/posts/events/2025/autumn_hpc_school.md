@@ -3,7 +3,7 @@ date: 2025-09-10
 draft: true
 start: 2025-11-11T09:00:00
 end: 2025-11-21T17:00:00
-hide: [ sidebar ]
+hide: [sidebar]
 hero:
   backdrop: assets/images/2025-spring_hpc_school.png
   messages:
