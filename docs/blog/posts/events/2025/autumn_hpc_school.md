@@ -1,6 +1,5 @@
 ---
-date: 2025-09-10
-draft: true
+date: 2025-09-17
 start: 2025-11-11T09:00:00
 end: 2025-11-21T17:00:00
 hide: [sidebar]
@@ -23,60 +22,60 @@ registration:
   enabled: false
 #schedule_hide: True
 schedule:
-  - { title: HPC Primer I, description: "An introductory guide to HPC essentials for beginners, covering remote terminal setup, bash scripting, file management, job execution with SLURM, and an overview of TU/e's Supercomputing Center.", start: 2025-11-11T09:30:00, end: 2025-11-11T15:30:00, speakers: [ g.t.chepuck.fernandes, a.van.hoof ], location: "TBD",
+  - { title: HPC Primer I, description: "An introductory guide to HPC essentials for beginners, covering remote terminal setup, bash scripting, file management, job execution with SLURM, and an overview of TU/e's Supercomputing Center.", start: 2025-11-11T09:30:00, end: 2025-11-11T15:30:00, speakers: [ g.t.chepuck.fernandes, a.van.hoof ],
       schedule: [
 #        { start: 2025-11-11T09:30:00, end: 2025-11-11T12:30:00 },
         { start: 2025-11-11T12:30:00, end: 2025-11-11T13:30:00, icon: food-fork-drink, title: Lunch },
 #        { start: 2025-11-11T13:30:00, end: 2025-11-11T15:30:00 },
       ]
   }
-  - { title: HPC Primer II, description: "Learn about secure SSH connections, setting up Git for version control, and understanding repository licenses in day two of the HPC Primer.", start: 2025-11-12T09:30:00, end: 2025-11-12T15:30:00, speakers: [ a.van.hoof, g.t.chepuck.fernandes ], location: "TBD",
+  - { title: HPC Primer II, description: "Learn about secure SSH connections, setting up Git for version control, and understanding repository licenses in day two of the HPC Primer.", start: 2025-11-12T09:30:00, end: 2025-11-12T15:30:00, speakers: [ a.van.hoof, g.t.chepuck.fernandes ],
       schedule: [
 #        { start: 2025-11-12T09:30:00, end: 2025-11-12T12:30:00 },
         { start: 2025-11-12T12:30:00, end: 2025-11-12T13:30:00, icon: food-fork-drink, title: Lunch },
 #        { start: 2025-11-12T13:30:00, end: 2025-11-12T15:30:00 },
       ]
   }
-  - { title: Introduction to Supercomputing, description: "Unleash the potential of supercomputing clusters", start: 2025-11-13T09:30:00, end: 2025-11-13T15:00:00, location: "TBD",
+  - { title: Introduction to Supercomputing, description: "Unleash the potential of supercomputing clusters", start: 2025-11-13T09:30:00, end: 2025-11-13T15:00:00,
       schedule: [
 #        { start: 2025-11-13T09:30:00, end: 2025-11-13T12:30:00, title: Introduction to Supercomputing, description: "Learn to harness the power of clusters and supercomputers for large-scale computations and analyses in this course." },
         { start: 2025-11-13T12:30:00, end: 2025-11-13T13:30:00, icon: food-fork-drink, title: Lunch },
       ]
   }
-  - { title: Fundamentals of Deep Learning, description: "", start: 2025-11-14T09:30:00, end: 2025-11-14T15:00:00, location: "TBD",
+  - { title: Fundamentals of Deep Learning, description: "", start: 2025-11-14T09:30:00, end: 2025-11-14T15:00:00,
       schedule: [
         #        { start: 2025-11-13T09:30:00, end: 2025-11-13T12:30:00, title: Introduction to Supercomputing, description: "Learn to harness the power of clusters and supercomputers for large-scale computations and analyses in this course." },
         { start: 2025-11-14T12:30:00, end: 2025-11-14T13:30:00, icon: food-fork-drink, title: Lunch },
       ]
   }
-  - { title: Parallel jobs & Code Optimization, start: 2025-11-17T09:30:00, end: 2025-11-17T16:00:00, location: "TBD", description: "Explore two distinct courses: one on optimizing supercomputer resource utilization through job concurrency with the QCG PilotJob framework, and another offering insights into high-performance hybrid systems with a focus on architecture, configuration, performance analysis models, and the Roofline model application.",
+  - { title: Parallel jobs & Code Optimization, start: 2025-11-17T09:30:00, end: 2025-11-17T16:00:00,
       schedule: [
         { start: 2025-11-17T09:30:00, end: 2025-11-17T12:30:00, title: Embarrassingly Parallel jobs },
         { start: 2025-11-17T12:30:00, end: 2025-11-17T13:30:00, icon: food-fork-drink, title: Lunch },
         { start: 2025-11-17T13:30:00, end: 2025-11-17T16:00:00, title: "Code optimization techniques for HPC" },
       ]
   }
-  - { title: GPU Computing 1, start: 2025-11-18T09:30:00, end: 2025-11-18T17:00:00, location: "Neuron 0.246", description: "Engage in a two-day, hands-on course to master deep learning basics, optimize neural network models with Keras, and harness high-performance computing clusters.",
+  - { title: GPU Computing 1, start: 2025-11-18T09:30:00, end: 2025-11-18T17:00:00,
       schedule: [
 #        { start: 2025-11-18T09:30:00, end: 2025-11-18T12:30:00 },
         { start: 2025-11-18T12:30:00, end: 2025-11-18T13:30:00, icon: food-fork-drink, title: Lunch },
 #        { start: 2025-11-18T13:30:00, end: 2025-11-18T17:00:00 },
       ]
   }
-  - { title: GPU Computing 2, start: 2025-11-19T09:30:00, end: 2025-11-19T17:00:00, location: "Neuron 0.262", description: "Enhance your deep learning efficiency by setting up a software environment, optimizing file I/O, leveraging CPU/GPU capabilities, profiling PyTorch, and utilizing parallel computing.",
+  - { title: GPU Computing 2, start: 2025-11-19T09:30:00, end: 2025-11-19T17:00:00,
       schedule: [
         { start: 2025-11-19T12:30:00, end: 2025-11-19T13:30:00, icon: food-fork-drink, title: Lunch },
 #        { start: 2025-11-19T13:30:00, end: 2025-11-19T17:00:00 },
       ]
   }
-  - { title: High-performance deep-learning II, start: 2025-11-20T09:30:00, end: 2025-11-20T16:00:00, location: "Neuron 0.246", description: "Learn to leverage NVIDIA GPUs in Python using PyCUDA, from basic concepts to advanced parallel computation techniques.",
+  - { title: High-performance deep-learning II, start: 2025-11-20T09:30:00, end: 2025-11-20T16:00:00,
       schedule: [
 #        { start: 2025-11-20T09:30:00, end: 2025-11-20T12:30:00 },
         { start: 2025-11-20T12:30:00, end: 2025-11-20T13:30:00, icon: food-fork-drink, title: Lunch },
 #        { start: 2025-11-20T13:30:00, end: 2025-11-20T16:00:00 },
       ]
   }
-  - { title: Scientific Visualization with Blender, start: 2025-11-21T09:30:00, end: 2025-11-21T16:30:00, location: "TBD", description: "",
+  - { title: Scientific Visualization with Blender, start: 2025-11-21T09:30:00, end: 2025-11-21T16:30:00,
       schedule: [
         { start: 2025-11-21T12:30:00, end: 2025-11-21T13:30:00, icon: food-fork-drink, title: Lunch },
       ]
