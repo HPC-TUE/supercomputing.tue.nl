@@ -28,7 +28,7 @@ Stay tuned for announcements on future editions through the official channels.
 
 <div class="grid cards" markdown>
 - <figure markdown>
-    ![Vlado Menkovski](/assets/images/people/v.menkovski.png)
+    ![Vlado Menkovski](assets/images/people/v.menkovski.png)
     <figcaption>[Vlado Menkovski](https://www.tue.nl/en/research/researchers/vlado-menkovski/){ target=_blank }</figcaption>
     <p style="font-style: italic">
       Generative modelling for data-driven simulation
@@ -37,7 +37,7 @@ Stay tuned for announcements on future editions through the official channels.
   </figure>
 
 - <figure markdown>
-    ![Evert van Vliet](/assets/images/people/evertvanvlietcfd.png)
+    ![Evert van Vliet](assets/images/people/evertvanvlietcfd.png)
     <figcaption>Evert van Vliet</figcaption>
     <p style="font-style: italic">
       Computational work at ASML
@@ -46,7 +46,7 @@ Stay tuned for announcements on future editions through the official channels.
   </figure>
 
 - <figure markdown>
-    ![Esmee Tetterloo & Matthijs Wijmans](/assets/images/logo/universityracing.png){ width=135px }
+    ![Esmee Tetterloo & Matthijs Wijmans](assets/images/logo/universityracing.png){ width=135px }
     <figcaption>[URE](https://www.universityracing.nl/){ target=_blank }</figcaption>
     <p style="font-style: italic">
       University Racing Eindhoven
@@ -60,7 +60,7 @@ Stay tuned for announcements on future editions through the official channels.
 
 <div class="grid cards" markdown>
 - <figure markdown>
-    ![Frederico Toschi](/assets/images/people/f.toschi.png)
+    ![Frederico Toschi](assets/images/people/f.toschi.png)
     <figcaption>[Frederico Toschi](https://www.tue.nl/en/research/researchers/federico-toschi/){ target=_blank }</figcaption>
     <p style="font-style: italic">
       How do dense emulsions flow?
@@ -69,7 +69,7 @@ Stay tuned for announcements on future editions through the official channels.
   </figure>
 
 - <figure markdown>
-    ![Shuxia Tao](/assets/images/people/s.x.tao.png)
+    ![Shuxia Tao](assets/images/people/s.x.tao.png)
     <figcaption>[Shuxia Tao](https://www.tue.nl/en/research/researchers/shuxia-tao/){ target=_blank }</figcaption>
     <p style="font-style: italic">
       Modelling of halide perovskites: defects and chirality
@@ -83,7 +83,7 @@ Stay tuned for announcements on future editions through the official channels.
 
 <div class="grid cards" markdown>
 - <figure markdown>
-    ![Josefine Proll](/assets/images/people/j.proll.png)
+    ![Josefine Proll](assets/images/people/j.proll.png)
     <figcaption>[Josefine Proll](https://www.tue.nl/en/research/researchers/josefine-proll/){ target=_blank }</figcaption>
     <p style="font-style: italic">
       HPC for advancing fusion energy - solving the turbulence problem
@@ -91,7 +91,7 @@ Stay tuned for announcements on future editions through the official channels.
     <small>April 15, 2024</small>
   </figure>
 - <figure markdown>
-    ![Ivo Filot](/assets/images/people/i.filot.png)
+    ![Ivo Filot](assets/images/people/i.filot.png)
     <figcaption>[Ivo Filot](https://www.tue.nl/en/research/researchers/ivo-filot/){ target=_blank }</figcaption>
     <p style="font-style: italic">
       Multiscale modeling of heterogeneous catalysis
@@ -99,7 +99,7 @@ Stay tuned for announcements on future editions through the official channels.
     <small>April 16, 2024</small>
   </figure>
 - <figure markdown>
-    ![Cassio De Campos](/assets/images/people/c.campos.png)
+    ![Cassio De Campos](assets/images/people/c.campos.png)
     <figcaption>[Cassio De Campos](https://www.tue.nl/en/research/researchers/cassio-de-campos/){ target=_blank }</figcaption>
     <p style="font-style: italic">
       Perspectives for Artificial Intelligence, Tractable Models, Sparse Models, and beyond
@@ -107,7 +107,7 @@ Stay tuned for announcements on future editions through the official channels.
     <small>April 17, 2024</small>
   </figure>
 - <figure markdown>
-    ![Yali Tang](/assets/images/people/y.tang.png)
+    ![Yali Tang](assets/images/people/y.tang.png)
     <figcaption>[Yali Tang](https://www.tue.nl/en/research/researchers/yali-tang/){ target=_blank }</figcaption>
     <p style="font-style: italic">
       HPC for energy transition - Storage
