@@ -4,7 +4,7 @@ start: 2025-11-11T09:00:00
 end: 2025-11-21T17:00:00
 hide: [sidebar]
 hero:
-  backdrop: assets/images/2025-spring_hpc_school.png
+  backdrop: assets/images/2025-autumn_hpcschool.png
   messages:
     - { message: "Autumn HPC School '25", color: "primary" }
     - { message: "11-14 November & 17-21 November", size: "medium" }
@@ -13,7 +13,7 @@ categories: [ HPC School ]
 speakers: [ g.t.chepuck.fernandes, a.van.hoof ]
 price: 0.00
 location: TU/e Campus
-image: assets/images/2025-spring_hpc_school_thumb.png
+image: assets/images/2025-autumn_hpcschool_thumb.png
 type: event
 scheme: autumn
 slug: autumn-hpc-school
