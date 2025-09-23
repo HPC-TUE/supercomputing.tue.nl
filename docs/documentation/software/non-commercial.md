@@ -12,68 +12,68 @@ implementation, in case of foss also Open/FlexiBLAS, ScaLAPACK and FFTW(MPI) are
 | gfbf           | `2025a`, **`2024a`**, `2023a`  | `module spider gfbf`  | gfbf is a subset of foss (no OpenMPI) |
 | intel          | `2025a`, **`2024a`**, `2023a`, `2022a` | `module spider intel` |                                       |
 
-??? example "module load foss/2024a"
+??? example "module load foss/2025a"
     ```shell
     $ module list
 
     Currently Loaded Modules:
-       1) GCCcore/13.3.0
-       2) zlib/1.3.1-GCCcore-13.3.0
-       3) binutils/2.42-GCCcore-13.3.0
-       4) GCC/13.3.0
-       5) numactl/2.0.18-GCCcore-13.3.0
-       6) XZ/5.4.5-GCCcore-13.3.0
-       7) libxml2/2.12.7-GCCcore-13.3.0
-       8) libpciaccess/0.18.1-GCCcore-13.3.0
-       9) hwloc/2.10.0-GCCcore-13.3.0
-       10) OpenSSL/3
-       11) libevent/2.1.12-GCCcore-13.3.0
-       12) UCX/1.16.0-GCCcore-13.3.0
-       13) libfabric/1.21.0-GCCcore-13.3.0
-       14) PMIx/5.0.2-GCCcore-13.3.0
-       15) PRRTE/3.0.5-GCCcore-13.3.0
-       16) UCC/1.3.0-GCCcore-13.3.0
-       17) OpenMPI/5.0.3-GCC-13.3.0
-       18) OpenBLAS/0.3.27-GCC-13.3.0
-       19) FlexiBLAS/3.4.4-GCC-13.3.0
-       20) FFTW/3.3.10-GCC-13.3.0
-       21) gompi/2024a
-       22) FFTW.MPI/3.3.10-gompi-2024a
-       23) ScaLAPACK/2.2.0-gompi-2024a-fb
-       24) foss/2024a
+         1) GCCcore/14.2.0
+         2) zlib/1.3.1-GCCcore-14.2.0
+         3) binutils/2.42-GCCcore-14.2.0
+         4) GCC/14.2.0
+         5) numactl/2.0.19-GCCcore-14.2.0
+         6) XZ/5.6.3-GCCcore-14.2.0
+         7) libxml2/2.13.4-GCCcore-14.2.0
+         8) libpciaccess/0.18.1-GCCcore-14.2.0
+         9) hwloc/2.11.2-GCCcore-14.2.0
+        10) OpenSSL/3
+        11) libevent/2.1.12-GCCcore-14.2.0
+        12) UCX/1.18.0-GCCcore-14.2.0
+        13) libfabric/2.0.0-GCCcore-14.2.0
+        14) PMIx/5.0.6-GCCcore-14.2.0
+        15) PRRTE/3.0.8-GCCcore-14.2.0
+        16) UCC/1.3.0-GCCcore-14.2.0
+        17) OpenMPI/5.0.7-GCC-14.2.0
+        18) OpenBLAS/0.3.29-GCC-14.2.0
+        19) FlexiBLAS/3.4.5-GCC-14.2.0
+        20) FFTW/3.3.10-GCC-14.2.0
+        21) gompi/2025a
+        22) FFTW.MPI/3.3.10-gompi-2025a
+        23) ScaLAPACK/2.2.2-gompi-2025a-fb
+        24) foss/2025a
     ```
 
-??? example "module load gfbf/2024a"
+??? example "module load gfbf/2025a"
     ```shell
     $ module list
 
     Currently Loaded Modules:
-       1) GCCcore/13.3.0
-       2) zlib/1.3.1-GCCcore-13.3.0
-       3) binutils/2.42-GCCcore-13.3.0
-       4) GCC/13.3.0
-       5) OpenBLAS/0.3.27-GCC-13.3.0
-       6) FlexiBLAS/3.4.4-GCC-13.3.0
-       7) FFTW/3.3.10-GCC-13.3.0
-       8) gfbf/2024a
+         1) GCCcore/14.2.0
+         2) zlib/1.3.1-GCCcore-14.2.0
+         3) binutils/2.42-GCCcore-14.2.0
+         4) GCC/14.2.0
+         5) OpenBLAS/0.3.29-GCC-14.2.0
+         6) FlexiBLAS/3.4.5-GCC-14.2.0
+         7) FFTW/3.3.10-GCC-14.2.0
+         8) gfbf/2025a
     ```
 
-??? example "module load intel/2024a"
+??? example "module load intel/2025a"
     ```shell
     $ module list
 
     Currently Loaded Modules:
-       1) GCCcore/13.3.0
-       2) zlib/1.3.1-GCCcore-13.3.0
-       3) binutils/2.42-GCCcore-13.3.0
-       4) intel-compilers/2024.2.0
-       5) numactl/2.0.18-GCCcore-13.3.0
-       6) UCX/1.16.0-GCCcore-13.3.0
-       7) impi/2021.13.0-intel-compilers-2024.2.0
-       8) imkl/2024.2.0
-       9) iimpi/2024a
-       10) imkl-FFTW/2024.2.0-iimpi-2024a
-       11) intel/2024a
+         1) GCCcore/14.2.0
+         2) zlib/1.3.1-GCCcore-14.2.0
+         3) binutils/2.42-GCCcore-14.2.0
+         4) intel-compilers/2025.1.1
+         5) numactl/2.0.19-GCCcore-14.2.0
+         6) UCX/1.18.0-GCCcore-14.2.0
+         7) impi/2021.15.0-intel-compilers-2025.1.1
+         8) imkl/2025.1.0
+         9) iimpi/2025a
+        10) imkl-FFTW/2025.1.0-iimpi-2025a
+        11) intel/2025a
     ```
 
 Using the toolchain(s) the following software is avaiable. When the module is loaded the toolchain it depends on is automatically loaded.
