@@ -88,7 +88,7 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 | git                                         | 2.50.0-GCCcore-14.2.0                                                                | `git`               |                             |
 | git-lfs                                     | 3.6.1                                                                                | `git-lfs`           |                             |
 | GROMACS                                     | 2023.3-foss-2023a                                                                    | `GROMACS`           |                             |
-| Julia                                       | 1.11.5                                                                               | `Julia`             | Yes via Pluto               |
+| Julia                                       | 1.11.7                                                                               | `Julia`             | Yes via Pluto               |
 | [LAMMPS](recipes/lammps.md)                 | 29Aug2024_update2-foss-2023a-kokkos                                                  | `LAMMPS`            |                             |
 | MCL                                         | 22.282-GCCcore-14.2.0                                                                | `MCL`               |                             |
 | [NetLogo](recipes/netlogo.md)               | 6.4.0-64                                                                             | `NetLogo`           | Yes                         |
