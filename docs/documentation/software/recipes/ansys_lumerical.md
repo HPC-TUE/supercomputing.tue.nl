@@ -218,7 +218,7 @@ By default, the HPC node will not use the GUI license, but just a runner license
 2. Configure Lumerical config settings on the HPC
    1. Connect to HPC using SSH
    2. Add a new directory using: `mkdir -p ~/.config/Lumerical/`
-   3. Create a new file named License.ini inside the folder: `nano License.ini`
+   3. Create a new file named License.ini inside the folder: `nano ~/.config/Lumerical/License.ini`
    4. Add the following contents
         ```
         [license]
