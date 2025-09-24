@@ -117,4 +117,12 @@ A project space can be used when:
 
 Project spaces are accessible at <code>/project/&lt;project_name&gt;</code>.  They can reside on fast storage (NVMe) or slow (spinning disk) storage, and have project-dependent quota for space and number of files.  (Current quota usage can be seen using the `myquota` command.)  By default accounts on our systems are not provisioned with a project space. Project spaces can be requested separately, through the [web form](https://tue.topdesk.net/tas/public/ssp/content/serviceflow?unid=f950a580c8e34a7abb7d37d102c788e8){:target=_blank}.
 
+Projects spaces are bound to the following limitations:
+
+- Maximum size: 25 TB
+- Maximum project duration: 4 years
+- Maximum product: TB * months < 100
+
+Project space requests that fall within these limitations will very likely be honoured.  If your storage needs exceed these limitions, you will need to invest in a storage node.  Please contact the HPC administrators if this applies to you.
+
 Project spaces are not intended for long term storage of large data sets. For this purpose, the TU/e Supercomputing Center recommends using other (external) storages, such as the TU/e NetApp or SURF Research Drive. Please consult the [Storage Finder](https://storagefinder.tue.nl){:target=_blank}, your local hub, or your [Research IT representative](https://tuenl.sharepoint.com/sites/intranet-LIS/SitePages/Research-IT.aspx) for available options to store your data for long term!
