@@ -16,7 +16,7 @@ tags: [ Software ]
 | LightGBM                         | `4.5.0-foss-2023a`<br>`4.5.0-foss-2023a-CUDA-12.1.1`                         | `ml avail LightGBM`     |                                                                 |
 | MLflow                           | `MLflow/2.10.2-gfbf-2023a`                                                   | `ml avail MLflow`       | [Yes](https://hpc.tue.nl){:target=_blank}                       |
 | numba                            | `0.60.0-foss-2024a`<br>`0.58.1-foss-2023a`                                   | `ml avail numba`        |                                                                 |
-| OpenCV                           | `4.8.1-foss-2023a-contrib`<br>`4.8.1-foss-2023a-CUDA-12.1.1-contrib`         | `ml avail OpenCV`       |                                                                 |
+| OpenCV                           | `4.11.0-foss-2024a-contrib`<br>`4.8.1-foss-2023a-CUDA-12.1.1-contrib`         | `ml avail OpenCV`       |                                                                 |
 | OpenFold                         | `2.0.0-foss-2023a-CUDA-12.1.1`<br>`1.0.1-foss-2022a-CUDA-11.7.0`                    | `ml av OpenFold`       |                                                                 |
 | OpenMM                           | `8.0.0-foss-2023a`<br>`8.0.0-foss-2023a-CUDA-12.1.1` | `ml avail OpenMM`       |                                                                 |
 | Optuna                           | `4.1.0-foss-2024a`<br>`3.5.0-foss-2023a`                                | `ml avail Optuna` |   |
