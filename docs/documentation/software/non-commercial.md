@@ -84,7 +84,7 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 | Amber                                       | 24.0-foss-2022a-AmberTools-24.0-CUDA-11.7.0<br>24.0-foss-2024a-AmberTools-24.0       | `Amber`             |                             |
 | Blender                                     | 4.5.3-linux-x86_64-CUDA-12.8.0                                                       | `Blender`           | Yes                         |
 | [CP2K](recipes/cp2k.md)                     | 2023.1-foss-2023a                                                                    | `CP2K`              |                             |
-| dask                                        | 2024.9.1-gfbf-2024a                                                                  | `dask`              |                             |
+| dask                                        | 2025.5.1-gfbf-2025a                                                                  | `dask`              |                             |
 | git                                         | 2.50.0-GCCcore-14.2.0                                                                | `git`               |                             |
 | git-lfs                                     | 3.6.1                                                                                | `git-lfs`           |                             |
 | GROMACS                                     | 2025.2-foss-2025a                                                                    | `GROMACS`           |                             |
