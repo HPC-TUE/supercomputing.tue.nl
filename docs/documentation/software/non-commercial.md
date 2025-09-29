@@ -87,7 +87,7 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 | dask                                        | 2024.9.1-gfbf-2024a                                                                  | `dask`              |                             |
 | git                                         | 2.50.0-GCCcore-14.2.0                                                                | `git`               |                             |
 | git-lfs                                     | 3.6.1                                                                                | `git-lfs`           |                             |
-| GROMACS                                     | 2023.3-foss-2023a                                                                    | `GROMACS`           |                             |
+| GROMACS                                     | 2025.2-foss-2025a                                                                    | `GROMACS`           |                             |
 | Julia                                       | 1.11.7                                                                               | `Julia`             | Yes via Pluto               |
 | [LAMMPS](recipes/lammps.md)                 | 29Aug2024_update2-foss-2024a-kokkos<br>29Aug2024_update2-foss-2024a-kokkos-CUDA-12.6.0                                                  | `LAMMPS`            |                             |
 | MCL                                         | 22.282-GCCcore-14.2.0                                                                | `MCL`               |                             |
