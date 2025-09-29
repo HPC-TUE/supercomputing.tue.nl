@@ -12,7 +12,7 @@ tags: [ Software ]
 | CuPy                             | `13.0.0-foss-2023a-CUDA-12.1.1`                                              | `ml avail CuPy`.        |                                                                 |
 | IPython                          | `9.3.0-GCCcore-14.2.0`<br/>`8.28.0-GCCcore-13.3.0`                           | `ml avail IPython`      |                                                                 |
 | Jax                              | `0.7.0-gfbf-2025a`<br/>`0.4.25-gfbf-2023a-CUDA-12.1.1`                      | `ml avail jax`          |                                                                 |
-| [JupyterLab](recipes/jupyter.md) | `4.0.5-GCCcore-12.3.0`<br/>`3.5.0-GCCcore-11.3.0`                            | `ml avail Jupyter`      | [Yes](https://hpc.tue.nl){:target=_blank}          |
+| [JupyterLab](recipes/jupyter.md) | `4.4.4-GCCcore-14.2.0`<br/>`4.2.5-GCCcore-13.3.0`                            | `ml avail Jupyter`      | [Yes](https://hpc.tue.nl){:target=_blank}          |
 | LightGBM                         | `4.6.0-foss-2024a`<br>`4.5.0-foss-2023a-CUDA-12.1.1`                         | `ml avail LightGBM`     |                                                                 |
 | MLflow                           | `MLflow/2.10.2-gfbf-2023a`                                                   | `ml avail MLflow`       | [Yes](https://hpc.tue.nl){:target=_blank}                       |
 | numba                            | `0.60.0-foss-2024a`<br>`0.58.1-foss-2023a`                                   | `ml avail numba`        |                                                                 |
