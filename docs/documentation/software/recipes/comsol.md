@@ -18,7 +18,7 @@ Use your browser to connect to [Umbrella On Demand](https://hpc.tue.nl){:target=
 
 ## Using COMSOL in SLURM batch jobs<br>(Command Line Interface)
 
-### COMSOL SLURM sbatch jobscript example using Shared Memory
+### COMSOL (Research License) SLURM sbatch jobscript example using Shared Memory
 
 ```slurm
 #!/bin/bash
@@ -33,11 +33,33 @@ Use your browser to connect to [Umbrella On Demand](https://hpc.tue.nl){:target=
 
 cd $HOME/Jobs/Comsol
 
-module load COMSOL/6.2.0.339
+module load COMSOL/6.3.0.420
 
 MODEL=comsol_smalltest
 
 comsol batch -inputfile $MODEL.mph -outputfile $MODEL\_out.mph -np ${SLURM_CPUS_PER_TASK}
+```
+
+### COMSOL (ClassKit License) SLURM sbatch jobscript example using Shared Memory
+
+```slurm
+#!/bin/bash
+#SBATCH --partition=tue.default.q     # Partition/Queue
+#SBATCH --job-name=test_comsol        # Job name
+#SBATCH --nodes=1                     # Run 1 Node(s)
+#SBATCH --ntasks=1                    # Run 1 Task
+#SBATCH --cpus-per-task=16            # Run on 16 CPU per Task
+#SBATCH --mem-per-cpu=2gb             # 2 GB of Memory per CPU
+#SBATCH --time=01:00:00               # Time limit hrs:min:sec
+#SBATCH --output=test.%j.log          # Standard output and error log
+
+cd $HOME/Jobs/Comsol
+
+module load COMSOL/6.3.0.420-CKL
+
+MODEL=comsol_smalltest
+
+comsol batch -ckl -inputfile $MODEL.mph -outputfile $MODEL\_out.mph -np ${SLURM_CPUS_PER_TASK}
 ```
 
 ## Using local COMSOL to run COMCOL SLURM batch jobs (Client/Server)
