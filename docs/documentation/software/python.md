@@ -30,11 +30,11 @@ tags: [ Software ]
 | scikit-image                     | `0.25.0-foss-2024a`<br>`0.22.0-foss-2023a`                                                          | `ml avail scikit-image` |                                                                 |
 | SciPy                            | `2025.06-gfbf-2025a`<br/>`2024.05-gfbf-2024a`                                | `ml avail SciPy-bundle` | [Yes](https://hpc.tue.nl "included in Jupyter"){:target=_blank} |
 | SHAP                             | `0.43.0-foss-2023a`                                | `ml avail SHAP` |   |
-| slepc4py                         | `3.20.2-foss-2023a`<br>`3.17.2-foss-2022a`    | `ml avail slepc4py`     |   |
-| Transformers                     | `4.39.3-gfbf-2023a`                                                          | `ml avail Transformers` |   |
-| Tensorflow                       | `2.15.1-foss-2023a`<br/>`2.15.1-foss-2023a-CUDA-12.1.1`<br>`2.11.0-foss-2022a`<br>`2.11.0-foss-2022a-CUDA-11.7.0`   | `ml avail TensorFlow`   | [Yes](https://hpc.tue.nl "included in Jupyter"){:target=_blank} |
-| torchvision                      | `0.16.0-foss-2023a`<br>`0.16.0-foss-2023a-CUDA-12.1.1`<br>`0.13.1-foss-2022a`<br>`0.13.1-foss-2022a-CUDA-11.7.0` | `ml avail torchvision`  | [Yes](https://hpc.tue.nl "included in Jupyter"){:target=_blank} |
-| XGBoost                          | `2.1.3-gfbf-2023a`<br>`2.1.3-gfbf-2023a-CUDA-12.1.1`    | `ml avail XGBoost`     |                                                                 |
+| slepc4py                         | `3.20.2-foss-2023a`<br/>`3.17.2-foss-2022a`    | `ml avail slepc4py`     |   |
+| Transformers                     | `4.55.0-gfbf-2024a`<br/>`4.39.3-gfbf-2023a`                                                          | `ml avail Transformers` |   |
+| Tensorflow                       | `2.15.1-foss-2023a`<br/>`2.15.1-foss-2023a-CUDA-12.1.1`<br/>`2.11.0-foss-2022a`<br/>`2.11.0-foss-2022a-CUDA-11.7.0`   | `ml avail TensorFlow`   | [Yes](https://hpc.tue.nl "included in Jupyter"){:target=_blank} |
+| torchvision                      | `0.16.0-foss-2023a`<br/>`0.16.0-foss-2023a-CUDA-12.1.1`<br/>`0.13.1-foss-2022a`<br/>`0.13.1-foss-2022a-CUDA-11.7.0` | `ml avail torchvision`  | [Yes](https://hpc.tue.nl "included in Jupyter"){:target=_blank} |
+| XGBoost                          | `2.1.3-gfbf-2023a`<br/>`2.1.3-gfbf-2023a-CUDA-12.1.1`    | `ml avail XGBoost`     |                                                                 |
 
 ??? example "available pip packages after running module load SciPy-bundle/2025.06-gfbf-2025a"
     ```shell
