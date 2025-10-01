@@ -10,7 +10,22 @@ implementation, in case of foss also Open/FlexiBLAS, ScaLAPACK and FFTW(MPI) are
 |----------------|-------------------------------|-----------------------|---------------------------------------|
 | foss           | `2025a`, **`2024a`**, `2023a`, `2022a` | `module spider foss`  |                                       |
 | gfbf           | `2025a`, **`2024a`**, `2023a`  | `module spider gfbf`  | gfbf is a subset of foss (no OpenMPI) |
+| gompi          | `2025a`, **`2024a`**, `2023a`  | `module spider gompi`  | gompi is subset of foss (with OpenMPI) | 
 | intel          | `2025a`, **`2024a`**, `2023a`, `2022a` | `module spider intel` |                                       |
+
+```mermaid
+graph LR
+  A[GCCcore] --> |binutils| B[GCC];
+  A --> |binutils| C[intel-compilers];
+  B --> |OpenMPI| E[gompi];
+  C --> |impi| F[iimpi];
+  B --> |FlexiBLAS + FFTW + ScaLAPACK| D[gfbf];
+  D --> |OpenMPI| G[foss];
+  E --> |FlexiBLAS + FFTW + ScaLAPACK| G[foss];
+  F --> |imkl| Z[intel];
+  C --> |imkl| H[iimkl];
+  H --> |impi| Z[intel];
+```
 
 ??? example "module load foss/2025a"
     ```shell
