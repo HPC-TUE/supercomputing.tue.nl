@@ -13,13 +13,13 @@ implementation, in case of foss also Open/FlexiBLAS, ScaLAPACK and FFTW(MPI) are
 | gompi          | `2025a`, **`2024a`**, `2023a`  | `module spider gompi`  | gompi is subset of foss (with OpenMPI) | 
 | intel          | `2025a`, **`2024a`**, `2023a`, `2022a` | `module spider intel` |                                       |
 
-```mermaid
+``` mermaid
 graph LR
   A[GCCcore] --> |binutils| B[GCC];
   A --> |binutils| C[intel-compilers];
   B --> |OpenMPI| E[gompi];
   C --> |impi| F[iimpi];
-  B --> |FlexiBLAS (incl. LAPACK) + FFTW| D[gfbf];
+  B --> |"FlexiBLAS (incl. LAPACK) + FFTW"| D[gfbf];
   D --> |OpenMPI + ScaLAPACK| G[foss];
   E --> |FlexiBLAS + FFTW + ScaLAPACK| G[foss];
   F --> |imkl| Z[intel];
