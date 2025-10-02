@@ -818,3 +818,30 @@ ul.sponsor__list {
 .stepper-item:last-child::after {
   content: none;
 }
+
+.toc {
+  display: inline-flex;
+  float: right;
+  background-color: var(--md-default-bg-color--light);
+  border: .05rem solid var(--md-primary-fg-color--lighter);
+  border-radius: .125rem;
+  font-size: .85em;
+  line-height: 1.1em;
+  margin-left: 5px;
+  padding: 5px;
+
+  ul, li {
+    list-style-type: none;
+    list-style-position: inside;
+  }
+
+  > ul > li:first-child > a {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 45em) {
+  .md-typeset .inline {
+    width: 15.7rem;
+  }
+}

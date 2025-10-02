@@ -19,8 +19,9 @@ scheme: autumn
 slug: autumn-hpc-school
 sponsors: [ surf.nl, eurocc-netherlands.nl ]
 registration:
-  enabled: false
-#schedule_hide: True
+  enabled: true
+  options:
+    - { title: Register Now, url: https://autumnhpcschool.dryfta.com/attendee-registration, qr: true }
 schedule:
   - { title: HPC Primer I, description: "An introductory guide to HPC essentials for beginners, covering remote terminal setup, bash scripting, file management, job execution with SLURM, and an overview of TU/e's Supercomputing Center.", start: 2025-11-11T09:30:00, end: 2025-11-11T15:30:00, speakers: [ g.t.chepuck.fernandes, a.van.hoof ],
       schedule: [
@@ -88,11 +89,9 @@ schedule:
 the world of AI and high-performance computing. Join us for our excellent keynotes and workshops and unlock the power of
 HPC.**
 
-[//]: # (Be part of our free event and select tracks that match your interests. Seats are limited, so make sure to)
+[**Register**](https://autumnhpcschool.dryfta.com/attendee-registration){:target=_blank} quickly to secure your spot! And be part of our free event and select tracks that match your interests.
 
-[//]: # ([**register**]&#40;https://hpcschool2025.dryfta.com/en/attendee-registration-tickets&#41;{:target=_blank} quickly to secure your spot!)
-
-This HPC School is made possible through the collaboration between the [TU/e Supercomputing Center](https://www.linkedin.com/in/supercomputing/){:target=_blank}, [SURF](https://www.surf.nl){:target=_blank}, & [EuroCC Netherlands](https://eurocc-netherlands.nl/nl/){:target=_blank}.
+_This HPC School is made possible through the collaboration between the [TU/e Supercomputing Center](https://www.linkedin.com/in/supercomputing/){:target=_blank}, [SURF](https://www.surf.nl){:target=_blank}, & [EuroCC Netherlands](https://eurocc-netherlands.nl/nl/){:target=_blank}._
 
 <!-- more -->
 

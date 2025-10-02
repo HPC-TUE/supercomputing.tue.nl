@@ -3,7 +3,7 @@ tags: [Software]
 ---
 # Environment Modules
 
-Environment Modules provide a convenient way to dynamically change the users’ environment through modulefiles. With this module system, different versions of software, like compilers or special math libraries, are easily accessable and usable. Different modules are available, varying from GCC  or Intel Compilers, Python versions and software compiled from source and ready to use. Environment modules can activate commercial software and thier licenses. 
+Environment Modules provide a convenient way to dynamically change the users’ environment through modulefiles. With this module system, different versions of software, like compilers or special math libraries, are easily accessable and usable. Different modules are available, varying from GCC  or Intel Compilers, Python versions and software compiled from source and ready to use. Environment modules can activate commercial software and thier licenses.
 
 The most common used module commands are:
 
@@ -17,8 +17,8 @@ The most common used module commands are:
 
 
 !!! note "Modules are case insensitive"
-    The command `module avail` finds and lists modules case insensitive but `module load` is **case sensitive**. 
-    
+    The command `module avail` finds and lists modules case insensitive but `module load` is **case sensitive**.
+
 If you recurrently need lots of modules, this loading can be automated with a (ba)sh-file, so that you just have to execute the file once and it loads all modules, you need. Be aware the loading modules by default (via a (ba)sh-file) can result in conflics when loading modules from the command-line or in a Job-script.
 
 More deatailed infromation about what modules are available in the TU/e Umbrella HPC Cluster can be found here:

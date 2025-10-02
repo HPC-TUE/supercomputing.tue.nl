@@ -3,8 +3,8 @@ date: 2025-02-18
 authors: [ e.loomeijer ]
 type: kb
 slug: "4"
-tags: [ "Umbrella", "Knowledge Base", "Jupyter" ]
-categories: [ "Jupyter", "Umbrella" ]
+tags: [ "Umbrella", "Knowledge Base", "Software", "Jupyter" ]
+categories: [ "Jupyter", "Software", "Umbrella" ]
 ---
 
 # Troubleshooting JupyterLab: Removing Problematic Extensions

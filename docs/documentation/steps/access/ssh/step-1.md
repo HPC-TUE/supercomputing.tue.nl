@@ -1,6 +1,7 @@
 ---
+search:
+  exclude: true
 hide: [meta, toc]
-search: {exclude: true}
 ---
 
 <div class="stepper-wrapper">
@@ -33,19 +34,19 @@ search: {exclude: true}
     Install the latest updates of your [Operating System](https://en.wikipedia.org/wiki/Operating_system){:target=_blank}.
 
     !!! tip "Keep your software up-to-date!"
-    
-        Regularly check and install updates of your operating system and installed software. 
+
+        Regularly check and install updates of your operating system and installed software.
 
 2. **Install required software**:
 
     Begin by selecting your current [operating system](https://en.wikipedia.org/wiki/Operating_system){:target=_blank}, as
     this will determine how you generate and use your SSH keys. If you already have done this before, you can skip this
     step and click the **Continue** button below.
-    
+
     --8<-- ".includes/ssh/software.md"
 
     !!! note "Other SSH clients"
-    
+
         While there are many software solutions available for SSH. It's not something we'll actively support and is at your own risk.
 
 [Continue](step-2.md){ .md-button .md-button--primary }
