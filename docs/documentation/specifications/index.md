@@ -82,7 +82,7 @@ departmental research priorities.
 #### Investment Options
 
 [This](configs/2024.md) is a proposal for standard node
-configurations. In what form this will be implemented, \*if at all\*, is not
+configurations. In what form this will be implemented, **if at all**, is not
 known yet.
 
 *[MIG]: Multi-Instance GPU
