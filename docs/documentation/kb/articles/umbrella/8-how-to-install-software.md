@@ -18,6 +18,8 @@ Instead, software is provided via **[environment modules](../../../steps/softwar
 
 --8<-- "documentation/steps/software/index.md:lmod"
 
+We've a [full overview](../../../software/index.md) of all available (and supported) modules.
+
 [^1]: The documentation regarding EasyBuild is currently missing and will be added soon.
 
 
