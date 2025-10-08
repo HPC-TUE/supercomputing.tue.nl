@@ -3,6 +3,8 @@ tags: [Software]
 ---
 # Environment Modules
 
+# --8<-- [start:lmod]
+
 Environment Modules provide a convenient way to dynamically change the users’ environment through modulefiles. With this module system, different versions of software, like compilers or special math libraries, are easily accessable and usable. Different modules are available, varying from GCC  or Intel Compilers, Python versions and software compiled from source and ready to use. Environment modules can activate commercial software and thier licenses.
 
 The most common used module commands are:
@@ -15,13 +17,12 @@ The most common used module commands are:
 | `module switch MOD/Y` | Switch to version Y of MOD (and deps) | `ml sw MOD/Y` |
 | `module purge`        | unload all modules                    | `ml purge` |
 
-
 !!! note "Modules are case insensitive"
     The command `module avail` finds and lists modules case insensitive but `module load` is **case sensitive**.
 
 If you recurrently need lots of modules, this loading can be automated with a (ba)sh-file, so that you just have to execute the file once and it loads all modules, you need. Be aware the loading modules by default (via a (ba)sh-file) can result in conflics when loading modules from the command-line or in a Job-script.
 
-More deatailed infromation about what modules are available in the TU/e Umbrella HPC Cluster can be found here:
+More detailed information about what modules are available in the TU/e Umbrella HPC Cluster can be found here:
 
 [Commercial software modules](../../software/commercial.md)
 
@@ -29,9 +30,112 @@ More deatailed infromation about what modules are available in the TU/e Umbrella
 
 [Python related software modules](../../software/python.md)
 
-![Lmod logo](../../software/Lmod-logo.png){: align=left style="height:30px"}
-The TU/e Umbrella HPC cluster uses [lmod](https://lmod.readthedocs.io/) a Lua based environment module system.
 
+??? example "Usage Example (Python)"
+
+    ??? shell "module avail"
+
+        ```shell
+        $ module avail
+         ...
+         Cantera/2.6.0-foss-2022a                                          PycURL/7.45.2-GCCcore-12.3.0                                   libepoxy/1.5.10-GCCcore-11.3.0
+         Cantera/3.0.0-foss-2023a                                (D)       Python-bundle-PyPI/2023.06-GCCcore-12.3.0                      libepoxy/1.5.10-GCCcore-12.3.0
+         CasADI/3.6.7-gfbf-2023a                                           Python-bundle-PyPI/2024.06-GCCcore-13.3.0                      libepoxy/1.5.10-GCCcore-13.3.0              (D)
+         CasADI/3.6.7-linux64-matlab                                       Python-bundle-PyPI/2025.04-GCCcore-14.2.0               (D)    libevent/2.1.12-GCCcore-11.3.0
+         CasADI/3.7.0-gfbf-2023a                                           Python/2.7.18-GCCcore-11.3.0-bare                              libevent/2.1.12-GCCcore-12.3.0
+         CasADI/3.7.0-gfbf-2024a                                           Python/3.8.20-GCCcore-11.3.0                                   libevent/2.1.12-GCCcore-13.3.0
+         CasADI/3.7.0-linux64-matlab                             (D)       Python/3.10.4-GCCcore-11.3.0-bare                              libevent/2.1.12-GCCcore-14.2.0              (D)
+         CasADi/3.7.2-foss-2024a                                           Python/3.10.4-GCCcore-11.3.0                                   libfabric/1.15.1-GCCcore-11.3.0
+         CasADi/3.7.2-linux64-matlab                             (D)       Python/3.10.13-GCCcore-11.3.0                                  libfabric/1.18.0-GCCcore-12.3.0
+         Catch2/2.13.9-GCCcore-12.3.0                                      Python/3.11.3-GCCcore-12.3.0                                   libfabric/1.21.0-GCCcore-13.3.0
+         Catch2/2.13.10-GCCcore-13.3.0                                     Python/3.12.3-GCCcore-13.3.0                                   libfabric/2.0.0-GCCcore-14.2.0              (D)
+         Catch2/2.13.10-GCCcore-14.2.0                           (D)       Python/3.13.1-GCCcore-14.2.0                            (D)    libfdf/0.5.1-GCC-13.3.0
+         Cbc/2.10.12-foss-2024a                                            QCG-PilotJob/0.13.1-foss-2022a                                 libffi/3.4.2-GCCcore-11.3.0
+         ...
+        ```
+
+    ??? shell "module spider Python"
+
+        ```shell
+        $ ml spider Python
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          Python:
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+            Description:
+              Python is a programming language that lets you work more quickly and integrate your systems more effectively.
+
+             Versions:
+                Python/2.7.15-foss-2018b
+                Python/2.7.15-GCCcore-7.3.0-bare
+                Python/2.7.16-GCCcore-8.3.0
+                Python/2.7.18-GCCcore-9.3.0
+                Python/2.7.18-GCCcore-10.3.0-bare
+                Python/2.7.18-GCCcore-11.3.0-bare
+                Python/3.7.4-GCCcore-8.3.0
+                Python/3.8.2-GCCcore-9.3.0
+                Python/3.8.20-GCCcore-11.3.0
+                Python/3.9.5-GCCcore-10.3.0-bare
+                Python/3.9.5-GCCcore-10.3.0
+                Python/3.10.4-GCCcore-11.3.0-bare
+                Python/3.10.4-GCCcore-11.3.0
+                Python/3.10.13-GCCcore-11.3.0
+                Python/3.11.3-GCCcore-12.3.0
+                Python/3.12.3-GCCcore-13.3.0
+                Python/3.13.1-GCCcore-14.2.0
+             Other possible modules matches:
+                Biopython  Boost.Python  GitPython  IPython  Python-bundle-PyPI  flatbuffers-python  meson-python  protobuf-python  spglib-python
+
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          To find other possible module matches execute:
+
+              $ module -r spider '.*Python.*'
+
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+          For detailed information about a specific "Python" package (including how to load the modules) use the module's full name.
+          Note that names that have a trailing (E) are extensions provided by other modules.
+          For example:
+
+             $ module spider Python/3.13.1-GCCcore-14.2.0
+        ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+        ```
+
+    ??? shell "module load Python/3.11.3-GCCcore-12.3.0"
+
+        ```shell
+        $ module load Python/3.11.3-GCCcore-12.3.0
+        $ module list
+
+        Currently Loaded Modules:
+          1) GCCcore/12.3.0                 5) ncurses/6.4-GCCcore-12.3.0       9) XZ/5.4.2-GCCcore-12.3.0
+          2) zlib/1.2.13-GCCcore-12.3.0     6) libreadline/8.2-GCCcore-12.3.0  10) libffi/3.4.4-GCCcore-12.3.0
+          3) binutils/2.40-GCCcore-12.3.0   7) Tcl/8.6.13-GCCcore-12.3.0       11) OpenSSL/1.1
+          4) bzip2/1.0.8-GCCcore-12.3.0     8) SQLite/3.42.0-GCCcore-12.3.0    12) Python/3.11.3-GCCcore-12.3.0
+
+        $ python --version
+        Python 3.11.3
+        ```
+
+
+    ??? shell "module purge"
+
+        ```shell
+        $ module purge
+        $ module list
+        No modules loaded
+
+        $ python --version
+        -bash: python: command not found
+        ```
+
+---
+
+![Lmod logo](/documentation/software/Lmod-logo.png){: style="height:30px"}
+
+:  The TU/e Umbrella HPC cluster uses [lmod](https://lmod.readthedocs.io/) a LUA based environment module system.
+
+---
+
+# --8<-- [end:lmod]
 
 ## Parallel Programming
 
