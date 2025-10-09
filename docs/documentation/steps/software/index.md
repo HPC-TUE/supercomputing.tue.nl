@@ -114,7 +114,7 @@ The most common used module commands are:
 
         $ python --version
         -bash: python: command not found
-    ```
+        ```
 
 If you recurrently need lots of modules, this loading can be automated with a (ba)sh-file, so that you just have to execute the file once and it loads all modules, you need. Be aware the loading modules by default (via a (ba)sh-file) can result in conflics when loading modules from the command-line or in a Job-script.
 
