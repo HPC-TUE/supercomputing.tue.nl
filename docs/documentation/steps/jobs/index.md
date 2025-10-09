@@ -172,7 +172,7 @@ salloc: Nodes tue-computeaXXX are ready for job
 [...]
 
 [user@tue-loginXXX ~]$ ssh tue-computeaXXX
-[20255204@tue-computea001 ~]$
+[user@tue-computea001 ~]$
 ```
 
 As long as your job is running (has not been cancelled or run out of time) you can ssh from the login nodes to the allocated compute node as desired.
