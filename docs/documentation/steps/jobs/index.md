@@ -142,6 +142,41 @@ Slurm allows for a range of advanced options to precisely control the resources 
 - `--qos`: Specifies the Quality of Service for the job which may affect job priority or limits.
 - `--reservation`: Submits a job to a reserved set of resources.
 
+## Running an interactive job with `srun`
+
+It is possible to run interactive jobs using the `--pty` option of `srun`.
+
+```bash
+ srun --partition=tue.default.q --pty bash
+ ```
+
+Further flags can be specified similar to `sbatch`.
+
+## Allocate resources with `salloc`
+
+To allocate resources which you can acces asynchronously, use `salloc`
+
+```bash
+salloc --time=00:01:00 --ntasks=1 --cpus-per-task=1 --mem-per-cpu=1G --partition=tue.default.q
+```
+
+Example process:
+```bash
+[user@tue-loginXXX ~]$ salloc --time=00:10:00 --ntasks=1 --cpus-per-task=1 --mem-per-cpu=1G --partition=tue.default.q
+salloc: Pending job allocation JJJJJJJ
+salloc: job JJJJJJJ queued and waiting for resources
+salloc: job JJJJJJJ has been allocated resources
+salloc: Granted job allocation JJJJJJJ
+salloc: Nodes tue-computeaXXX are ready for job
+
+[...]
+
+[user@tue-loginXXX ~]$ ssh tue-computeaXXX
+[20255204@tue-computea001 ~]$
+```
+
+As long as your job is running (has not been cancelled or run out of time) you can ssh from the login nodes to the allocated compute node as desired.
+
 ## Conclusion
 
 This guide provides an overview of how to use Slurm, with an emphasis on utilizing the `sbatch` command for job submission and understanding partition allocations. For complete details on each command and advanced configuration options, consult the [official Slurm documentation](https://slurm.schedmd.com/documentation.html) or your cluster's user guide. Always be sure to follow best practices and policies of your specific cluster when submitting and managing jobs with Slurm.
