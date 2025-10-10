@@ -95,6 +95,13 @@ _This HPC School is made possible through the collaboration between the [TU/e Su
 
 <!-- more -->
 
+<div style="clear: both" markdown></div>
+
+<figure markdown style="float: right;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/uKQvDekpBc8?si=uVHj4Ouc8xxNSkfP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <figcaption markdown>Impression [Spring HPC School 2025](spring_hpc_school.md)</figcaption>
+</figure>
+
 Participants will have the opportunity to engage with leading experts in the field, gaining insight into the latest
 advancements and methodologies in supercomputing. The program is designed to be both comprehensive and accessible,
 ensuring that attendees of various experience levels can benefit fully from the sessions.
@@ -106,6 +113,8 @@ relationships within the HPC community.
 Don't miss out on this incredible opportunity to advance your knowledge and skills in AI and high-performance computing.
 Secure your spot today and be part of a transformative experience that will enhance your research and career potential
 in the field of supercomputing.
+
+<div style="clear: both" markdown></div>
 
 !!! quote ""
 
