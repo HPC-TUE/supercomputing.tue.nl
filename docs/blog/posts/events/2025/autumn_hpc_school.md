@@ -95,11 +95,16 @@ _This HPC School is made possible through the collaboration between the [TU/e Su
 
 <!-- more -->
 
-<div style="clear: both" markdown></div>
+!!! quote ""
 
-<figure markdown style="float: right;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/uKQvDekpBc8?si=uVHj4Ouc8xxNSkfP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <figcaption markdown>Impression [Spring HPC School 2025](spring_hpc_school.md)</figcaption>
+    For questions or feedback about the HPC school, including reservations, email us at
+    [hpc-training@tue.nl](mailto:hpc-training@tue.nl)!
+
+<div style="clear: both" markdown>---</div>
+
+<figure markdown style="float: right; margin: 0 1em;">
+  <iframe width="545" height="300" src="https://www.youtube.com/embed/uKQvDekpBc8?si=uVHj4Ouc8xxNSkfP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <figcaption markdown>Impression [Spring HPC School 2025](https://supercomputing.tue.nl/blog/2025/spring-hpc-school-25/)</figcaption>
 </figure>
 
 Participants will have the opportunity to engage with leading experts in the field, gaining insight into the latest
@@ -114,9 +119,4 @@ Don't miss out on this incredible opportunity to advance your knowledge and skil
 Secure your spot today and be part of a transformative experience that will enhance your research and career potential
 in the field of supercomputing.
 
-<div style="clear: both" markdown></div>
-
-!!! quote ""
-
-    For questions or feedback about the HPC school, including reservations, email us at
-    [hpc-training@tue.nl](mailto:hpc-training@tue.nl)!
+<div style="clear: both" markdown>---</div>
