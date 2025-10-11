@@ -2,7 +2,6 @@
 date: 2025-09-17
 start: 2025-11-11T09:00:00
 end: 2025-11-21T17:00:00
-hide: [sidebar]
 hero:
   backdrop: assets/images/2025-autumn_hpcschool.png
   messages:
@@ -10,7 +9,7 @@ hero:
     - { message: "11-14 November & 17-21 November", size: "medium" }
 title: Autumn HPC School '25
 categories: [ HPC School ]
-speakers: [ g.t.chepuck.fernandes, a.van.hoof ]
+speakers: [ ]
 price: 0.00
 location: TU/e Campus
 image: assets/images/2025-autumn_hpcschool_thumb.png
@@ -21,7 +20,7 @@ sponsors: [ surf.nl, eurocc-netherlands.nl ]
 registration:
   enabled: true
   options:
-    - { title: Register Now, url: https://autumnhpcschool.dryfta.com/attendee-registration, qr: true }
+    - { title: SIGN UP, url: https://autumnhpcschool.dryfta.com/attendee-registration, qr: true }
 schedule:
   - { title: HPC Primer I, description: "An introductory guide to HPC essentials for beginners, covering remote terminal setup, bash scripting, file management, job execution with SLURM, and an overview of TU/e's Supercomputing Center.", start: 2025-11-11T09:30:00, end: 2025-11-11T15:30:00, speakers: [ g.t.chepuck.fernandes, a.van.hoof ],
       schedule: [
@@ -95,21 +94,15 @@ _This HPC School is made possible through the collaboration between the [TU/e Su
 
 <!-- more -->
 
-!!! quote ""
-
-    For questions or feedback about the HPC school, including reservations, email us at
-    [hpc-training@tue.nl](mailto:hpc-training@tue.nl)!
-
 <div style="clear: both" markdown>---</div>
-
-<figure markdown style="float: right; margin: 0 1em;">
-  <iframe width="545" height="300" src="https://www.youtube.com/embed/uKQvDekpBc8?si=uVHj4Ouc8xxNSkfP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <figcaption markdown>Impression [Spring HPC School 2025](https://supercomputing.tue.nl/blog/2025/spring-hpc-school-25/)</figcaption>
-</figure>
 
 Participants will have the opportunity to engage with leading experts in the field, gaining insight into the latest
 advancements and methodologies in supercomputing. The program is designed to be both comprehensive and accessible,
 ensuring that attendees of various experience levels can benefit fully from the sessions.
+
+<figure markdown style="float: right; margin: 0 1em">
+  <iframe style="border-radius: .5em;" width="400" height="225" src="https://www.youtube.com/embed/uKQvDekpBc8?si=uVHj4Ouc8xxNSkfP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
 
 In addition to the structured workshops, there will be networking opportunities where attendees can connect with peers
 and industry leaders. This is an excellent chance to discuss potential collaborative projects, share ideas, and build
@@ -118,5 +111,35 @@ relationships within the HPC community.
 Don't miss out on this incredible opportunity to advance your knowledge and skills in AI and high-performance computing.
 Secure your spot today and be part of a transformative experience that will enhance your research and career potential
 in the field of supercomputing.
+
+## Contact Information
+
+For questions or feedback about the HPC school, including reservations, email us at
+[hpc-training@tue.nl](mailto:hpc-training@tue.nl)
+
+<div style="clear: both"></div>
+
+## Keynote Speakers
+
+<div class="grid cards" markdown>
+- <figure markdown>
+    ![Giulia Finotello](../../../../assets/images/people/g.finotello.png){ style="height: 150px" }
+    <figcaption markdown>[Giulia Finotello](https://www.tue.nl/en/research/researchers/giulia-finotello){ target=_blank }</figcaption>
+[//]: # (    <span style="font-style: italic">)
+[//]: # (      How do dense emulsions flow?)
+[//]: # (    </span>)
+    <small style="display: block">November 18, 2025</small>
+  </figure>
+- <figure markdown>
+    ![Philips](../../../../assets/images/logo/philips.svg){ style="height: 150px" }
+    <figcaption markdown>[Philips](https://www.philips.com/global){ target=_blank }</figcaption>
+    <small style="display: block">November 20, 2025</small>
+  </figure>
+- <figure markdown>
+    ![Solar Team Eindhoven](../../../../assets/images/logo/solarteameindhoven.png){ style="height: 150px" }
+    <figcaption markdown>[Solar Team Eindhoven](https://solarteameindhoven.nl){ target=_blank }</figcaption>
+    <small style="display: block">November 21, 2025</small>
+  </figure>
+</div>
 
 <div style="clear: both" markdown>---</div>

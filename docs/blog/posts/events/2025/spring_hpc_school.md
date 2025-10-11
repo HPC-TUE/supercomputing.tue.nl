@@ -44,7 +44,7 @@ schedule:
         { start: 2025-04-03T12:30:00, end: 2025-04-03T13:30:00, icon: food-fork-drink, title: Lunch },
         { start: 2025-04-03T13:30:00, end: 2025-04-03T14:30:00, title: "LUMI: pre-exascale compute facilities for TU/e researchers" },
         { start: 2025-04-03T14:30:00, end: 2025-04-03T15:00:00, speakers: ["r.ozcelik"], title: "Experiences from the first TU/e user on LUMI" },
-      ] 
+      ]
   }
   - { title: Parallel jobs & Profiling, start: 2025-04-07T09:30:00, end: 2025-04-07T16:00:00, location: "Atlas -1.822", description: "Explore two distinct courses: one on optimizing supercomputer resource utilization through job concurrency with the QCG PilotJob framework, and another offering insights into high-performance hybrid systems with a focus on architecture, configuration, performance analysis models, and the Roofline model application.",
       schedule: [
@@ -90,8 +90,8 @@ schedule:
 the world of AI and high-performance computing. Join us for our excellent keynotes and workshops and unlock the power of
 HPC.**
 
-Be part of our free event and select tracks that match your interests. Seats are limited, so make sure to 
-[**register**](https://hpcschool2025.dryfta.com/en/attendee-registration-tickets){:target=_blank} quickly to secure your 
+Be part of our free event and select tracks that match your interests. Seats are limited, so make sure to
+[**register**](https://hpcschool2025.dryfta.com/en/attendee-registration-tickets){:target=_blank} quickly to secure your
 spot!
 
 This HPC School is made possible through the collaboration between the [TU/e Supercomputing Center](https://www.linkedin.com/in/supercomputing/){:target=_blank}, [SURF](https://www.surf.nl){:target=_blank}, & [EuroCC Netherlands](https://eurocc-netherlands.nl/nl/){:target=_blank}.
@@ -112,5 +112,5 @@ in the field of supercomputing.
 
 !!! quote ""
 
-    For questions or feedback about the HPC school, including reservations, email us at 
+    For questions or feedback about the HPC school, including reservations, email us at
     [hpc-training@tue.nl](mailto:hpc-training@tue.nl)!

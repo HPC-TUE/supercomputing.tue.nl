@@ -145,12 +145,12 @@ class Post(Page):
 
         if "schedule" in self.config:
             self.toc.items[0].children.append(AnchorLink("Schedule", "schedule", 0))
-        if "speakers" in self.config:
-            self.toc.items[0].children.append(AnchorLink("Speakers", "speakers", 0))
+        # if "speakers" in self.config:
+        #     self.toc.items[0].children.append(AnchorLink("Speakers", "speakers", 0))
         if "sponsors" in self.config:
-            self.toc.items[0].children.append(AnchorLink("Sponsors", "sponsors", 0))
+            self.toc.items[0].children.append(AnchorLink("Supported By", "supported-by", 0))
 
-        self.toc.items[0].children.append(AnchorLink("Related", "related-items", 0))
+        self.toc.items[0].children.append(AnchorLink("Related Items", "related-items", 0))
 
 
 # -----------------------------------------------------------------------------
