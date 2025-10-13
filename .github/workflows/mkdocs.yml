@@ -1,5 +1,5 @@
 name: MkDocs
-on: [push, fork]
+on: [push, pull_request, fork]
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
