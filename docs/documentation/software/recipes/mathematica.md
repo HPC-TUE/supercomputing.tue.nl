@@ -19,13 +19,13 @@ Use your browser to connect to [Umbrella On Demand](https://hpc.tue.nl){:target=
 Load the module(s)
 ``` shell
 [user@umbrella]$ module purge
-[user@umbrella]$ module Mathematica/14.2.0
+[user@umbrella]$ module Mathematica/14.3.0
 ```
 Test the Mathematica command line version
 ``` shell
 [user@umbrella]$ wolfram -run 'Quit[];'
-Wolfram 14.2.0 Kernel for Linux x86 (64-bit)
-Copyright 1988-2024 Wolfram Research, Inc.
+Wolfram 1432.0 Kernel for Linux x86 (64-bit)
+Copyright 1988-2025 Wolfram Research, Inc.
 ```
 
 ### Mathematica SLURM sbatch jobscript example using 1 CPU
@@ -41,7 +41,7 @@ Copyright 1988-2024 Wolfram Research, Inc.
 #SBATCH --mem-per-cpu=2gb
 #SBATCH --time=00:05:00
 module purge
-module load Mathematica/14.2.0
+module load Mathematica/14.3.0
 wolfram -script sample-simple.wl
 ```
 
@@ -72,7 +72,7 @@ Mathematica can be run in parallel using the built in Parallel commands or by ut
 #SBATCH --mem-per-cpu=2gb
 #SBATCH --time=00:05:00
 module purge
-module load Mathematica/14.2.0
+module load Mathematica/14.3.0
 worlfram -script sample-parallel.wl
 ```
 ??? example "sample-parallel.wl"
@@ -180,7 +180,7 @@ it, using the following Slurm batch script.
     #SBATCH --output=slurm-%j.out
     #SBATCH --time=00:01:00
 
-    module load Mathematica/14.2.0
+    module load Mathematica/14.3.0
     wolfram -script hpc.wl
     ```
 

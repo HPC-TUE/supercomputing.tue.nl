@@ -72,6 +72,16 @@
       <span class="post__source">, Source: <a href="{{ post.config.source.url }}"
                                               target="_blank">{{ post.config.source.title }}</a></span>
     {% endif %}
+    {% if page == post and page.config and page.config.readtime %}
+      {% set time = page.config.readtime %}—
+      <span class="md-ellipsis">
+        {% if time == 1 %}
+          {{ lang.t("readtime.one") }}
+        {% else %}
+          {{ lang.t("readtime.other") | replace("#", time) }}
+        {% endif %}
+      </span>
+    {% endif %}
     <div class="post__meta--badges">
       {% for category in post.categories %}
         <a href="{{ category.url | url }}" class="badge badge--default">

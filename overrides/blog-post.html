@@ -3,38 +3,24 @@
 {% import "partials/nav-item.html" as item with context %}
 {% import "partials/language.html" as lang with context %}
 
+{% set post = page %}
+{% set posts = [] %}
+{% for post in page.blog.posts if page.url != post.url and post.config.type == page.config.type %}
+  {% set index = loop.index %}
+  {% for category in page.config.categories[0:1] if category in post.config.categories %}
+    {% set na = posts.insert(index, post) %}
+  {% else %}
+    {% if not page.config.categories %}
+      {% set na = posts.insert(index, post) %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
 {% block container %}
   <div class="md-content md-content--post" data-md-component="content">
-    {% if nav %}
-      {% if page.meta and page.meta.hide %}
-        {% set hidden = "hidden" if "sidebar" in page.meta.hide %}
-      {% endif %}
-      <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation" {{ hidden }}>
-        <div class="md-sidebar__scrollwrap">
-          <div class="md-sidebar__inner md-post">
-            {% include "partials/nav.html" %}
-            {% if "toc.integrate" in features %}
-              {% include "partials/toc.html" %}
-            {% endif %}
-          </div>
-        </div>
-      </div>
-    {% endif %}
     <article class="md-content__inner md-typeset">
       {% block content %}
-        {% set post = page %}
         {% include "blog/card-full.html" %}
-        {% set posts = [] %}
-        {% for post in page.blog.posts if page.url != post.url and post.config.type == page.config.type %}
-          {% set index = loop.index %}
-          {% for category in page.config.categories[0:1] if category in post.config.categories %}
-            {% set na = posts.insert(index, post) %}
-          {% else %}
-            {% if not page.config.categories %}
-              {% set na = posts.insert(index, post) %}
-            {% endif %}
-          {% endfor %}
-        {% endfor %}
 
         {% if posts %}
           <hr/>
@@ -47,7 +33,6 @@
           {% include "blog/cards.html" %}
         {% endif %}
       {% endblock %}
-
       {% include "partials/comments.html" %}
     </article>
   </div>

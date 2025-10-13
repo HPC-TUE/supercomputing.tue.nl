@@ -1,36 +1,20 @@
-<h2 id="sponsors">Supported By</h2>
-<div class="grid cards sponsor">
-  <ul>
-    {% for sponsor in post.config.sponsors %}
-      <li>
-        <div class="flex">
-          <ul class="sponsor__list">
-            <li class="sponsor__item">
-              {% if sponsor.url %}
-                <a class="sponsor__link" title="{{ sponsor.name }}" href="{{ sponsor.url }}" target="_blank">
-                  <img src="{{ sponsor.avatar | trim("/") | url }}" alt="{{ sponsor.name }}"/>
-                </a>
-              {% else %}
-                <a class="sponsor__link" title="{{ sponsor.name }}">
-                  <img src="{{ sponsor.avatar | trim("/") | url }}" alt="{{ sponsor.name }}"/>
-                </a>
-              {% endif %}
-            </li>
-          </ul>
-          <div class="sponsor__title">
-            {% if sponsor.url %}
-              <a class="sponsor__link" href="{{ sponsor.url }}" target="_blank">
-                {{ sponsor.name }}
-              </a>
-            {% else %}
-              {{ sponsor.name }}
-            {% endif %}
-          </div>
-        </div>
-        <div class="sponsor__description">
-          {{ sponsor.description }}
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+<h2 id="supported-by">Supported By</h2>
+<section class="sponsor__list">
+  {% for sponsor in page.config.sponsors %}
+    <section class="sponsor__item">
+      <h3>{{ sponsor.name }}</h3>
+      {% if sponsor.url %}
+        <a class="sponsor__link" title="{{ sponsor.name }}" href="{{ sponsor.url }}" target="_blank">
+          <img src="{{ sponsor.avatar | trim("/") | url }}" alt="{{ sponsor.name }}"/>
+        </a>
+      {% else %}
+        <a class="sponsor__link" title="{{ sponsor.name }}">
+          <img src="{{ sponsor.avatar | trim("/") | url }}" alt="{{ sponsor.name }}"/>
+        </a>
+      {% endif %}
+      <p class="sponsor__description">
+        {{ sponsor.description }}
+      </p>
+    </section>
+  {% endfor %}
+</section>

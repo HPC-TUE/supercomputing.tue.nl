@@ -5,7 +5,7 @@ tags: [Training, HPC]
 
 **TU/e Supercomputing Center** organizes a Spring and Autumn HPC School:
 
-[HPC School Events](../../../hpc-school.md){:target="_blank"}
+[HPC School Events](../../../hpc-school/index.md){:target="_blank"}
 
 **Technical University Delft** organizes regular trainings:
 
