@@ -121,3 +121,13 @@ authors:
     avatar: /assets/images/people/r.ozcelik.png
     url: https://rizaozcelik.github.io
     description: "I am Rıza! I am a lively Ph.D. candidate happy to be supervised by Francesca Grisoni 👩‍🔬 at the Molecular Machine Learning Group in Eindhoven University of Technology. I also hold high honor BSc. and MSc. degrees from the Dept. of Computer Engineering in Boğaziçi University, where I was lucky to work with Arzucan Özgür and Elif Özkırımlı👩‍🔬👩‍🔬."
+  "g.finotello":
+    name: Giulia Finotello
+    avatar: /assets/images/people/g.finotello.png
+    url: https://www.tue.nl/en/research/researchers/giulia-finotello
+    description: ""
+  "nvidia":
+    name: Nvidia
+    avatar: /assets/images/logo/nvidia.svg
+    url: https://www.nvidia.com
+    description: ""

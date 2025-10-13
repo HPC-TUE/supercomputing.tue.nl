@@ -35,9 +35,9 @@
   <div class="post__inner">
     <div class="post__meta">
       {% if post.config.start and post.config.end %}
-        {{ post.config.start | date }}
+        {{ post.config.start | date("MMM dd, YYYY") }}
       {% else %}
-        {{ post.config.date.created | date }}
+        {{ post.config.date.created | date("MMM dd, YYYY") }}
       {% endif %}
       <div class="post__meta--badges">
         {% for category in post.categories %}
@@ -52,7 +52,7 @@
       </div>
     </div>
     <div class="post__title">
-      <a href="{{ post_url | default(post.url) | url }}">{{ post.title }}</a>
+      <a href="{{ post_url | default(post.url) | url }}" title="{{ post.title }}">{{ post.title }}</a>
     </div>
   </div>
 </article>

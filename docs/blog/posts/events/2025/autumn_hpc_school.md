@@ -42,7 +42,7 @@ schedule:
         { start: 2025-11-13T12:30:00, end: 2025-11-13T13:30:00, icon: food-fork-drink, title: Lunch },
       ]
   }
-  - { title: Fundamentals of Deep Learning, description: "", start: 2025-11-14T09:30:00, end: 2025-11-14T15:00:00,
+  - { title: Fundamentals of Deep Learning, description: "In collaboration with <a href='https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-01+V3' target='_blank'>Nvidia's Deep Learning Institute</a>", start: 2025-11-14T09:30:00, end: 2025-11-14T15:00:00, speakers: [ "nvidia" ],
       schedule: [
         #        { start: 2025-11-13T09:30:00, end: 2025-11-13T12:30:00, title: Introduction to Supercomputing, description: "Learn to harness the power of clusters and supercomputers for large-scale computations and analyses in this course." },
         { start: 2025-11-14T12:30:00, end: 2025-11-14T13:30:00, icon: food-fork-drink, title: Lunch },
@@ -50,7 +50,8 @@ schedule:
   }
   - { title: Parallel jobs & Code Optimization, start: 2025-11-17T09:30:00, end: 2025-11-17T16:00:00,
       schedule: [
-        { start: 2025-11-17T09:30:00, end: 2025-11-17T12:30:00, title: Embarrassingly Parallel jobs },
+        { start: 2025-11-17T09:30:00, end: 2025-11-17T11:30:00, title: Embarrassingly Parallel jobs },
+        { start: 2025-11-17T11:30:00, end: 2025-11-17T12:30:00, title: "Keynote by Giulia Finotello" , speakers: [ "g.finotello" ]},
         { start: 2025-11-17T12:30:00, end: 2025-11-17T13:30:00, icon: food-fork-drink, title: Lunch },
         { start: 2025-11-17T13:30:00, end: 2025-11-17T16:00:00, title: "Code optimization techniques for HPC" },
       ]
@@ -94,19 +95,17 @@ _This HPC School is made possible through the collaboration between the [TU/e Su
 
 <!-- more -->
 
-<div style="clear: both" markdown>---</div>
-
 Participants will have the opportunity to engage with leading experts in the field, gaining insight into the latest
 advancements and methodologies in supercomputing. The program is designed to be both comprehensive and accessible,
 ensuring that attendees of various experience levels can benefit fully from the sessions.
 
-<figure markdown style="float: right; margin: 0 1em">
-  <iframe style="border-radius: .5em;" width="400" height="225" src="https://www.youtube.com/embed/uKQvDekpBc8?si=uVHj4Ouc8xxNSkfP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</figure>
-
 In addition to the structured workshops, there will be networking opportunities where attendees can connect with peers
 and industry leaders. This is an excellent chance to discuss potential collaborative projects, share ideas, and build
 relationships within the HPC community.
+
+<figure markdown style="float: right; margin: 0 1em">
+  <iframe style="border-radius: .5em;" width="400" height="225" src="https://www.youtube.com/embed/uKQvDekpBc8?si=uVHj4Ouc8xxNSkfP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</figure>
 
 Don't miss out on this incredible opportunity to advance your knowledge and skills in AI and high-performance computing.
 Secure your spot today and be part of a transformative experience that will enhance your research and career potential
@@ -128,11 +127,12 @@ For questions or feedback about the HPC school, including reservations, email us
 [//]: # (    <span style="font-style: italic">)
 [//]: # (      How do dense emulsions flow?)
 [//]: # (    </span>)
-    <small style="display: block">November 18, 2025</small>
+    <small style="display: block">November 17, 2025</small>
   </figure>
 - <figure markdown>
-    ![Philips](../../../../assets/images/logo/philips.svg){ style="height: 150px" }
-    <figcaption markdown>[Philips](https://www.philips.com/global){ target=_blank }</figcaption>
+    ![Philips](../../../../assets/images/people/m.padalko.png){ style="height: 150px" }
+    Mikhail Padalko<br/>
+    [Philips ![Philips](../../../../assets/images/logo/philips.svg){ style="height: 24px" }](https://www.philips.com/global){ target=_blank }
     <small style="display: block">November 20, 2025</small>
   </figure>
 - <figure markdown>

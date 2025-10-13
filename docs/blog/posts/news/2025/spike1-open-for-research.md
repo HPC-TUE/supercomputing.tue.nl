@@ -3,7 +3,8 @@ date: 2025-10-10
 authors: [ h.zhang ]
 type: news
 image: &image blog/news/2025/spike1-open-for-research.png
-title: SPIKE-1 is now open to general research
+title: SPIKE-1 open to general research
+slug: spike-1-is-now-open-to-general-research
 hero:
   backdrop: *image
 ---

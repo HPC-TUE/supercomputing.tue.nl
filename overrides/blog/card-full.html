@@ -2,6 +2,55 @@
   {% set scheme = post.config.scheme %}
 {% endif %}
 <article class="post" data-md-color-scheme="{{ scheme }}">
+  <div class="meta-bar">
+    <div class="meta-left">
+      <span class="meta-item">
+        {%- if post.config.start and post.config.end %}
+          {{- post.config.start | date -}}
+        {% else %}
+          {{- post.config.date.created | date -}}
+        {% endif -%}
+      </span>
+
+      {% if page == post and page.config and page.config.readtime %}
+        <span class="meta-item md-ellipsis">
+        {% set time = page.config.readtime %}
+          {%- if time == 1 %}
+            {{- lang.t("readtime.one") -}}
+          {% else %}
+            {{- lang.t("readtime.other") | replace("#", time) -}}
+          {% endif -%}
+        </span>
+      {% endif %}
+
+      {% if page == post and post.config.source and post.config.source.title %}
+        <span class="meta-item post__source">
+        Source: <a href="{{ post.config.source.url }}" target="_blank">{{ post.config.source.title }}</a>
+        </span>
+      {% endif %}
+    </div>
+
+    <div class="meta-right badges">
+      {% for category in post.categories %}
+        <a href="{{ category.url | url }}" class="badge badge--default meta-item">{{ category.title }}</a>
+      {% endfor %}
+
+      <div class="md-draft badge badge--light meta-item">{{ post.meta.type }}</div>
+
+      {% if post.config.draft %}
+        <div class="md-draft meta-item">{{ lang.t("blog.draft") }}</div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="post__title">
+    {% if page == post %}
+      <h1>{{ post.title }}</h1>
+    {% else %}
+      <a href="{{ post_url | default(post.url) | url }}">{{ post.title }}</a>
+    {% endif %}
+  </div>
+
   <div{% if page == post %} class="card" {% endif %}>
     <div class="container post__header">
       <div class="overlay">
@@ -52,6 +101,32 @@
         </div>
       {% endif %}
     </div>
+    {% if false and post.config.type in ["event", "maintenance"] %}
+      <div class="meta-bar" style="justify-content: center; margin: .5em 0;">
+        <div class="meta-left">
+          {%- if post.config.start and post.config.end %}
+            <span class="meta-item" style="display: flex; align-items: center;">
+            <span class="md-icon" style="width: 24px">{% include ".icons/material/calendar.svg" %}</span>
+            <span>{{- post.config.start | date("dd MMM") -}} — {{- post.config.end | date("dd MMM") -}}</span>
+          </span>
+          {% endif -%}
+          <span class="meta-item" style="display: flex; align-items: center;">
+          <span class="md-icon" style="width: 24px">{% include ".icons/material/currency-eur.svg" %}</span>
+            {% if post.config.price %}
+              <span>{{- "%.2f" | format(post.config.price) | replace('.00', ',-') | replace('.', ',') -}}</span>
+            {% else %}
+              <span>Free</span>
+            {% endif %}
+        </span>
+          {%- if post.config.location %}
+            <span class="meta-item" style="display: flex; align-items: center;">
+              <span class="md-icon" style="width: 24px">{% include ".icons/material/map-marker.svg" %}</span>
+              <span class="md-ellipsis" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 150px;">{{- post.config.location -}}</span>
+            </span>
+          {% endif -%}
+        </div>
+      </div>
+    {% endif %}
     {% if post == page and post.config.registration and post.config.registration.enabled and post.config.end >= now() %}
       <div class="bottom-right post__registration" style="justify-self: center">
         {% for option in post.config.registration.options %}
@@ -62,45 +137,7 @@
       </div>
     {% endif %}
   </div>
-  <div class="post__meta">
-    {% if post.config.start and post.config.end %}
-      {{ post.config.start | date }}
-    {% else %}
-      {{ post.config.date.created | date }}
-    {% endif %}
-    {%- if page == post and post.config.source and post.config.source.title -%}
-      <span class="post__source">, Source: <a href="{{ post.config.source.url }}"
-                                              target="_blank">{{ post.config.source.title }}</a></span>
-    {% endif %}
-    {% if page == post and page.config and page.config.readtime %}
-      {% set time = page.config.readtime %}—
-      <span class="md-ellipsis">
-        {% if time == 1 %}
-          {{ lang.t("readtime.one") }}
-        {% else %}
-          {{ lang.t("readtime.other") | replace("#", time) }}
-        {% endif %}
-      </span>
-    {% endif %}
-    <div class="post__meta--badges">
-      {% for category in post.categories %}
-        <a href="{{ category.url | url }}" class="badge badge--default">
-          {{ category.title }}
-        </a>
-      {% endfor %}
-      <div class="md-draft badge badge--light">{{ post.meta.type }}</div>
-      {% if post.config.draft %}
-        <div class="md-draft">{{ lang.t("blog.draft") }}</div>
-      {% endif %}
-    </div>
-  </div>
-  <div class="post__title">
-    {% if page == post %}
-      <h1>{{ post.title }}</h1>
-    {% else %}
-      <a href="{{ post_url | default(post.url) | url }}">{{ post.title }}</a>
-    {% endif %}
-  </div>
+
   <div class="post__content">
     {% if page == post or not post.excerpt %}
       {{ post.content | strip_tags(['h1']) }}
