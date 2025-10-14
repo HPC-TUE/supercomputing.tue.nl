@@ -16,15 +16,15 @@ Use your browser to connect to [Umbrella On Demand](https://hpc.tue.nl){:target=
 
 Load the module(s)
 
-```shell 
+```shell
 [user@umbrella]$ module purge
-[user@umbrella]$ module load foss/2024a # or intel/2024a for -mpi=intel)
-[user@umbrella]$ module load ANSYS/2025R1
+[user@umbrella]$ module load foss/2025a # or intel/2024a for -mpi=intel)
+[user@umbrella]$ module load ANSYS/2025R2
 ```
 
 Check ANSYS Fluent:
 
-```shell 
+```shell
 [user@umbrella]$ fluent 3ddp -g -t2 -mpitest -mpi=openmpi
 
 FLUENT MPI test started ... 
@@ -49,10 +49,9 @@ Reduce.........0.22126.............5000....0.0011063........
 Barier.........0.308314............5000....0.00154157.......
 
 FLUENT MPI test done.
-
 ```
 
-### ANSYS Fluent SLURM sbatch jobscript example using OpenMPI on 1 Node.
+### ANSYS Fluent SLURM sbatch jobscript example using OpenMPI on 1 Node
 
 ```slurm
 #!/bin/bash
@@ -67,13 +66,14 @@ FLUENT MPI test done.
 #SBATCH --time=00:05:00
 
 module purge
-module load foss/2024a
-module load ANSYS/2025R1
+module load foss/2025a
+module load ANSYS/2025R2
 
 fluent 3ddp -g -t${SLURM_NTASKS} -mpitest -mpi=openmpi
 ```
 
-### ANSYS Fluent SLURM sbatch jobscript example using OpenMPI on 2 Nodes.
+### ANSYS Fluent SLURM sbatch jobscript example using OpenMPI on 2 Nodes
+
 ```slurm
 #!/bin/bash
 #
@@ -87,8 +87,8 @@ fluent 3ddp -g -t${SLURM_NTASKS} -mpitest -mpi=openmpi
 #SBATCH --time=00:05:00
 
 module purge
-module load foss/2024a
-module load ANSYS/2025R1
+module load foss/2025a
+module load ANSYS/2025R2
 
 JOB_NODES="$(scontrol show hostnames)"
 JOB_NODES=$(echo ${JOB_NODES} | tr ' ' ',')
