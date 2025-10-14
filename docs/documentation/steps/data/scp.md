@@ -1,23 +1,59 @@
-# SCP (SSH)
+---
+title: Local System
+toc: true
+---
 
-## Transferring data
+# Local System
 
-Here are the steps to transfer files from a Windows machine to an SSH server like `hpc.tue.nl` using **SCP** or **MobaXterm**:
+This page will describe how you can copy files to the TU/e Umbrella HPC Cluster from your local system (and vice versa).
 
-### **Method 1: Using SCP (via Command Prompt or PowerShell)**
+## Transferring Data
 
-1. **Ensure SSH and SCP are Installed**:
-    - Windows 10 and later include OpenSSH by default. Check by typing `ssh` or `scp` in the Command Prompt or PowerShell.
-    - If not installed, install OpenSSH from Windows settings under "Apps > Optional Features."
+### Open OnDemand
 
-2. **Identify Your Files and Destination**:
-    - **Source file**: Know the full path of the file you want to transfer, e.g., `C:\Users\YourName\Documents\example.txt`.
-    - **Destination path**: Determine the destination folder on the server, e.g., `/home/yourusername/`.
+![Files](../access/ood-files.png){ align=right width=250px }
 
-3. **Open PowerShell or Command Prompt**:
-    - Press `Win + R`, type `cmd` or `powershell`, and hit Enter.
+The easiest to use solution we offer is to use the web interface on [hpc.tue.nl](https://hpc.tue.nl/pun/sys/dashboard/files/){:target=_blank}, where you can drag/drop files from your local system to/from the cluster.
+This is option is however limited to a limited amount of files and directories or total size.
 
-4. **Run the SCP Command**:
+If you need to transfer large or many files, or prefer the command line, please read below for alternative options.
+
+<div style="clear: both"></div>
+
+### MobaXterm
+
+![MobaXterm Files](mobaxterm-files.png){ align=right width=250px }
+
+[MobaXterm](../access/ssh/index.md#required-software) is one of our supported methods to connect to the TU/e Umbrella
+HPC Cluster which provides a mixture of a GUI and command line for Windows users.
+
+Once you're logged into the cluster on hpc.tue.nl, a file browser will be available on the left-side of the terminal.
+The contents of this sidebar represents the files/directories on the cluster.
+
+You can simply drag/drop files to transfer files between your system and the HPC cluster.
+
+<div style="clear: both"></div>
+
+### SCP
+
+![SCP](scp.png){ align=right width=250px }
+
+The `scp` command is part of [SSH](../access/ssh/index.md#required-software), and in most cases and doesn't require a
+separate installation on Linux, MacOSX and recent versions of Windows (10+).
+
+We assume you already connected at least once to the HPC cluster using SSH. For this method we highly encourage to
+configure [passwordless authentication](../access/ssh/index.md#passwordless-authentication) first.
+
+1. Identify Your Files and Destination
+    - **Source file**: Know the full path of the file you want to transfer, e.g.
+      `C:\Users\YourName\Documents\example.txt`
+    - **Destination path**: Determine the destination folder on the server, e.g.
+      `/home/yourusername/`
+
+2. Open a terminal/command prompt
+    - For windows, press `Win + R`, and type `cmd` or `powershell`, and hit Enter.
+
+3. Run the SCP Command
    Use the following syntax:
    ```bash
    scp <local-file-path> <username>@hpc.tue.nl:<remote-directory>
@@ -27,42 +63,11 @@ Here are the steps to transfer files from a Windows machine to an SSH server lik
    scp C:\Users\YourName\Documents\example.txt yourusername@hpc.tue.nl:/home/yourusername/
    ```
 
-5. **Authenticate**:
-    - Enter your password when prompted.
-    - You may be asked to confirm the server's fingerprint the first time you connect.
+    > _Enter your TU/e password when prompted._
 
-6. **Verify the Transfer**:
-    - Log in to the server using SSH (`ssh yourusername@hpc.tue.nl`) and navigate to the target directory (`cd /home/yourusername`) to confirm the file is there.
+<div style="clear: both"></div>
 
----
-
-### **Method 2: Using MobaXterm**
-
-1. **Download and Install MobaXterm**:
-    - Download from the [MobaXterm website](https://mobaxterm.mobatek.net/).
-    - Install the free version if you don't already have it.
-
-2. **Connect to the Server**:
-    - Open MobaXterm and click on **Session > SSH**.
-    - Fill in:
-        - **Remote host**: `hpc.tue.nl`
-        - **Username**: Your HPC username
-    - Click **OK** and log in with your password.
-
-3. **Enable the File Browser**:
-    - Once connected, MobaXterm will automatically open a **file explorer** on the left-hand side.
-    - This shows your remote server's directories.
-
-4. **Transfer Files**:
-    - Drag and drop files from your Windows file explorer to the desired location in MobaXterm's file explorer.
-    - Alternatively, right-click on the remote directory in MobaXterm and use the **Upload** option to select files.
-
-5. **Verify the Transfer**:
-    - Use the file explorer or the terminal in MobaXterm to navigate and check if the file is transferred successfully.
-
----
-
-## **Tips**:
+## Tips
 - For SCP, if you need to transfer a directory, use the `-r` flag:
   ```bash
   scp -r <local-directory> <username>@hpc.tue.nl:<remote-directory>
