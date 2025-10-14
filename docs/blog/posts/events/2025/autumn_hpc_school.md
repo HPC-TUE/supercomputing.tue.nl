@@ -56,14 +56,14 @@ schedule:
         { start: 2025-11-17T13:30:00, end: 2025-11-17T16:00:00, title: "Code optimization techniques for HPC" },
       ]
   }
-  - { title: GPU Computing 1, start: 2025-11-18T09:30:00, end: 2025-11-18T17:00:00,
+  - { title: GPU Computing 1, start: 2025-11-18T09:30:00, end: 2025-11-18T17:00:00, description: "Learn how to accelerate Python workloads on GPUs (Part I): Understand the fundamentals and compare the performance of scientific applications.",
       schedule: [
 #        { start: 2025-11-18T09:30:00, end: 2025-11-18T12:30:00 },
         { start: 2025-11-18T12:30:00, end: 2025-11-18T13:30:00, icon: food-fork-drink, title: Lunch },
 #        { start: 2025-11-18T13:30:00, end: 2025-11-18T17:00:00 },
       ]
   }
-  - { title: GPU Computing 2, start: 2025-11-19T09:30:00, end: 2025-11-19T17:00:00,
+  - { title: GPU Computing 2, start: 2025-11-19T09:30:00, end: 2025-11-19T17:00:00, description: "Learn how to accelerate Python workloads on GPUs (Part II): Optimise parallel execution and identify performance bottlenecks.",
       schedule: [
         { start: 2025-11-19T12:30:00, end: 2025-11-19T13:30:00, icon: food-fork-drink, title: Lunch },
 #        { start: 2025-11-19T13:30:00, end: 2025-11-19T17:00:00 },
