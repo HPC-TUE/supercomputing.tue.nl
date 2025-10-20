@@ -125,7 +125,17 @@ authors:
     name: Giulia Finotello
     avatar: /assets/images/people/g.finotello.png
     url: https://www.tue.nl/en/research/researchers/giulia-finotello
-    description: ""
+    description: "Giulia Finotello is an assistant professor at the Power and Flow group in the Mechanical Engineering Department of Eindhoven University of Technology (TU/e). Her research focuses on the experimental and numerical investigations of multiphase flows. The research objectives of her group include the study of metal powder production and reactive particle-based processes. The production and deposition of metal particles through spray technologies (gas and ultrasonic atomization) is crucial for additive manufacturing. Furthermore, metal powder can be used as a C02-free energy carrier. Within the topic of the metal fuel cycle, Giulia focuses on designing and developing technologies for the regeneration of combusted powder."
+  "solarteameindhoven":
+    name: Solar Team Eindhoven
+    avatar: /assets/images/logo/solarteameindhoven.png
+    url: https://www.solarteameindhoven.nl
+    description: "Our mission: In a single hour, the amount of energy from the sun that strikes the Earth is more than the entire world consumes in a year. Our greatest energy source, the sun, is able to provide us ultimate freedom in a sustainable manner. We believe the solution for a sustainable future lies within the vehicles themselves."
+  "m.padalko":
+    name: Mikhail Padalko
+    avatar: /assets/images/people/m.padalko.png
+    url: https://www.philips.com/
+    description: "Data & AI Scientist at Philips"
   "nvidia":
     name: Nvidia
     avatar: /assets/images/logo/nvidia.svg

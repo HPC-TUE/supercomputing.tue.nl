@@ -9,7 +9,7 @@ hero:
     - { message: "11-14 November & 17-21 November", size: "medium" }
 title: Autumn HPC School '25
 categories: [ HPC School ]
-speakers: [ ]
+speakers: [ g.finotello, m.padalko, solarteameindhoven ]
 price: 0.00
 location: TU/e Campus
 image: assets/images/2025-autumn_hpcschool_thumb.png
@@ -22,14 +22,14 @@ registration:
   options:
     - { title: SIGN UP, url: https://autumnhpcschool.dryfta.com/attendee-registration, qr: true }
 schedule:
-  - { title: HPC Primer I, description: "An introductory guide to HPC essentials for beginners, covering remote terminal setup, bash scripting, file management, job execution with SLURM, and an overview of TU/e's Supercomputing Center.", start: 2025-11-11T09:30:00, end: 2025-11-11T15:30:00, speakers: [ g.t.chepuck.fernandes, a.van.hoof ],
+  - { title: HPC Primer I, description: "An introductory guide to HPC essentials for beginners, covering remote terminal setup, bash scripting, file management, job execution with SLURM, and an overview of TU/e's Supercomputing Center.", start: 2025-11-11T09:30:00, end: 2025-11-11T15:30:00, speakers: [ g.t.chepuck.fernandes ],
       schedule: [
 #        { start: 2025-11-11T09:30:00, end: 2025-11-11T12:30:00 },
         { start: 2025-11-11T12:30:00, end: 2025-11-11T13:30:00, icon: food-fork-drink, title: Lunch },
 #        { start: 2025-11-11T13:30:00, end: 2025-11-11T15:30:00 },
       ]
   }
-  - { title: HPC Primer II, description: "Learn about secure SSH connections, setting up Git for version control, and understanding repository licenses in day two of the HPC Primer.", start: 2025-11-12T09:30:00, end: 2025-11-12T15:30:00, speakers: [ a.van.hoof, g.t.chepuck.fernandes ],
+  - { title: HPC Primer II, description: "Learn about secure SSH connections, setting up Git for version control, and understanding repository licenses in day two of the HPC Primer.", start: 2025-11-12T09:30:00, end: 2025-11-12T15:30:00, speakers: [ a.van.hoof ],
       schedule: [
 #        { start: 2025-11-12T09:30:00, end: 2025-11-12T12:30:00 },
         { start: 2025-11-12T12:30:00, end: 2025-11-12T13:30:00, icon: food-fork-drink, title: Lunch },
@@ -51,8 +51,8 @@ schedule:
   - { title: Parallel jobs & Code Optimization, start: 2025-11-17T09:30:00, end: 2025-11-17T16:00:00,
       schedule: [
         { start: 2025-11-17T09:30:00, end: 2025-11-17T11:30:00, title: Embarrassingly Parallel jobs },
-        { start: 2025-11-17T11:30:00, end: 2025-11-17T12:30:00, title: "Keynote by Giulia Finotello" , speakers: [ "g.finotello" ]},
-        { start: 2025-11-17T12:30:00, end: 2025-11-17T13:30:00, icon: food-fork-drink, title: Lunch },
+        { start: 2025-11-17T12:00:00, end: 2025-11-17T13:00:00, icon: food-fork-drink, title: Lunch },
+        { start: 2025-11-17T12:30:00, end: 2025-11-17T13:30:00, title: "Keynote by Giulia Finotello" , speakers: [ "g.finotello" ]},
         { start: 2025-11-17T13:30:00, end: 2025-11-17T16:00:00, title: "Code optimization techniques for HPC" },
       ]
   }
@@ -76,7 +76,7 @@ schedule:
 #        { start: 2025-11-20T13:30:00, end: 2025-11-20T16:00:00 },
       ]
   }
-  - { title: Scientific Visualization with Blender, start: 2025-11-21T09:30:00, end: 2025-11-21T16:30:00,
+  - { title: Scientific Visualization with Blender, start: 2025-11-21T09:30:00, end: 2025-11-21T16:30:00, description: "Learn to use Blender for creating scientific visuals, from navigating the interface and basic 3D workflows to importing data, designing scenes with proper lighting and materials, and producing high-quality rendered images. No prior 3D experience required; <strong>bring a laptop with <a href='https://www.blender.org/download/' target='_blank'>Blender</a> installed.</strong>",
       schedule: [
         { start: 2025-11-21T12:30:00, end: 2025-11-21T13:30:00, icon: food-fork-drink, title: Lunch },
       ]
@@ -115,31 +115,5 @@ in the field of supercomputing.
 
 For questions or feedback about the HPC school, including reservations, email us at
 [hpc-training@tue.nl](mailto:hpc-training@tue.nl)
-
-<div style="clear: both"></div>
-
-## Keynote Speakers
-
-<div class="grid cards" markdown>
-- <figure markdown>
-    ![Giulia Finotello](../../../../assets/images/people/g.finotello.png){ style="height: 150px" }
-    <figcaption markdown>[Giulia Finotello](https://www.tue.nl/en/research/researchers/giulia-finotello){ target=_blank }</figcaption>
-[//]: # (    <span style="font-style: italic">)
-[//]: # (      How do dense emulsions flow?)
-[//]: # (    </span>)
-    <small style="display: block">November 17, 2025</small>
-  </figure>
-- <figure markdown>
-    ![Philips](../../../../assets/images/people/m.padalko.png){ style="height: 150px" }
-    Mikhail Padalko<br/>
-    [Philips ![Philips](../../../../assets/images/logo/philips.svg){ style="height: 24px" }](https://www.philips.com/global){ target=_blank }
-    <small style="display: block">November 20, 2025</small>
-  </figure>
-- <figure markdown>
-    ![Solar Team Eindhoven](../../../../assets/images/logo/solarteameindhoven.png){ style="height: 150px" }
-    <figcaption markdown>[Solar Team Eindhoven](https://solarteameindhoven.nl){ target=_blank }</figcaption>
-    <small style="display: block">November 21, 2025</small>
-  </figure>
-</div>
 
 <div style="clear: both" markdown>---</div>

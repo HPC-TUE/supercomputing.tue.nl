@@ -148,14 +148,14 @@
   {% if page != post %}
     <a class="post__more" href="{{ post_url | default(post.url) | url }}">{{ lang.t("blog.continue") }}</a>
   {% else %}
-    {% if post.is_event() and not post.config.schedule_hide %}
-      <section class="alternate">
-        {% include "blog/event/program.html" %}
-      </section>
-    {% endif %}
     {% if post.config.speakers %}
       <section class="alternate">
         {% include "blog/event/speakers.html" %}
+      </section>
+    {% endif %}
+    {% if post.is_event() and not post.config.schedule_hide %}
+      <section class="alternate">
+        {% include "blog/event/program.html" %}
       </section>
     {% endif %}
     {% if post.config.sponsors %}

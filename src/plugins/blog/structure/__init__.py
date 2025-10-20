@@ -143,10 +143,10 @@ class Post(Page):
     def render(self, config: MkDocsConfig, files: Files) -> None:
         super().render(config, files)
 
+        if "speakers" in self.config:
+            self.toc.items[0].children.append(AnchorLink("Speakers", "speakers", 0))
         if "schedule" in self.config:
             self.toc.items[0].children.append(AnchorLink("Schedule", "schedule", 0))
-        # if "speakers" in self.config:
-        #     self.toc.items[0].children.append(AnchorLink("Speakers", "speakers", 0))
         if "sponsors" in self.config:
             self.toc.items[0].children.append(AnchorLink("Supported By", "supported-by", 0))
 
