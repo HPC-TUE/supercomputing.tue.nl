@@ -106,9 +106,9 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 | Julia                                       | 1.11.7                                                                               | `Julia`             | Yes via Pluto               |
 | [LAMMPS](recipes/lammps.md)                 | 29Aug2024_update2-foss-2024a-kokkos<br>29Aug2024_update2-foss-2024a-kokkos-CUDA-12.6.0                                                  | `LAMMPS`            |                             |
 | MCL                                         | 22.282-GCCcore-14.2.0                                                                | `MCL`               |                             |
-| [NetLogo](recipes/netlogo.md)               | 7.0.0<br>6.4.0-64                                                                             | `NetLogo`           | Yes                         |
-| OpenFOAM (ESI)                              | v2206-foss-2022a<br>v2312-foss-2023a<br>v2406-foss-2023a                             | `OpenFOAM`          |                             |
-| OpenFOAM (Foundation)                       | 10-foss-2023a<br>11-foss-2023a<br>12-foss-2023a                                      | `OpenFOAM`          |                             |
+| [NetLogo](recipes/netlogo.md)               | 7.0.0<br>6.4.0-64                                                                    | `NetLogo`           | Yes                         |
+| OpenFOAM (ESI)                              | v2206-foss-2022a<br>v2312-foss-2023a<br>v2406-foss-2023a<br>v2506-foss-2025a         | `OpenFOAM`          |                             |
+| OpenFOAM (Foundation)                       | 10-foss-2023a<br>11-foss-2023a<br>12-foss-2023a<br>13-foss-2025a                     | `OpenFOAM`          |                             |
 | OpenModelica                                | 1.22.0-foss-2022a                                                                    | `OpenModelica`      |                             |
 | OpenSceneGraph                              | 3.6.5-foss-2022a                                                                     | `OpenSceneGraph`    | Yes via Interactive Desktop |
 | ORCA                                        | 5.0.4-gompi-2023a<br>6.0.1-gompi-2023a                                               | `ORCA`              |                             |
