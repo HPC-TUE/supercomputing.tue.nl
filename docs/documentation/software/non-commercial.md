@@ -112,7 +112,7 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 | OpenModelica                                | 1.22.0-foss-2022a                                                                    | `OpenModelica`      |                             |
 | OpenSceneGraph                              | 3.6.5-foss-2022a                                                                     | `OpenSceneGraph`    | Yes via Interactive Desktop |
 | ORCA                                        | 5.0.4-gompi-2023a<br>6.0.1-gompi-2023a                                               | `ORCA`              |                             |
-| ParaView                                    | 5.12.1-foss-2023a                                                                    | `ParaView`          | Yes                         |
+| ParaView                                    | 5.12.1-foss-2023a<br>6.0.0-foss-2025a                                                | `ParaView`          | Yes                         |
 | QCG-PilotJob                                | 0.14.1-gfbf-2024a                                                                    | `QCG-PilotJob`      |                             |
 | QuantumESPRESSO                             | 7.3.1-foss-2023a<br>7.4-foss-2024a                                                   | `QuantumESPRESSO`   |                             |
 | [R](recipes/r.md)                           | 4.4.2-gfbf-2024a<br>4.5.0-gfbf-2024a                                                 | `R`                 | Yes via Rstudio             |
