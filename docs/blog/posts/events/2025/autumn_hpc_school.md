@@ -111,6 +111,13 @@ Don't miss out on this incredible opportunity to advance your knowledge and skil
 Secure your spot today and be part of a transformative experience that will enhance your research and career potential
 in the field of supercomputing.
 
+## Practical Information
+
+- No prior knowledge required. _We highly **recommend** to follow the Primer sessions if you're new user to HPC!_
+- Ensure to bring your laptop
+- Lunch is included for all sessions
+- The event is **_in-person_** on the TU/e Campus. No (live) streams will be available
+
 ## Contact Information
 
 For questions or feedback about the HPC school, including reservations, email us at
