@@ -113,7 +113,7 @@ in the field of supercomputing.
 
 ## Practical Information
 
-- No prior knowledge required. _We highly **recommend** to follow the Primer sessions if you're new user to HPC!_
+- No prior knowledge required. _We highly **recommend** to follow the Primer sessions if you're new to HPC!_
 - Ensure to bring your laptop
 - Lunch is included for all sessions
 - The event is **_in-person_** on the TU/e Campus. No (live) streams will be available
