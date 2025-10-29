@@ -18,15 +18,15 @@ Load the modules
 
 ``` shell
 [user@umbrella]$ module purge
-[user@umbrella]$ module load intel/2024a
-[user@umbrella]$ module load Lumerical/2025-R1.3
+[user@umbrella]$ module load intel/2025a
+[user@umbrella]$ module load Lumerical/2025-R2.2
 ```
 
 Check commandline version of Lumerical fdtd-engine
 
 ```shell
 [user@umbrella]$ fdtd-engine -v
-Ansys Lumerical 2025 R1.3 FDTD Solver Version 8.33.4124 (Linux 64bit)
+Ansys Lumerical 2025 R2.2 FDTD Solver Version 8.34.4251 (Linux 64bit)
 ```
 
 ### Lumerical SLURM sbatch jobscript example using Shared Memory
@@ -43,8 +43,8 @@ Ansys Lumerical 2025 R1.3 FDTD Solver Version 8.33.4124 (Linux 64bit)
 #SBATCH --time=00:05:00
 
 module purge
-module load intel/2024a
-module load Lumerical/2025-R1.3
+module load intel/2025a
+module load Lumerical/2025-R2.2
 
 fdtd-engine -t ${SLURM_CPUS_PER_TASK} -logall -fullinfo example.lsf
 ```
@@ -64,8 +64,8 @@ fdtd-engine -t ${SLURM_CPUS_PER_TASK} -logall -fullinfo example.lsf
 #SBATCH --time=00:05:00
 
 module purge
-module load intel/2024a
-module load Lumerical/2025-R1.3
+module load intel/2025a
+module load Lumerical/2025-R2.2
 
 mpirun fdtd-engine-impi-lcl -logall -fullinfo example.lsf
 ```
