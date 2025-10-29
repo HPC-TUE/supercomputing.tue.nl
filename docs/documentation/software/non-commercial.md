@@ -104,7 +104,7 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 | git-lfs                                     | 3.6.1                                                                                | `git-lfs`           |                             |
 | GROMACS                                     | 2025.2-foss-2025a                                                                    | `GROMACS`           |                             |
 | Julia                                       | 1.11.7                                                                               | `Julia`             | Yes via Pluto               |
-| [LAMMPS](recipes/lammps.md)                 | 29Aug2024_update2-foss-2024a-kokkos<br>29Aug2024_update2-foss-2024a-kokkos-CUDA-12.6.0                                                  | `LAMMPS`            |                             |
+| [LAMMPS](recipes/lammps.md)                 | 29Aug2024_update2-foss-2024a-kokkos<br>29Aug2024_update2-foss-2024a-kokkos-CUDA-12.6.0 | `LAMMPS`            |                             |
 | MCL                                         | 22.282-GCCcore-14.2.0                                                                | `MCL`               |                             |
 | [NetLogo](recipes/netlogo.md)               | 7.0.0<br>6.4.0-64                                                                    | `NetLogo`           | Yes                         |
 | OpenFOAM (ESI)                              | v2206-foss-2022a<br>v2312-foss-2023a<br>v2406-foss-2023a<br>v2506-foss-2025a         | `OpenFOAM`          |                             |
@@ -114,7 +114,7 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 | ORCA                                        | 5.0.4-gompi-2023a<br>6.0.1-gompi-2023a                                               | `ORCA`              |                             |
 | ParaView                                    | 5.12.1-foss-2023a<br>6.0.0-foss-2025a                                                | `ParaView`          | Yes                         |
 | QCG-PilotJob                                | 0.14.1-gfbf-2024a                                                                    | `QCG-PilotJob`      |                             |
-| QuantumESPRESSO                             | 7.3.1-foss-2023a<br>7.4-foss-2024a                                                   | `QuantumESPRESSO`   |                             |
+| QuantumESPRESSO                             | 7.3.1-foss-2023a<br>7.4-foss-2024a<br>7.5-foss-2025a                                 | `QuantumESPRESSO`   |                             |
 | [R](recipes/r.md)                           | 4.4.2-gfbf-2024a<br>4.5.0-gfbf-2024a                                                 | `R`                 | Yes via Rstudio             |
 | Rstudio                                     | 2023.12.1+402-gfbf-2023a-Java-11-R-4.4.1                                             | `RStudio`           | Yes                         |
 | Siesta                                      | 5.2.2-foss-2024a                                                                     | `Siesta`            |                             |
