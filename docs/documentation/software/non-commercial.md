@@ -104,7 +104,7 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 | git-lfs                                     | 3.6.1                                                                                | `git-lfs`           |                             |
 | GROMACS                                     | 2025.2-foss-2025a                                                                    | `GROMACS`           |                             |
 | Julia                                       | 1.11.7                                                                               | `Julia`             | Yes via Pluto               |
-| [LAMMPS](recipes/lammps.md)                 | 29Aug2024_update2-foss-2024a-kokkos<br>29Aug2024_update2-foss-2024a-kokkos-CUDA-12.6.0 | `LAMMPS`            |                             |
+| [LAMMPS](recipes/lammps.md)                 | 29Aug2024_update2-foss-2024a-kokkos<br>29Aug2024_update2-foss-2024a-kokkos-CUDA-12.6.0 | `LAMMPS`          |                             |
 | MCL                                         | 22.282-GCCcore-14.2.0                                                                | `MCL`               |                             |
 | [NetLogo](recipes/netlogo.md)               | 7.0.0<br>6.4.0-64                                                                    | `NetLogo`           | Yes                         |
 | OpenFOAM (ESI)                              | v2206-foss-2022a<br>v2312-foss-2023a<br>v2406-foss-2023a<br>v2506-foss-2025a         | `OpenFOAM`          |                             |
@@ -121,6 +121,7 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 | [SlurmViewer](../steps/jobs/slurmviewer.md) | 1.0.4-GCCcore-13.3.0                                                                 | `slurm-SlurmViewer` |                             |
 | [Spark](recipes/spark.md)                   | 3.5.0-foss-2023a<br>3.5.1-foss-2023a-Java-17                                         | `Spark`             |                             |
 | VSCode                                      | 1.105.1<br>1.104.2                                                                   | `VSCode`            | Yes via CodeServer          |
+| VTK                                         | 9.5.0-foss-2025a                                                                     | `VTK`               |                             |
 
 *[foss]: Free and Open Source Software
 *[gfbf]: Gcc + FlexiBas + Fftw
