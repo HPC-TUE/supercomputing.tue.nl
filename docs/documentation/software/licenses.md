@@ -20,7 +20,7 @@ FlexLM stands for "Flexible License Manager". It is used to restrict who can use
 
 When using the [module system](https://supercomputing.tue.nl/documentation/steps/software/) to load an application the application specific setting for the license are included. Sometimes to setup a different license sever for the same application, there is an extra module available.
 
-`ANSYS/2024R1` uses the default (research) license, while `ANSYS/2024R1-edu` uses the educational license.
+`ANSYS/2025R2` uses the default (research) license, while `ANSYS/2025R2-edu` uses the educational license.
 
 When starting a Interactive Session via [Umbrella OnDemand](https://supercomputing.tue.nl/documentation/steps/access/openondemand/) the license server is configured for the application sellected.
 
