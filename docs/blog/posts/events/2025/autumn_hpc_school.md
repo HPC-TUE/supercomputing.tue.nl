@@ -22,33 +22,33 @@ registration:
   options:
     - { title: SIGN UP, url: https://autumnhpcschool.dryfta.com/attendee-registration, qr: true }
 schedule:
-  - { title: HPC Primer I, description: "An introductory guide to HPC essentials for beginners, covering remote terminal setup, bash scripting, file management, job execution with SLURM, and an overview of TU/e's Supercomputing Center.", start: 2025-11-11T09:30:00, end: 2025-11-11T15:30:00, speakers: [ g.t.chepuck.fernandes ],
+  - { title: HPC Primer I, description: "An introductory guide to HPC essentials for beginners, covering remote terminal setup, bash scripting, file management, job execution with SLURM, and an overview of TU/e's Supercomputing Center.", start: 2025-11-11T09:30:00, end: 2025-11-11T15:30:00, speakers: [ g.t.chepuck.fernandes ], location: "Luna 1.240",
       schedule: [
 #        { start: 2025-11-11T09:30:00, end: 2025-11-11T12:30:00 },
         { start: 2025-11-11T12:30:00, end: 2025-11-11T13:30:00, icon: food-fork-drink, title: Lunch },
 #        { start: 2025-11-11T13:30:00, end: 2025-11-11T15:30:00 },
       ]
   }
-  - { title: HPC Primer II, description: "Learn about secure SSH connections, setting up Git for version control, and understanding repository licenses in day two of the HPC Primer.", start: 2025-11-12T09:30:00, end: 2025-11-12T15:30:00, speakers: [ a.van.hoof ],
+  - { title: HPC Primer II, description: "Learn about secure SSH connections, setting up Git for version control, and understanding repository licenses in day two of the HPC Primer.", start: 2025-11-12T09:30:00, end: 2025-11-12T15:30:00, speakers: [ a.van.hoof ], location: "<a href='https://aristo.nl/vergaderlocatie-eindhoven#bereikbaarheid' target='_blank'>Aristo Eindhoven</a>",
       schedule: [
 #        { start: 2025-11-12T09:30:00, end: 2025-11-12T12:30:00 },
         { start: 2025-11-12T12:30:00, end: 2025-11-12T13:30:00, icon: food-fork-drink, title: Lunch },
 #        { start: 2025-11-12T13:30:00, end: 2025-11-12T15:30:00 },
       ]
   }
-  - { title: Introduction to Supercomputing, description: "Unleash the potential of supercomputing clusters", start: 2025-11-13T09:30:00, end: 2025-11-13T15:00:00,
+  - { title: Introduction to Supercomputing, description: "Unleash the potential of supercomputing clusters", start: 2025-11-13T09:30:00, end: 2025-11-13T15:00:00, location: "Neuron 0.262",
       schedule: [
 #        { start: 2025-11-13T09:30:00, end: 2025-11-13T12:30:00, title: Introduction to Supercomputing, description: "Learn to harness the power of clusters and supercomputers for large-scale computations and analyses in this course." },
         { start: 2025-11-13T12:30:00, end: 2025-11-13T13:30:00, icon: food-fork-drink, title: Lunch },
       ]
   }
-  - { title: Fundamentals of Deep Learning, description: "In collaboration with <a href='https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-01+V3' target='_blank'>Nvidia's Deep Learning Institute</a>", start: 2025-11-14T09:30:00, end: 2025-11-14T15:00:00, speakers: [ "nvidia" ],
+  - { title: Fundamentals of Deep Learning, description: "In collaboration with <a href='https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-01+V3' target='_blank'>Nvidia's Deep Learning Institute</a>", start: 2025-11-14T09:30:00, end: 2025-11-14T15:00:00, speakers: [ "nvidia" ], location: "MF11/12 (Metaforum, 4th floor)",
       schedule: [
         #        { start: 2025-11-13T09:30:00, end: 2025-11-13T12:30:00, title: Introduction to Supercomputing, description: "Learn to harness the power of clusters and supercomputers for large-scale computations and analyses in this course." },
         { start: 2025-11-14T12:30:00, end: 2025-11-14T13:30:00, icon: food-fork-drink, title: Lunch },
       ]
   }
-  - { title: Parallel jobs & Code Optimization, start: 2025-11-17T09:30:00, end: 2025-11-17T16:00:00,
+  - { title: Parallel jobs & Code Optimization, start: 2025-11-17T09:30:00, end: 2025-11-17T16:00:00, location: "MF11/12 (Metaforum, 4th floor)",
       schedule: [
         { start: 2025-11-17T09:30:00, end: 2025-11-17T11:30:00, title: Embarrassingly Parallel jobs },
         { start: 2025-11-17T12:00:00, end: 2025-11-17T13:00:00, icon: food-fork-drink, title: Lunch },
@@ -56,27 +56,27 @@ schedule:
         { start: 2025-11-17T13:30:00, end: 2025-11-17T16:00:00, title: "Code optimization techniques for HPC" },
       ]
   }
-  - { title: GPU Computing 1, start: 2025-11-18T09:30:00, end: 2025-11-18T17:00:00, description: "Learn how to accelerate Python workloads on GPUs (Part I): Understand the fundamentals and compare the performance of scientific applications.",
+  - { title: GPU Computing 1, start: 2025-11-18T09:30:00, end: 2025-11-18T17:00:00, description: "Learn how to accelerate Python workloads on GPUs (Part I): Understand the fundamentals and compare the performance of scientific applications.", location: "Pendulum 0.36",
       schedule: [
 #        { start: 2025-11-18T09:30:00, end: 2025-11-18T12:30:00 },
         { start: 2025-11-18T12:30:00, end: 2025-11-18T13:30:00, icon: food-fork-drink, title: Lunch },
 #        { start: 2025-11-18T13:30:00, end: 2025-11-18T17:00:00 },
       ]
   }
-  - { title: GPU Computing 2, start: 2025-11-19T09:30:00, end: 2025-11-19T17:00:00, description: "Learn how to accelerate Python workloads on GPUs (Part II): Optimise parallel execution and identify performance bottlenecks.",
+  - { title: GPU Computing 2, start: 2025-11-19T09:30:00, end: 2025-11-19T17:00:00, description: "Learn how to accelerate Python workloads on GPUs (Part II): Optimise parallel execution and identify performance bottlenecks.", location: "MF11/12 (Metaforum, 4th floor)",
       schedule: [
         { start: 2025-11-19T12:30:00, end: 2025-11-19T13:30:00, icon: food-fork-drink, title: Lunch },
 #        { start: 2025-11-19T13:30:00, end: 2025-11-19T17:00:00 },
       ]
   }
-  - { title: High-performance deep-learning II, start: 2025-11-20T09:30:00, end: 2025-11-20T16:00:00,
+  - { title: High-performance deep-learning II, start: 2025-11-20T09:30:00, end: 2025-11-20T16:00:00, location: "Neuron 0.262",
       schedule: [
 #        { start: 2025-11-20T09:30:00, end: 2025-11-20T12:30:00 },
         { start: 2025-11-20T12:30:00, end: 2025-11-20T13:30:00, icon: food-fork-drink, title: Lunch },
 #        { start: 2025-11-20T13:30:00, end: 2025-11-20T16:00:00 },
       ]
   }
-  - { title: Scientific Visualization with Blender, start: 2025-11-21T09:30:00, end: 2025-11-21T16:30:00, description: "Learn to use Blender for creating scientific visuals, from navigating the interface and basic 3D workflows to importing data, designing scenes with proper lighting and materials, and producing high-quality rendered images. No prior 3D experience required; <strong>bring a laptop with <a href='https://www.blender.org/download/' target='_blank'>Blender</a> installed.</strong>",
+  - { title: Scientific Visualization with Blender, start: 2025-11-21T09:30:00, end: 2025-11-21T16:30:00, description: "Learn to use Blender for creating scientific visuals, from navigating the interface and basic 3D workflows to importing data, designing scenes with proper lighting and materials, and producing high-quality rendered images. No prior 3D experience required; <strong>bring a laptop with <a href='https://www.blender.org/download/' target='_blank'>Blender</a> installed.</strong>", location: "MF11/12 (Metaforum, 4th floor)",
       schedule: [
         { start: 2025-11-21T12:30:00, end: 2025-11-21T13:30:00, icon: food-fork-drink, title: Lunch },
       ]
@@ -110,6 +110,17 @@ relationships within the HPC community.
 Don't miss out on this incredible opportunity to advance your knowledge and skills in AI and high-performance computing.
 Secure your spot today and be part of a transformative experience that will enhance your research and career potential
 in the field of supercomputing.
+
+!!! danger "12 November - _HPC Primer II_: Will take place on an external location"
+
+    Please note that the _HPC Primer II_ session won't take place on campus, and instead requires you to travel to the **[Aristo Meeting Center, Eindhoven](https://aristo.nl/vergaderlocatie-eindhoven#bereikbaarheid){:target=_blank}** at address:
+
+    ```
+    Vestdijk 30
+    5611 CC Eindhoven
+    ```
+
+    _From the TU/e campus this is about a 15~20 minute walk_
 
 ## Practical Information
 
