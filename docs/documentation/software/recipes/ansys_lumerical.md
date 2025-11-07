@@ -49,6 +49,20 @@ module load Lumerical/2025-R2.2
 fdtd-engine -t ${SLURM_CPUS_PER_TASK} -logall -fullinfo example.lsf
 ```
 
+### Matching Your MPI to a Solver
+
+It is necessary to use the version of the solver that is matched to the version of MPI being used to run the solver. The following table lists the engine executables to run with supported MPI.
+
+Intel MPI
+- fdtd-engine-impi-lcl
+- varfdtd-engine-impi-lcl
+- eme-engine-impi-lcl
+
+OpenMPI
+- fdtd-engine-ompi-lcl
+- varfdtd-engine-ompi-lcl
+- eme-engine-ompi-lcl
+
 ### Lumerical SLURM sbatch jobscript example using intelMPI
 
 ```slurm
@@ -68,6 +82,27 @@ module load intel/2025a
 module load Lumerical/2025-R2.2
 
 mpiexec -n ${SLURM_NTASKS} fdtd-engine-impi-lcl -t ${SLURM_CPUS_PER_TASK} -logall -fullinfo example.lsf
+```
+
+### Lumerical SLURM sbatch jobscript example using OpernMPI
+
+```slurm
+#!/bin/bash
+#
+#SBATCH --job-name=test_lumerical
+#SBATCH --output=test_lumerical-%j.log
+#SBATCH --partition=tue.default.q
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --cpus-per-task=1
+#SBATCH --mem-per-cpu=2gb
+#SBATCH --time=00:05:00
+
+module purge
+module load foss/2025a
+module load Lumerical/2025-R2.2
+
+mpiexec -n ${SLURM_NTASKS} fdtd-engine-ompi-lcl -t ${SLURM_CPUS_PER_TASK} -logall -fullinfo example.lsf
 ```
 
 ## Method 1
