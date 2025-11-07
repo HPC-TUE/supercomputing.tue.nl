@@ -67,7 +67,7 @@ module purge
 module load intel/2025a
 module load Lumerical/2025-R2.2
 
-mpirun fdtd-engine-impi-lcl -logall -fullinfo example.lsf
+mpiexec -n ${SLURM_NTASKS} fdtd-engine-impi-lcl -t ${SLURM_CPUS_PER_TASK} -logall -fullinfo example.lsf
 ```
 
 ## Method 1
