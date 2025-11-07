@@ -49,16 +49,18 @@ module load Lumerical/2025-R2.2
 fdtd-engine -t ${SLURM_CPUS_PER_TASK} -logall -fullinfo example.lsf
 ```
 
-### Matching Your MPI to a Solver
+### Matching your MPI to a Solver
 
 It is necessary to use the version of the solver that is matched to the version of MPI being used to run the solver. The following table lists the engine executables to run with supported MPI.
 
-Intel MPI
+Intel MPI:
+
 - fdtd-engine-impi-lcl
 - varfdtd-engine-impi-lcl
 - eme-engine-impi-lcl
 
-OpenMPI
+OpenMPI:
+
 - fdtd-engine-ompi-lcl
 - varfdtd-engine-ompi-lcl
 - eme-engine-ompi-lcl
