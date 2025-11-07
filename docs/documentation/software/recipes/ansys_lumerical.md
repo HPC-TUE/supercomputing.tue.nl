@@ -63,7 +63,7 @@ OpenMPI
 - varfdtd-engine-ompi-lcl
 - eme-engine-ompi-lcl
 
-### Lumerical SLURM sbatch jobscript example using intelMPI
+### Lumerical SLURM sbatch jobscript example using intelMPI FTDT solver
 
 ```slurm
 #!/bin/bash
@@ -84,7 +84,7 @@ module load Lumerical/2025-R2.2
 mpiexec -n ${SLURM_NTASKS} fdtd-engine-impi-lcl -t ${SLURM_CPUS_PER_TASK} -logall -fullinfo example.lsf
 ```
 
-### Lumerical SLURM sbatch jobscript example using OpernMPI
+### Lumerical SLURM sbatch jobscript example using OpernMPI FTDT solver
 
 ```slurm
 #!/bin/bash
