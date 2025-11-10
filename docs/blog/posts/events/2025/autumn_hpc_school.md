@@ -22,24 +22,25 @@ registration:
   options:
     - { title: SIGN UP, url: https://autumnhpcschool.dryfta.com/attendee-registration, qr: true }
 schedule:
-  - { title: HPC Primer I, description: "An introductory guide to HPC essentials for beginners, covering remote terminal setup, bash scripting, file management, job execution with SLURM, and an overview of TU/e's Supercomputing Center.", start: 2025-11-11T09:30:00, end: 2025-11-11T15:30:00, speakers: [ g.t.chepuck.fernandes ], location: "Luna 1.240",
+  - { title: HPC Primer I, description: "An introductory guide to HPC essentials for beginners, covering remote terminal setup, bash scripting, file management, job execution with SLURM, and an overview of TU/e's Supercomputing Center.", start: 2025-11-11T09:30:00, end: 2025-11-11T14:00:00, speakers: [ g.t.chepuck.fernandes ], location: "Luna 1.240",
       schedule: [
 #        { start: 2025-11-11T09:30:00, end: 2025-11-11T12:30:00 },
         { start: 2025-11-11T12:30:00, end: 2025-11-11T13:30:00, icon: food-fork-drink, title: Lunch },
 #        { start: 2025-11-11T13:30:00, end: 2025-11-11T15:30:00 },
       ]
   }
-  - { title: HPC Primer II, description: "Learn about secure SSH connections, setting up Git for version control, and understanding repository licenses in day two of the HPC Primer.", start: 2025-11-12T09:30:00, end: 2025-11-12T15:30:00, speakers: [ a.van.hoof ], location: "<a href='https://aristo.nl/vergaderlocatie-eindhoven#bereikbaarheid' target='_blank'>Aristo Eindhoven</a>",
+  - { title: HPC Primer II, description: "Learn about secure SSH connections, setting up Git for version control, and understanding repository licenses in day two of the HPC Primer.", start: 2025-11-12T09:30:00, end: 2025-11-12T15:00:00, speakers: [ a.van.hoof ], location: "<a href='https://aristo.nl/vergaderlocatie-eindhoven#bereikbaarheid' target='_blank'>Aristo Eindhoven</a>",
       schedule: [
 #        { start: 2025-11-12T09:30:00, end: 2025-11-12T12:30:00 },
-        { start: 2025-11-12T12:30:00, end: 2025-11-12T13:30:00, icon: food-fork-drink, title: Lunch },
+        { start: 2025-11-12T12:15:00, end: 2025-11-12T13:00:00, icon: food-fork-drink, title: Lunch },
+        { start: 2025-11-12T13:00:00, end: 2025-11-12T14:00:00, speakers: [ "n.sunami" ], title: "" },
 #        { start: 2025-11-12T13:30:00, end: 2025-11-12T15:30:00 },
       ]
   }
   - { title: Introduction to Supercomputing, description: "Unleash the potential of supercomputing clusters", start: 2025-11-13T09:30:00, end: 2025-11-13T15:00:00, location: "Neuron 0.262",
       schedule: [
 #        { start: 2025-11-13T09:30:00, end: 2025-11-13T12:30:00, title: Introduction to Supercomputing, description: "Learn to harness the power of clusters and supercomputers for large-scale computations and analyses in this course." },
-        { start: 2025-11-13T12:30:00, end: 2025-11-13T13:30:00, icon: food-fork-drink, title: Lunch },
+        { start: 2025-11-13T12:30:00, end: 2025-11-13T13:30:00, icon: food-fork-drink, title: 'Lunch (featuring "Research Data Literacy and Curatio"n team)' },
       ]
   }
   - { title: Fundamentals of Deep Learning, description: "In collaboration with <a href='https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-01+V3' target='_blank'>Nvidia's Deep Learning Institute</a>", start: 2025-11-14T09:30:00, end: 2025-11-14T15:00:00, speakers: [ "nvidia" ], location: "MF11/12 (Metaforum, 4th floor)",
