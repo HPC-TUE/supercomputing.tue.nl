@@ -33,7 +33,7 @@ schedule:
       schedule: [
 #        { start: 2025-11-12T09:30:00, end: 2025-11-12T12:30:00 },
         { start: 2025-11-12T12:15:00, end: 2025-11-12T13:00:00, icon: food-fork-drink, title: Lunch },
-        { start: 2025-11-12T13:00:00, end: 2025-11-12T14:00:00, speakers: [ "n.sunami" ], title: "" },
+        { start: 2025-11-12T13:00:00, end: 2025-11-12T14:00:00, speakers: [ "n.sunami" ], title: "Open source licences for your research: why, what & how" },
 #        { start: 2025-11-12T13:30:00, end: 2025-11-12T15:30:00 },
       ]
   }
