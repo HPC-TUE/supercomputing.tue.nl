@@ -40,7 +40,7 @@ schedule:
   - { title: Introduction to Supercomputing, description: "Unleash the potential of supercomputing clusters", start: 2025-11-13T09:30:00, end: 2025-11-13T15:00:00, location: "Neuron 0.262",
       schedule: [
 #        { start: 2025-11-13T09:30:00, end: 2025-11-13T12:30:00, title: Introduction to Supercomputing, description: "Learn to harness the power of clusters and supercomputers for large-scale computations and analyses in this course." },
-        { start: 2025-11-13T12:30:00, end: 2025-11-13T13:30:00, icon: food-fork-drink, title: 'Lunch (featuring "Research Data Literacy and Curatio"n team)' },
+        { start: 2025-11-13T12:30:00, end: 2025-11-13T13:30:00, icon: food-fork-drink, title: 'Lunch (featuring "Research Data Literacy and Curation" team)' },
       ]
   }
   - { title: Fundamentals of Deep Learning, description: "In collaboration with <a href='https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+C-FX-01+V3' target='_blank'>Nvidia's Deep Learning Institute</a>", start: 2025-11-14T09:30:00, end: 2025-11-14T15:00:00, speakers: [ "nvidia" ], location: "MF11/12 (Metaforum, 4th floor)",
