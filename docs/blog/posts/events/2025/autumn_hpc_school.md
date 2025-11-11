@@ -72,7 +72,7 @@ schedule:
   }
   - { title: High-performance deep-learning II, start: 2025-11-20T09:30:00, end: 2025-11-20T16:00:00, location: "Neuron 0.262",
       schedule: [
-#        { start: 2025-11-20T09:30:00, end: 2025-11-20T12:30:00 },
+        { start: 2025-11-20T11:30:00, end: 2025-11-20T12:30:00, speakers: [ m.padalko ], title: "Keynote from Mikhail Padalko (Data & AI Scientist at Philips)" },
         { start: 2025-11-20T12:30:00, end: 2025-11-20T13:30:00, icon: food-fork-drink, title: Lunch },
 #        { start: 2025-11-20T13:30:00, end: 2025-11-20T16:00:00 },
       ]
