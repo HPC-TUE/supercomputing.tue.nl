@@ -79,6 +79,7 @@ schedule:
   }
   - { title: Scientific Visualization with Blender, start: 2025-11-21T09:30:00, end: 2025-11-21T16:30:00, description: "Learn to use Blender for creating scientific visuals, from navigating the interface and basic 3D workflows to importing data, designing scenes with proper lighting and materials, and producing high-quality rendered images. No prior 3D experience required; <strong>bring a laptop with <a href='https://www.blender.org/download/' target='_blank'>Blender</a> installed.</strong>", location: "MF11/12 (Metaforum, 4th floor)",
       schedule: [
+        { start: 2025-11-21T11:30:00, end: 2025-11-21T12:30:00, speakers: [solarteameindhoven], title: "Keynote by Solar Team Eindhoven" },
         { start: 2025-11-21T12:30:00, end: 2025-11-21T13:30:00, icon: food-fork-drink, title: Lunch },
       ]
   }
