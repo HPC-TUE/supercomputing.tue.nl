@@ -90,7 +90,13 @@ sbatch my_job_script.sh
 
 ## Monitoring and Controlling Jobs
 
-To check the status of your job, use `squeue`.
+To check the status of your currently pending and running jobs, use `squeue`:
+
+```bash
+squeue --me
+```
+
+`squeue` can also be used to check the status of a single job:
 
 ```bash
 squeue --job [JOBID]
@@ -100,12 +106,6 @@ You can cancel a submitted job using `scancel`.
 
 ```bash
 scancel [JOBID]
-```
-
-See all the jobs you submitted.
-
-```bash
-squeue -u $(whoami)
 ```
 
 You may want to monitor the resources being used by your job in real-time. This can be done using the `sstat` command.
