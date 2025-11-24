@@ -22,8 +22,3 @@ tags: [Training, HPC]
 Interactive **SLURM** Tutorial
 
 [Slurm Learning](http://slurmlearning.deic.dk/){:target="_blank"}
-
-A web based interactive HPC Scheduling "Game"
-
-[HPC Scheduling Game](https://game.funcx.org/){:target="_blank"}
-
