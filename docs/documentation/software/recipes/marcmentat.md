@@ -19,7 +19,7 @@ Use your browser to connect to [Umbrella On Demand](https://hpc.tue.nl){:target=
     
     ```shell 
     [user@umbrella]$ module purge
-    [user@umbrella]$ module load MarcMentat/2024.1-intel-2023a
+    [user@umbrella]$ module load MarcMentat/2025.1-intel-2024a
     ```
     
     Check execution on empty data file (test.dat)
@@ -45,23 +45,41 @@ Use your browser to connect to [Umbrella On Demand](https://hpc.tue.nl){:target=
     ```shell
     [user@umbrella]$ cat test.log
     .....
-    Mon Jan  6 11:36:25 CET 2025
-     Marc test begins execution
-    
-         (c) COPYRIGHT 2024 Hexagon Manufacturing Intelligence, Inc., all rights reserved
-    
-    
-     Requested number of element threads                     =    1
-     Requested number of solver threads                      =    1
-    
-    
-     VERSION: Marc 2024.1, build 942447 (2024/05/08)
-    
-    
-    
-         Date: Mon Jan  6 11:36:25 2025
-    
-                                  Marc execution begins
+    Tue Nov 25 17:20:21 CET 2025
+ Marc test begins execution
+
+     (c) COPYRIGHT 2025 Hexagon Manufacturing Intelligence, Inc., all rights reserved
+
+
+ Requested number of element threads                     =    1
+ Requested number of solver threads                      =    1
+
+
+ VERSION: Marc 2025.1, build 271e0caa5 (2025-07-27)
+
+
+
+     Date: Tue Nov 25 17:20:22 2025
+
+                              Marc execution begins
+ Date:          Tue Nov 25 17:20:22 2025
+ MSC Id:        cc96e5f26997 (ethernet) (Linux)
+ Hostname:      tue-login002.cluster (user 20224765, display /dev/tty)
+ License files: 27500@marcmentat.lic.tue.nl
+ CEID:          56906B84-A5BDA279
+ User:          20224765
+ Display:       /dev/tty
+ LAPI Version:  LAPI 23.1.2 (CL b668b185) (FLEXlm 11.19.6.3)
+Acquired 20 licenses for Group MSCONE (Marc) from license server on host marcmentat.lic.tue.nl
+
+
+             general memory initially set to =        23 MByte
+
+             maximum available memory set to =    128499 MByte
+
+               *** error -  no element types chosen and no substructure input
+Returned 20 licenses for Group MSCONE (Marc)
+
     ......
     ```
     
