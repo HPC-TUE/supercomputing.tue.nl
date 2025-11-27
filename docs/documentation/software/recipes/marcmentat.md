@@ -37,7 +37,7 @@ Use your browser to connect to [Umbrella On Demand](https://hpc.tue.nl){:target=
     
      
     Final run stream value
-     RUNJOB= /sw/rl8/zen/app/MarcMentat/marc2024.1/bin/linux64i8/marc -jid test -dirjid /home/20224765/. -maxnum 1000000     -dirjob /home/20224765 -ml 128474 -ci yes -cr yes
+     RUNJOB= /sw/rl8/zen/app/MarcMentat/marc2025.1/bin/linux64i8/marc -jid test -dirjid /home/20224765/. -maxnum 1000000     -dirjob /home/20224765 -ml 128474 -ci yes -cr yes
     ```
     
     test.log file has more info
@@ -89,7 +89,7 @@ Returned 20 licenses for Group MSCONE (Marc)
     
     ```shell 
     [user@umbrella]$ module purge
-    [user@umbrella]$ module load MarcMentat/2024.1-intel-2023a
+    [user@umbrella]$ module load MarcMentat/2025.1-intel-2024a
     ```
     Check execution on empty data file (test.dat) and fortran code (main.f)
     
@@ -117,7 +117,7 @@ Returned 20 licenses for Group MSCONE (Marc)
 #SBATCH --time=00:05:00
 
 module purge
-module load MarcMentat/2024.1-intel-2023a
+module load MarcMentat/2025.1-intel-2024a
 
 # The input file input.dat can be referenced without the .dat extension
 
@@ -138,7 +138,7 @@ run_marc -j input -v no -b no -nte ${SLURM_CPUS_PER_TASK} -nts ${SLURM_CPUS_PER_
 #SBATCH --time=00:05:00
 
 module purge
-module load MarcMentat/2024.1-intel-2023a
+module load MarcMentat/2025.1-intel-2024a
 
 # The input file input.dat can be referenced without the .dat extension
 # The Fortran code main.f can be referenced without the .f extension
