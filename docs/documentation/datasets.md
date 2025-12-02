@@ -76,6 +76,14 @@ unzip /dataset/ADE20K/ADE20K.zip -d $datadir
     <td>See website</td>
     <td><a href="https://www.cs.toronto.edu/~kriz/cifar.html">Website</a></td>
   </tr>
+    <tr>
+    <td>ECoG_HB_02</td>
+    <td>&mdash;</td>
+    <td><a href="#free">free</a></td>
+    <td><code>/dataset/ECoG_HB_02</code></td>
+    <td>CC BY 4.0</td>
+    <td><a "https://data.mendeley.com/datasets/fp4bv9gtwk/2">Website</a></td>
+  </tr>
   <tr>
     <td>ImageNet</td>
     <td>&mdash;</td>
