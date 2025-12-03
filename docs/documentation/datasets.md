@@ -82,7 +82,7 @@ unzip /dataset/ADE20K/ADE20K.zip -d $datadir
     <td><a href="#free">free</a></td>
     <td><code>/dataset/ECoG_HB_02</code></td>
     <td><a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC BY 4.0</a></td>
-    <td><a "https://data.mendeley.com/datasets/fp4bv9gtwk/2">Website</a></td>
+    <td><a href="https://data.mendeley.com/datasets/fp4bv9gtwk/2">Website</a></td>
   </tr>
   <tr>
     <td>ImageNet</td>
