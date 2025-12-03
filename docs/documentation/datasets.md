@@ -93,6 +93,14 @@ unzip /dataset/ADE20K/ADE20K.zip -d $datadir
     <td><a href="https://www.image-net.org/">Website</a></td>
   </tr>
   <tr>
+    <td>inst-voice-neuropro</td>
+    <td>&mdash;</td>
+    <td><a href="#free">free</a></td>
+    <td><code>/dataset/inst-voice-neuropro</code></td>
+    <td><a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a></td>
+    <td><a href="https://datadryad.org/dataset/doi:10.5061/dryad.2280gb64f">Website</a></td>
+  </tr>
+  <tr>
     <td>MNIST</td>
     <td>&mdash;</td>
     <td><a href="#free">free</a></td>
