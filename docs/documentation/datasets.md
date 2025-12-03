@@ -101,12 +101,20 @@ unzip /dataset/ADE20K/ADE20K.zip -d $datadir
     <td><a href="https://yann.lecun.com/exdb/mnist/">Website</a></td>
   </tr>
   <tr>
-    <td>nejm-brain-to-tex</td>
+    <td>nejm-brain-to-text</td>
     <td>&mdash;</td>
     <td><a href="#free">free</a></td>
-    <td><code>/dataset/nejm-brain-to-tex</code></td>
+    <td><code>/dataset/nejm-brain-to-text</code></td>
     <td><a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a></td>
     <td><a href="https://datadryad.org/dataset/doi:10.5061/dryad.dncjsxm85">Website</a></td>
+  </tr>
+  <tr>
+    <td>online-speech-brain-ALS</td>
+    <td>&mdash;</td>
+    <td><a href="#free">free</a></td>
+    <td><code>/dataset/online-speech-brain-ALS</code></td>
+    <td><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></td>
+    <td><a href="https://osf.io/49rt7/overview">Website</a></td>
   </tr>
 </table>
 
