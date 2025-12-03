@@ -76,12 +76,12 @@ unzip /dataset/ADE20K/ADE20K.zip -d $datadir
     <td>See website</td>
     <td><a href="https://www.cs.toronto.edu/~kriz/cifar.html">Website</a></td>
   </tr>
-    <tr>
+  <tr>
     <td>ECoG_HB_02</td>
     <td>&mdash;</td>
     <td><a href="#free">free</a></td>
     <td><code>/dataset/ECoG_HB_02</code></td>
-    <td>CC BY 4.0</td>
+    <td><a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC BY 4.0</a></td>
     <td><a "https://data.mendeley.com/datasets/fp4bv9gtwk/2">Website</a></td>
   </tr>
   <tr>
@@ -99,6 +99,14 @@ unzip /dataset/ADE20K/ADE20K.zip -d $datadir
     <td><code>/dataset/MNIST</code></td>
     <td><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></td>
     <td><a href="https://yann.lecun.com/exdb/mnist/">Website</a></td>
+  </tr>
+  <tr>
+    <td>nejm-brain-to-tex</td>
+    <td>&mdash;</td>
+    <td><a href="#free">free</a></td>
+    <td><code>/dataset/nejm-brain-to-tex</code></td>
+    <td><a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a></td>
+    <td><a href="https://datadryad.org/dataset/doi:10.5061/dryad.dncjsxm85">Website</a></td>
   </tr>
 </table>
 
