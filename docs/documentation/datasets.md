@@ -124,6 +124,14 @@ unzip /dataset/ADE20K/ADE20K.zip -d $datadir
     <td><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></td>
     <td><a href="https://osf.io/49rt7/overview">Website</a></td>
   </tr>
+  <tr>
+    <td>SingleWordProductionDutch-iBIDS</td>
+    <td>&mdash;</td>
+    <td><a href="#free">free</a></td>
+    <td><code>/dataset/SingleWordProductionDutch-iBIDS</code></td>
+    <td><a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></td>
+    <td><a href="https://osf.io/nrgx6/overview">Website</a></td>
+  </tr>
 </table>
 
 ## List of available models
