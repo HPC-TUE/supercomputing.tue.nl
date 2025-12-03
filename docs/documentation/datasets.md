@@ -101,6 +101,14 @@ unzip /dataset/ADE20K/ADE20K.zip -d $datadir
     <td><a href="https://datadryad.org/dataset/doi:10.5061/dryad.2280gb64f">Website</a></td>
   </tr>
   <tr>
+    <td>karaOne</td>
+    <td>&mdash;</td>
+    <td><a href="#free">free</a></td>
+    <td><code>/dataset/karaOne</code></td>
+    <td>free, must reference the <a href="https://www.cs.toronto.edu/~complingweb/data/karaOne/karaOne.html">paper</a></td>
+    <td><a href="https://www.cs.toronto.edu/~complingweb/data/karaOne/karaOne.html">Website</a></td>
+  </tr>
+  <tr>
     <td>MNIST</td>
     <td>&mdash;</td>
     <td><a href="#free">free</a></td>
