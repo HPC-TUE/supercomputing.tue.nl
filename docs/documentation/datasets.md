@@ -61,6 +61,14 @@ unzip /dataset/ADE20K/ADE20K.zip -d $datadir
     </td>
   </tr>
   <tr>
+    <td>AlphaFold3</td>
+    <td>3.0.1 Generic Databases</td>
+    <td><a href="#free">free</a></td>
+    <td><code>/dataset/Alphafold3</code></td>
+    <td><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-NC-SA 4.0</a></td>
+    <td><a href="https://github.com/google-deepmind/alphafold3">GitHub</a></td>
+  </tr>
+  <tr>
     <td>CAMELYON16</td>
     <td>&mdash;</td>
     <td><a href="#free">free</a></td>
