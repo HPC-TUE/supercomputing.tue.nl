@@ -23,7 +23,7 @@ A two days deep learning instructor-led workshop on data and model parallelism o
 
 This workshop is open to all **TU/e students and employees**. Seats are limited, so make sure to register early and secure your spot at [https://forms.office.com/e/UkELx9p9HG](https://forms.office.com/e/UkELx9p9HG?origin=lprLink){ target=_blank }
 
-## Pratical Information
+## Practical Information
 
 - 💻 **Bring your own laptop**
 - Lunch included
