@@ -95,3 +95,15 @@ JOB_NODES=$(echo ${JOB_NODES} | tr ' ' ',')
 
 fluent 3ddp -g -cnf=${JOB_NODES} -t${SLURM_NTASKS} -mpitest -mpi=openmpi
 ```
+
+## Troubleshooting
+
+### `Unable to spawn node: license not available.`
+
+If you find the above message in the job's log files, then either of two situations applies:
+
+- All licenses are currently in use.  Try again later; perhaps some licenses
+  have become free, in which case your job will run.
+- You don't have access to the license.  Contact the license owner to request
+  access.  The respective license owner can often be looked up in the TOPdesk
+  self-service portal, in the form of a knowledge item.
