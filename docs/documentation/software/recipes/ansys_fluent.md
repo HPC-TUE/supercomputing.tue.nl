@@ -98,9 +98,13 @@ fluent 3ddp -g -cnf=${JOB_NODES} -t${SLURM_NTASKS} -mpitest -mpi=openmpi
 
 ## Troubleshooting
 
-### `Unable to spawn node: license not available.`
+### Unable to spawn node: license not available.
 
-If you find the above message in the job's log files, then either of two situations applies:
+If you find the following message in the job's log files
+
+- `Unable to spawn node: license not available.`
+
+then either of two situations applies:
 
 - All licenses are currently in use.  Try again later; perhaps some licenses
   have become free, in which case your job will run.
