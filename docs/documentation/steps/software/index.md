@@ -184,6 +184,25 @@ As easy as you can load modules, you can also unload them. The proper
 command, as you might have guessed, is `module unload `<name of module>
 So, to unload the intel module, you would run `module unload intel`.
 
+#### Saving and restoring modules
+
+With `module save` one can save the currently loaded modules to the `~/.config/lmod/default` file. To restore these modules, use the `module restore` command. Besides the `default` collection one can also create named collections:
+
+	$ module save <collection_name>
+	$ module save fluid_dynamics # to save your modules in a collection called "fluid_dynamics"
+
+To restore this collection:
+
+	$ module restore <collection_name>
+	$ module restore fluid_dynamics # to restore your modules of the "fluid_dynamics"-collection
+
+A collection can be disabled with
+
+	$ module disable <collection_name>
+	$ module disable fluid_dynamics # to disable the "fluid_dynamics"-collection
+
+Disabled collections are not removed, just renamed to `<collection_name>~`
+
 ### Specific software
 
 #### Uploading
