@@ -9,13 +9,13 @@ description: "Join the mext Dutch OpenFOAM User Group meeting"
 categories: [ Training ]
 speakers: [ ]
 price: 0.00
-location: TU/e Campus, Pendulum 0.36
+location: TU/e Campus, Neuron
 image: blog/events/2026/doug-openfoam-cfd.png
 type: event
 schedule:
-  - { title: Morning Program, start: 2026-02-06T09:00:00, end: 2026-02-06T12:00:00, description: "Testing strategies for OpenFOAM and FAIR4RS principles.", location: "Pendulum 0.36" }
-  - { title: Lunch, start: 2026-02-06T12:00:00, end: 2026-02-06T13:00:00, icon: food-fork-drink }
-  - { title: Afternoon Program, start: 2026-02-06T13:00:00, end: 2026-02-06T17:30:00, description: "Benchmarking CFS simulations, Coupling OpenFOAM with Isogeetric Analysis, LES of turbulent iron powder burner, power burner, experimental and numerical flow field study.", location: "Pendulum 0.36" }
+  - { title: Morning Program, start: 2026-02-06T09:00:00, end: 2026-02-06T12:00:00, description: "Testing strategies for OpenFOAM and FAIR4RS principles.", location: "Neuron 0.122" }
+  - { title: Lunch, start: 2026-02-06T12:00:00, end: 2026-02-06T13:00:00, icon: food-fork-drink, location: "Neuron 0.122" }
+  - { title: Afternoon Program, start: 2026-02-06T13:00:00, end: 2026-02-06T17:30:00, description: "Benchmarking CFS simulations, Coupling OpenFOAM with Isogeetric Analysis, LES of turbulent iron powder burner, power burner, experimental and numerical flow field study.", location: "Neuron 0.120" }
 ---
 
 Interested in CFD with OpenFOAM? Join the next Dutch OpenFOAM User Group meeting on February 6, 2026 at the TU Eindhoven!
