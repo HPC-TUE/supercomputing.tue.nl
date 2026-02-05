@@ -1,7 +1,3 @@
----
-hide: [navigation]
----
-
 ### Spring School 2025
 
 <div class="grid cards" markdown>

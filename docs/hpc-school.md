@@ -9,7 +9,7 @@ template: hpc-school.html
 
 # HPC School events
 
-No upcoming editions of the HPC School planned.
+The next Spring HPC School edition will be planned in May/June 2026. More information will be available soon!
 
 The HPC School events at the TU/e Supercomputing Center are specialized training sessions focused on high-performance
 computing (HPC). Held twice a year, typically in Autumn and Spring, these events cater to a wide audience, including
