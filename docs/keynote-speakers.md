@@ -1,3 +1,35 @@
+### Autumn School 2025
+
+<div class="grid cards" markdown>
+- <figure markdown>
+    ![Giulia Finotello](assets/images/people/g.finotello.png){ width=135px }
+    <figcaption>[Giulia Finotello](https://www.tue.nl/en/research/researchers/giulia-finotello){ target=_blank }</figcaption>
+    <p style="font-style: italic">
+      A numerical framework for gas atomization of molten metal
+    </p>
+    <small>November 17, 2025</small>
+  </figure>
+
+- <figure markdown>
+    ![Mikhail Padalko](assets/images/people/m.padalko.png){ width=135px }
+    <figcaption>Mikhail Padalko</figcaption>
+    <p style="font-style: italic">
+      HPC for Medical AI at Philips
+    </p>
+    <small>November 20, 2025</small>
+  </figure>
+
+- <figure markdown>
+    ![Solar Team Eindhoven](assets/images/logo/solarteameindhoven.png){ width=135px }
+    <figcaption>[Solar Team Eindhoven](https://www.solarteameindhoven.nl){ target=_blank }</figcaption>
+    <p style="font-style: italic">
+      HPC for Solar Car Development
+    </p>
+    <small>November 21, 2025</small>
+  </figure>
+
+</div>
+
 ### Spring School 2025
 
 <div class="grid cards" markdown>
