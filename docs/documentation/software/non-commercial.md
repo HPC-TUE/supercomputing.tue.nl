@@ -97,13 +97,13 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 |---------------------------------------------|--------------------------------------------------------------------------------------|---------------------|-----------------------------|
 | ADIOS2                                      | 2.10.2-gompi-2024a                                                                   | `ADIOS2`            |                             |
 | Amber                                       | 24.0-foss-2022a-AmberTools-24.0-CUDA-11.7.0<br>24.0-foss-2024a-AmberTools-24.0       | `Amber`             |                             |
-| Blender                                     | 4.5.3-linux-x86_64-CUDA-12.8.0                                                       | `Blender`           | Yes                         |
+| Blender                                     | 5.0.1-linux-x86_64-CUDA-12.8.0                                                       | `Blender`           | Yes                         |
 | [CP2K](recipes/cp2k.md)                     | 2023.1-foss-2023a<br>2025.2-foss-2025a                                               | `CP2K`              |                             |
 | dask                                        | 2025.5.1-gfbf-2025a                                                                  | `dask`              |                             |
 | git                                         | 2.50.0-GCCcore-14.2.0                                                                | `git`               |                             |
 | git-lfs                                     | 3.6.1                                                                                | `git-lfs`           |                             |
 | GROMACS                                     | 2025.2-foss-2025a                                                                    | `GROMACS`           |                             |
-| Julia                                       | 1.12.1-linux-x86_64<br>1.11.7-linux-x86_64                                            | `Julia`             | Yes via Pluto               |
+| Julia                                       | 1.12.4-linux-x86_64<br>1.11.7-linux-x86_64                                            | `Julia`             | Yes via Pluto               |
 | [LAMMPS](recipes/lammps.md)                 | 29Aug2024_update2-foss-2024a-kokkos<br>29Aug2024_update2-foss-2024a-kokkos-CUDA-12.6.0 | `LAMMPS`          |                             |
 | MCL                                         | 22.282-GCCcore-14.2.0                                                                | `MCL`               |                             |
 | [NetLogo](recipes/netlogo.md)               | 7.0.0<br>6.4.0-64                                                                    | `NetLogo`           | Yes                         |
