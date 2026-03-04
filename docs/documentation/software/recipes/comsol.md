@@ -110,8 +110,7 @@ For the *File transfer command* field, choose from the dropdown menu
 `SCP`. Fill the SCP fields similarly to the SSH fields, *i.e.*, choose
 PuTTY and fill the directory for the program and public key. Once again
 use you cluster username in *SCP user*. In the *Remote hosts* table, add
-the cluster address `hpc.tue.nl` (or `compass.phys.tue.nl` if you belong
-to the Applied Physics department).
+the cluster address `hpc.tue.nl`.
 
 You are nearly done, before pressing the *run* button to have your
 simulations calculated on the cluster, read the next sections to learn
