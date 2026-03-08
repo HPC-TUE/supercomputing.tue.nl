@@ -103,7 +103,7 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 | git                                         | 2.50.0-GCCcore-14.2.0                                                                | `git`               |                             |
 | git-lfs                                     | 3.6.1                                                                                | `git-lfs`           |                             |
 | GROMACS                                     | 2025.2-foss-2025a                                                                    | `GROMACS`           |                             |
-| Julia                                       | 1.12.4-linux-x86_64<br>1.11.7-linux-x86_64                                            | `Julia`             | Yes via Pluto               |
+| Julia                                       | 1.12.5-linux-x86_64<br>1.11.7-linux-x86_64                                            | `Julia`             | Yes via Pluto               |
 | [LAMMPS](recipes/lammps.md)                 | 29Aug2024_update2-foss-2024a-kokkos<br>29Aug2024_update2-foss-2024a-kokkos-CUDA-12.6.0 | `LAMMPS`          |                             |
 | MCL                                         | 22.282-GCCcore-14.2.0                                                                | `MCL`               |                             |
 | [NetLogo](recipes/netlogo.md)               | 7.0.0<br>6.4.0-64                                                                    | `NetLogo`           | Yes                         |
@@ -115,11 +115,11 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 | ParaView                                    | 5.12.1-foss-2023a<br>6.0.0-foss-2025a                                                | `ParaView`          | Yes                         |
 | QCG-PilotJob                                | 0.14.1-gfbf-2024a                                                                    | `QCG-PilotJob`      |                             |
 | QuantumESPRESSO                             | 7.3.1-foss-2023a<br>7.4-foss-2024a<br>7.5-foss-2025a                                 | `QuantumESPRESSO`   |                             |
-| [R](recipes/r.md)                           | 4.4.2-gfbf-2024a<br>4.5.0-gfbf-2024a                                                 | `R`                 | Yes via Rstudio             |
-| Rstudio                                     | 2023.12.1+402-gfbf-2023a-Java-11-R-4.4.1                                             | `RStudio`           | Yes                         |
+| [R](recipes/r.md)                           | 4.5.0-gfbf-2024a<br>4.5.1-gfbf-2025a                                                 | `R`                 | Yes via Rstudio             |
+| Rstudio                                     | 2025.09.2+418-foss-2025a-R-4.5.1                                                     | `RStudio`           | Yes                         |
 | Siesta                                      | 5.2.2-foss-2024a                                                                     | `Siesta`            |                             |
 | [SlurmViewer](../steps/jobs/slurmviewer.md) | 1.0.4-GCCcore-13.3.0                                                                 | `slurm-SlurmViewer` |                             |
-| [Spark](recipes/spark.md)                   | 3.5.0-foss-2023a<br>3.5.1-foss-2023a-Java-17                                         | `Spark`             |                             |
+| [Spark](recipes/spark.md)                   | 3.5.1-foss-2023a-Java-17<br>4.0.1-foss-2024a-Java-21                                 | `Spark`             |                             |
 | VSCode                                      | 1.108.1<br>1.106.3                                                                   | `VSCode`            | Yes via CodeServer          |
 | VTK                                         | 9.5.0-foss-2025a                                                                     | `VTK`               |                             |
 
