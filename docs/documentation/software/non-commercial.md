@@ -117,7 +117,7 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 | QuantumESPRESSO                             | 7.3.1-foss-2023a<br>7.4-foss-2024a<br>7.5-foss-2025a                                 | `QuantumESPRESSO`   |                             |
 | [R](recipes/r.md)                           | 4.5.0-gfbf-2024a<br>4.5.1-gfbf-2025a                                                 | `R`                 | Yes via Rstudio             |
 | Rstudio                                     | 2025.09.2+418-foss-2025a-R-4.5.1                                                     | `RStudio`           | Yes                         |
-| Siesta                                      | 5.2.2-foss-2024a                                                                     | `Siesta`            |                             |
+| Siesta                                      | 5.4.2-foss-2024a                                                                     | `Siesta`            |                             |
 | [SlurmViewer](../steps/jobs/slurmviewer.md) | 1.0.4-GCCcore-13.3.0                                                                 | `slurm-SlurmViewer` |                             |
 | [Spark](recipes/spark.md)                   | 3.5.1-foss-2023a-Java-17<br>4.0.1-foss-2024a-Java-21                                 | `Spark`             |                             |
 | VSCode                                      | 1.108.1<br>1.106.3                                                                   | `VSCode`            | Yes via CodeServer          |
