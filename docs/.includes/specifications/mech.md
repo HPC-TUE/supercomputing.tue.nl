@@ -1,7 +1,3 @@
-| Type                        | Threads | Memory | Processor/GPU                                                                                   |
-|-----------------------------|---------|--------|-------------------------------------------------------------------------------------------------|
-| Storage ^(mech-storage001)^ | 32^SMT^ | 128GB  | 2x [AMD EPYC 7251](https://www.amd.com/en/products/cpu/amd-epyc-7251){:target=_blank} @ 2.10GHz |
-
 | Partition/Nodes        | Threads  | Memory      | Processor/GPU                                                                                                                                                 |
 |------------------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **mech.cm.q**          | **128**  | **512GB**   |                                                                                                                                                               |
@@ -17,4 +13,6 @@
 | **mech-cst-mov.cpu.q** | **192**  | **768GB**   |                                                                                                                                                               |
 | 1x ^(computeG)^        | 192      | 768GB       | 2x [AMD EPYC 9654](https://www.amd.com/en/products/cpu/amd-epyc-9654){:target=_blank} @ 2.40GHz                                                               |
 | **mech-cem.cpu.q**     | **576**  | **2304GB**  |                                                                                                                                                               |
-| 6x ^(computeH)^        | 96       | 384GB       | 1x [AMD EPYC 9654P](https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series/amd-epyc-9654p.html){:target=_blank} @ 2.40GHz |                                                                                               | 
+| 6x ^(computeH)^        | 96       | 384GB       | 1x [AMD EPYC 9654P](https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series/amd-epyc-9654p.html){:target=_blank} @ 2.40GHz |
+| **mech-dc.cpu1.q**     | **256**  | **1536GB**  |                                                                                                                                                               |
+| 2x ^(computeI)^        | 128      | 768GB       | 1x [AMD EPYC 9755](https://www.amd.com/en/products/processors/server/epyc/9005-series/amd-epyc-9755.html){:target=_blank} @ 2.70GHz                           |
