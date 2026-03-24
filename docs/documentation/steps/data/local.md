@@ -3,7 +3,7 @@ title: Local System
 toc: true
 ---
 
-# Local System
+# From/to laptop
 
 This page will describe how you can copy files to the TU/e Umbrella HPC Cluster from your local system (and vice versa).
 
