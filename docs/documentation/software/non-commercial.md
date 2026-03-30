@@ -120,7 +120,7 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 | Siesta                                      | 5.4.2-foss-2024a                                                                     | `Siesta`            |                             |
 | [SlurmViewer](../steps/jobs/slurmviewer.md) | 1.0.4-GCCcore-13.3.0                                                                 | `slurm-SlurmViewer` |                             |
 | [Spark](recipes/spark.md)                   | 3.5.1-foss-2023a-Java-17<br>4.0.1-foss-2024a-Java-21                                 | `Spark`             |                             |
-| VSCode                                      | 1.109.5<br>1.108.1                                                                   | `VSCode`            | Yes via CodeServer          |
+| VSCode                                      | 1.111.0<br>1.109.5                                                                   | `VSCode`            | Yes via CodeServer          |
 | VTK                                         | 9.5.0-foss-2025a                                                                     | `VTK`               |                             |
 
 *[foss]: Free and Open Source Software
