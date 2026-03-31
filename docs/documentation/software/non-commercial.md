@@ -101,7 +101,7 @@ Using the toolchain(s) the following software is avaiable. When the module is lo
 | [CP2K](recipes/cp2k.md)                     | 2023.1-foss-2023a<br>2025.2-foss-2025a                                               | `CP2K`              |                             |
 | dask                                        | 2025.5.1-gfbf-2025a                                                                  | `dask`              |                             |
 | git                                         | 2.50.0-GCCcore-14.2.0                                                                | `git`               |                             |
-| git-lfs                                     | 3.6.1                                                                                | `git-lfs`           |                             |
+| git-lfs                                     | 3.7.1                                                                                | `git-lfs`           |                             |
 | GROMACS                                     | 2025.2-foss-2025a                                                                    | `GROMACS`           |                             |
 | Julia                                       | 1.12.5-linux-x86_64<br>1.11.7-linux-x86_64                                            | `Julia`             | Yes via Pluto               |
 | [LAMMPS](recipes/lammps.md)                 | 29Aug2024_update2-foss-2024a-kokkos<br>29Aug2024_update2-foss-2024a-kokkos-CUDA-12.6.0 | `LAMMPS`          |                             |
