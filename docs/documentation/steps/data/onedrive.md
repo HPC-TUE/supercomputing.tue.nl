@@ -46,6 +46,8 @@ now see: **Success!** - _All done. Please go back to rclone._
 
 You can now close all windows and end the desktop session (left-click on your name in the upper right corner, choose _"Log Out..."_ and then the press _"Log Out"_ button).
 
+Please note that your HPC OneDrive login needs to be renewed every now and then.  This can be done with the command `rclone config reconnect OneDrive`.
+
 ### 3. Validate Configuration
 
 If everything went well OneDrive should now be visible in [Open OnDemand > Files](https://hpc.tue.nl/pun/sys/dashboard/files/){:target=_blank}, or in [SSH](../access/ssh/index.md):
