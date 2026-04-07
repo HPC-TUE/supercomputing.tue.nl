@@ -38,7 +38,7 @@ rclone_setup_onedrive # (1)!
 
 1.  This effectively runs the following command:
     ```shell
-    rclone --config=~/.config/rclone/rclone.conf config create --onedrive-drive-id=1 --onedrive-drive-type=business --onedrive-region=global OneDrive onedrive
+    rclone --config=~/.config/rclone/rclone.conf config create OneDrive onedrive --onedrive-region=global --onedrive-drive-id='OneDrive (business)'
     ```
 
 A web browser window should pop up allowing you to log in with your TU/e credentials. If everything went well you should
