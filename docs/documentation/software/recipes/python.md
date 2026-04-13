@@ -5,6 +5,8 @@ tags: [Software, Module]
 
 The TU/e Umbrella HPc cluster has environment modules available specially for Pyhton, an overview can be found here: [Python Modules](../python.md)
 
+NOTE: There are various versions of python available as modules, we recommend to to use a recent version as older version are no longer supported or updated: [Python Versions and their support](https://devguide.python.org/versions/#versions) 
+
 ## Test Python
 
 Load a Python version via environment modules.
