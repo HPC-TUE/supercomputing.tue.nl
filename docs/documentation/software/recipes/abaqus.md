@@ -19,17 +19,16 @@ Load the module(s)
 
 ```shell
 [user@umbrella]$ module purge
-[user@umbrella]$ module load intel/2024a
-[user@umbrella]$ module load Abaqus/2025
+[user@umbrella]$ module load intel/2025a
+[user@umbrella]$ module load Abaqus/2026
 ```
 
 Check the fortran compiler
 
 ```shell
-[user@umbrella]$ ifort --version
-ifort: remark #10448: Intel(R) Fortran Compiler Classic (ifort) is now deprecated and will be discontinued late 2024. Intel recommends that customers transition now to using the LLVM-based Intel(R) Fortran Compiler (ifx) for continued Windows* and Linux* support, new language support, new language features, and optimizations. Use '-diag-disable=10448' to disable this message.
-ifort (IFORT) 2021.13.0 20240602
-Copyright (C) 1985-2024 Intel Corporation.  All rights reserved.
+[user@umbrella]$ ifx --version
+ifx (IFX) 2025.1.1 20250418
+Copyright (C) 1985-2025 Intel Corporation. All rights reserved.
 ```
 
 Check abaqus:
@@ -40,7 +39,7 @@ Check abaqus:
 
 Abaqus Product Verification
 
-Tue 14 Oct 2025 11:40:20 AM CEST
+Mon 18 May 2026 09:48:20 AM CEST
 
 ------------------------------------------------------------
 
@@ -52,7 +51,7 @@ Verify test : Abaqus/Standard with user subroutines verification
 
 Verification procedure complete
 
-Tue 14 Oct 2025 11:40:38 AM CEST
+Mon 18 May 2026 09:48:38 AM CEST
 
 ------------------------------------------------------------
 ```
@@ -71,8 +70,8 @@ Tue 14 Oct 2025 11:40:38 AM CEST
 #SBATCH --time=00:05:00
 
 module purge
-module load intel/2024a
-module load Abaqus/2025
+module load intel/2025a
+module load Abaqus/2026
 
 cd $HOME/Jobs/Abaqus
 
