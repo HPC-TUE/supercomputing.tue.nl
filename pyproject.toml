@@ -11,8 +11,8 @@ dependencies = [
   "mkdocs-material[recommended,imaging]~=9.6",
   "mkdocs-awesome-nav~=3.0",
   "mkdocs-git-revision-date-localized-plugin~=1.5",
-  "mkdocs-glightbox~=0.4",
-  "qrcode~=8.0",
+  "mkdocs-glightbox~=0.5",
+  "qrcode~=8.2",
 ]
 
 [project.optional-dependencies]

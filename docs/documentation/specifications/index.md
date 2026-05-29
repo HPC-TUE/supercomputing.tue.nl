@@ -34,7 +34,7 @@ Generic computing nodes are freely available to everyone with a TU/e account. Th
 to high-performance computing capabilities, enabling users from any discipline to carry out a wide range of
 computational tasks.
 
---8<-- ".includes/specifications/tue.md"
+--8<-- "tue.inc"
 
 ### Departmental Nodes
 
@@ -45,39 +45,39 @@ departmental research priorities.
 
 === "APSE"
 
-    --8<-- ".includes/specifications/phys.md"
+    --8<-- "phys.inc"
 
 === "BE"
 
-    --8<-- ".includes/specifications/be.md"
+    --8<-- "be.inc"
 
 === "BmE"
 
-    --8<-- ".includes/specifications/bme.md"
+    --8<-- "bme.inc"
 
 === "CE&C"
 
-    --8<-- ".includes/specifications/chem.md"
+    --8<-- "chem.inc"
 
 === "EE"
 
-    --8<-- ".includes/specifications/ee.md"
+    --8<-- "ee.inc"
 
 === "ID"
 
-    --8<-- ".includes/specifications/id.md"
+    --8<-- "id.inc"
 
 === "M&CS"
 
-    --8<-- ".includes/specifications/mcs.md"
+    --8<-- "mcs.inc"
 
 === "ME"
 
-    --8<-- ".includes/specifications/mech.md"
+    --8<-- "mech.inc"
 
 === "MaTe"
 
-    --8<-- ".includes/specifications/mate.md"
+    --8<-- "mate.inc"
 
 #### Investment Options
 
