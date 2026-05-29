@@ -24,6 +24,6 @@ Stay tuned for announcements on future editions through the official channels.
 
 ## Past Keynotes & Speakers
 
---8<-- "keynote-speakers.md"
+--8<-- "hpc-school-keynote-speakers.inc"
 
 ## Past Events
