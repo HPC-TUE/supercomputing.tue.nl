@@ -30,6 +30,6 @@ search: {exclude: true}
 
 In the previous step we've added the **Public Key (:material-lock:)** to the **Server (:material-home:)**. We'll now focus on how to access the **Server (:material-home:)** with the freshly installed **Public Key (:material-lock:)** with your **Private Key (:material-key:)**.
 
---8<-- ".includes/ssh/access-keys.md"
+--8<-- "access-keys.inc"
 
 [Continue](step-5.md){ .md-button .md-button--primary }

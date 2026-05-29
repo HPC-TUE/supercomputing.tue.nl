@@ -114,4 +114,4 @@ to verify and accept the fingerprint. Use the table below to verify the fingerpr
 
 _Do **NOT** proceed if the fingerprint isn't matching and contact hpcsupport@tue.nl as soon as possible!_
 
---8<-- ".includes/ssh/fingerprints.md"
+--8<-- "documentation/steps/access/ssh/fingerprints.inc"
