@@ -43,7 +43,7 @@ hide: [meta, toc]
     this will determine how you generate and use your SSH keys. If you already have done this before, you can skip this
     step and click the **Continue** button below.
 
-    --8<-- ".includes/ssh/software.md"
+    --8<-- "software.inc"
 
     !!! note "Other SSH clients"
 

@@ -131,7 +131,9 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
-      base_path: *base_path
+      base_path:
+        - !relative
+        - *base_path
       check_paths: true
   - pymdownx.superfences
   - pymdownx.tabbed:

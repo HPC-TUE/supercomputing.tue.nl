@@ -9,7 +9,7 @@ which offers a user-friendly interface for SSH connections.
 
 ## Required Software
 
---8<-- ".includes/ssh/software.md"
+--8<-- "software.inc"
 
 ## Logging in
 
@@ -29,14 +29,14 @@ ssh username@hpc.tue.nl
 
 ??? note "Click here if you need detailed instructions on how to connect to the cluster"
 
-    --8<-- ".includes/ssh/access.md"
+    --8<-- "access.inc"
 
 ??? info "Server Key Fingerprints Overview for Verification"
 
     If you get a question about SSH key fingerprints from the server, you
     can verify them with the values below:
 
-    --8<-- ".includes/ssh/fingerprints.md"
+    --8<-- "fingerprints.inc"
 
 ## Passwordless Authentication
 
