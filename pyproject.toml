@@ -8,8 +8,8 @@ dynamic = [
 ]
 
 dependencies = [
-  "mkdocs-material[recommended,imaging]~=9.6",
-  "mkdocs-awesome-nav~=3.0",
+  "mkdocs-material[recommended,imaging]~=9.7",
+  "mkdocs-awesome-nav~=3.3",
   "mkdocs-git-revision-date-localized-plugin~=1.5",
   "mkdocs-glightbox~=0.5",
   "qrcode~=8.2",
