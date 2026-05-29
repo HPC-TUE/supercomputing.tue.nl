@@ -81,7 +81,7 @@ using SSH with your TU/e user name and password. It is highly recommended that y
 All disk space is local, not shared with other systems.
 
 !!! tip "Data transfer to/from other data solutions"
-    On [this page](../../steps/data/smb.md), some tips can be found on how to
+    On [this page](../../steps/data/smb-smbclient.md), some tips can be found on how to
     transfer data to and from TU/e long-term data solutions.
 
 | **Path**           | **Storage space**             | **Purpose**                                                                                                                                                                                                                                                               |

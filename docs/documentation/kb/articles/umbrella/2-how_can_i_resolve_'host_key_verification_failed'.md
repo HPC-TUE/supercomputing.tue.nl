@@ -21,4 +21,4 @@ This error suggests a mismatch in known host keys.
 
 To verify the SSH key fingerprints from the server you can consult the following table:
 
---8<-- ".includes/ssh/fingerprints.md"
+--8<-- "documentation/steps/access/ssh/fingerprints.inc"

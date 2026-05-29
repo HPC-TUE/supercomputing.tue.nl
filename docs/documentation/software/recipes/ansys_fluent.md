@@ -18,8 +18,8 @@ Load the module(s)
 
 ```shell
 [user@umbrella]$ module purge
-[user@umbrella]$ module load foss/2025a # or intel/2024a for -mpi=intel)
-[user@umbrella]$ module load ANSYS/2025R2
+[user@umbrella]$ module load foss/2025a # or intel/2025a for -mpi=intel)
+[user@umbrella]$ module load ANSYS/2026R1
 ```
 
 Check ANSYS Fluent:
@@ -67,7 +67,7 @@ FLUENT MPI test done.
 
 module purge
 module load foss/2025a
-module load ANSYS/2025R2
+module load ANSYS/2026R1
 
 fluent 3ddp -g -t${SLURM_NTASKS} -mpitest -mpi=openmpi
 ```
@@ -88,7 +88,7 @@ fluent 3ddp -g -t${SLURM_NTASKS} -mpitest -mpi=openmpi
 
 module purge
 module load foss/2025a
-module load ANSYS/2025R2
+module load ANSYS/2026R1
 
 JOB_NODES="$(scontrol show hostnames)"
 JOB_NODES=$(echo ${JOB_NODES} | tr ' ' ',')
