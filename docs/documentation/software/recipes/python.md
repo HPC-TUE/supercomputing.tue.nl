@@ -112,18 +112,18 @@ in your home directory. You can thus activate environments regardless of
 your current working directory.
 
 ```shell
-module load Python/3.11.3-GCCcore-12.3.0 
-module load Anaconda3/2023.09-0
-eval "$(conda shell.bash activate)"
+module load Python/3.13.1-GCCcore-14.2.0
+module load Anaconda3/2025.06-1
+eval "$(conda shell.bash hook)"
 conda create -n myconda
 ```
 
 After that, you can at all times activate your environment as follows:
 
 ```shell
-module load Python/3.11.3-GCCcore-12.3.0 
-module load Anaconda3/2023.09-0
-eval "$(conda shell.bash activate)"
+module load Python/3.13.1-GCCcore-14.2.0
+module load Anaconda3/2025.06-1
+eval "$(conda shell.bash hook)"
 conda activate myconda
 ```
 
@@ -151,11 +151,10 @@ module load TensorFlow/2.13.0-foss-2023a
 ```
 
 If you want to use an other version of TensorFlow than avaiable, you should
-create a [virtual environment](#virtual-environments),
-activate it and then
+create a [virtual environment](#virtual-environments), activate it and then
 
 ```shell
-TMPDIR=/scratch-node pip install --build /screatch-node tensorflow`
+pip install --build /scratch-node tensorflow`
 ```
 
 This is a slight variation on the `pip install tensorflow` command you might
