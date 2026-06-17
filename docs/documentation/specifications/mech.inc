@@ -1,7 +1,5 @@
 | Partition/Nodes        | Threads  | Memory      | Processor/GPU                                                                                                                                                 |
 |------------------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **mech.cm.q**          | **128**  | **512GB**   |                                                                                                                                                               |
-| 2x ^(computeF)^        | 64       | 256GB       | 1x [AMD EPYC 7713P](https://www.amd.com/en/products/cpu/amd-epyc-7713p){:target=_blank} @ 2.00GHz                                                             |
 | **mech.pf.q**          | **1280** | **11008GB** |                                                                                                                                                               |
 | 9x ^(computeA)^        | 64       | 512GB       | 2x [AMD EPYC 7601](https://www.amd.com/en/products/cpu/amd-epyc-7601){:target=_blank} @ 2.20GHz                                                               |
 | 7x ^(computeB)^        | 64       | 768GB       | 2x [AMD EPYC 7542](https://www.amd.com/en/products/cpu/amd-epyc-7542){:target=_blank} @ 2.90GHz                                                               |
@@ -16,3 +14,7 @@
 | 6x ^(computeH)^        | 96       | 384GB       | 1x [AMD EPYC 9654P](https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series/amd-epyc-9654p.html){:target=_blank} @ 2.40GHz |
 | **mech-dc.cpu1.q**     | **256**  | **1536GB**  |                                                                                                                                                               |
 | 2x ^(computeI)^        | 128      | 768GB       | 1x [AMD EPYC 9755](https://www.amd.com/en/products/processors/server/epyc/9005-series/amd-epyc-9755.html){:target=_blank} @ 2.70GHz                           |
+| **mech-mom-cm.cpu1.q** | **128**  | **512GB**   |                                                                                                                                                               |
+| 2x ^(computeF)^        | 64       | 256GB       | 1x [AMD EPYC 7713P](https://www.amd.com/en/products/cpu/amd-epyc-7713p){:target=_blank} @ 2.00GHz                                                             |
+| **mech-mom-cm.gpu1.q** | **64**   | **384GB**   |                                                                                                                                                               |
+| 1x ^(gpuA)^            | 64       | 384GB       | 1x [AMD EPYC 9354P](https://www.amd.com/en/products/processors/server/epyc/4th-generation-9004-and-8004-series/amd-epyc-9354p.html){:target=_blank} @ 2.00GHz<br/>1x [NVIDIA H100](https://www.nvidia.com/en-us/data-center/h100/){:target=_blank} |
