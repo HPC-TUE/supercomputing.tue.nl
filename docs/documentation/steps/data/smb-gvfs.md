@@ -1,9 +1,8 @@
 # Windows file shares (gvfs)
 
-!!! warning
-
-    This is currently in development and may not work yet.  To receive updates,
-    please leave a comment below this page.
+The `gio` command (which comes with
+[GVfs](https://wiki.gnome.org/Projects/gvfs)) can be used to access a.o.
+Windows file shares.
 
 ## Connecting
 
@@ -13,28 +12,38 @@
     ```
     gio mount smb://<server>/<share>
     ```
-    Then, enter your username and password when prompted:
+    Then, enter your username, domain, and password when prompted.  The default
+    username is likely OK.  The domain should be `TUE`.
     ```
-    Authentication Required
-    Enter user and password for share “software” on “fs-cmp-op01.campus.tue.nl”:
-    User [guus]: <username>
-    Domain [WORKGROUP]: CAMPUS.TUE.NL
-    Password: <password>
-    ```
-    Be sure to enter `CAMPUS.TUE.NL` when asked for the domain.
-
-3.  Get the path at which this share is mounted by running the following command:
-    ```
-    gio info smb://<server>/<share> | grep ^local
+    Password required for share software on campusmp.campus.tue.nl
+    User [20232655]:
+    Domain [SAMBA]: TUE
+    Password:
     ```
 
-## Navigating the Windows file share
+3.  GVfs mounts all shares in `$XDG_RUNTIME_DIR/gvfs`.  To see what dir this
+    is, run:
+    ```
+    echo $XDG_RUNTIME_DIR/gvfs
+    ```
 
-To browse the Windows file share, you can simply `cd` to the "local path" that
-you obtained in step 3 above.
+4.  List mounted share names using the following command:
+    ```
+    ls $XDG_RUNTIME_DIR/gvfs
+    ```
 
-Moving, copying, and removing files on the Windows file share can be done using
-standard Linux tools such as `mv`, `cp`, and `rm`.
+5.  To get the local path to your share, simply append the share name obtained in
+    step 4 to the dir name obtained in step 3, e.g.
+    ```
+    echo $XDG_RUNTIME_DIR/gvfs/'smb-share:server=campusmp.campus.tue.nl,share=software'
+    ```
+
+## Using
+
+To browse the Windows file share, you can simply `cd` to the local path that
+you obtained in step 6 above.  Moving, copying, and removing files on the
+Windows file share can be done using standard Linux tools such as `mv`, `cp`,
+and `rm`.
 
 ## Disconnecting
 
@@ -42,3 +51,5 @@ standard Linux tools such as `mv`, `cp`, and `rm`.
     ```
     gio mount -u smb://<server>/<share>
     ```
+
+(To get a list of mounted shares, run `gio mount -l`.)
