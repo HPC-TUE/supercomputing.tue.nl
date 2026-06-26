@@ -13,7 +13,7 @@ first be configured as an rclone remote.
     ```
 
 3.  Follow the wizard.  Relevant info to be entered:
-     - name: name of the remote; you can make something up
+     - name: name of the remote; you can make something up, e.g. `blahblah`
      - storage: `smb`
      - host: hostname of server, e.g. `campusmp.campus.tue.nl`
      - user: your TU/e username; for most people this is an 8 digit number
@@ -34,4 +34,6 @@ first be configured as an rclone remote.
 
 ## Using
 
-Rclone can be used for Windows file shares in the same way it can be used for OneDrive; please see our [documentation](onedrive.md#usage).
+Rclone can be used for Windows file shares in the same way it can be used for
+OneDrive; please see our [documentation](onedrive.md#usage).  Be use to use the
+remote name that entered above, e.g. `blahblah:`.
