@@ -38,6 +38,12 @@ Windows file shares.
     echo $XDG_RUNTIME_DIR/gvfs/'smb-share:server=campusmp.campus.tue.nl,share=software'
     ```
 
+!!! note
+
+    The mounted Windows file share is only available on the login node that you
+    ran these commands on. It is not automatically available on other login
+    nodes, nor on the compute nodes.
+
 ## Using
 
 To browse the Windows file share, you can simply `cd` to the local path that
