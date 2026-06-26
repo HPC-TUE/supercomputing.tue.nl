@@ -32,8 +32,8 @@ Windows file shares.
     ls $XDG_RUNTIME_DIR/gvfs
     ```
 
-5.  To get the local path to your share, simply append the share name obtained in
-    step 4 to the dir name obtained in step 3, e.g.
+5.  To get the local path to your share, simply concatenate the dir name and
+    the share name obtained the last two steps, e.g.
     ```
     echo $XDG_RUNTIME_DIR/gvfs/'smb-share:server=campusmp.campus.tue.nl,share=software'
     ```
@@ -47,9 +47,9 @@ Windows file shares.
 ## Using
 
 To browse the Windows file share, you can simply `cd` to the local path that
-you obtained in step 6 above.  Moving, copying, and removing files on the
-Windows file share can be done using standard Linux tools such as `mv`, `cp`,
-and `rm`.
+you obtained in the last step above.  Moving, copying, and removing files on
+the Windows file share can be done using standard Linux tools such as `mv`,
+`cp`, and `rm`.
 
 ## Disconnecting
 
