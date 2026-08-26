@@ -13,7 +13,6 @@ theme:
   language: en
   logo: assets/images/logo.svg
   favicon: assets/images/favicon.ico
-  extra_javascript: javascripts/bounce-hpc.js
   features:
     - navigation.instant
     - navigation.instant.progress
