@@ -4,6 +4,8 @@ docs_dir: &base_path docs
 repo_name: HPC-TUE/supercomputing.tue.nl
 repo_url: https://github.com/HPC-TUE/supercomputing.tue.nl
 edit_uri: edit/main/docs/
+extra_javascript:
+  - javascripts/bounce-hpc.js
 theme:
   name: material
   custom_dir: overrides
