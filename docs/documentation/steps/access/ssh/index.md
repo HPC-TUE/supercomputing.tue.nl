@@ -38,6 +38,14 @@ ssh username@hpc.tue.nl
 
     --8<-- "fingerprints.inc"
 
+    If you have connected previously and the key has been changed on the host, you may see:
+
+    ```
+    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
+    ```
+
+    To clear the keys that you have stored on your machine, use `ssh-keygen -R hpc.tue.nl`
+
 ## Passwordless Authentication
 
 A critical aspect of SSH is its key-based authentication, which employs a pair of cryptographic keys: a public key and a
