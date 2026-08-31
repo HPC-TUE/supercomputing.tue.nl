@@ -19,6 +19,7 @@ Load the module(s)
 
 ```shell 
 [user@umbrella]$ module purge
+[user@umbrella]$ module load Umbrella/2024
 [user@umbrella]$ module load MATLAB/2024b
 ```
 
@@ -58,6 +59,7 @@ Check the GPU(s) available. This command only gives output on nodes with GPU (MI
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load MATLAB/2024b
 
 matlab -batch simple
@@ -88,6 +90,7 @@ MATLAB by default creates a parpool("Processes") using the available CPUs (--cpu
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load MATLAB/2024b
 
 matlab -batch parallel

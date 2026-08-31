@@ -12,6 +12,8 @@ The following script will do the trick:
 #SBATCH --mem=64G                    #FIXME: total RAM needed
 #SBATCH --time=4:00:00               #FIXME: run time needed
 
+module purge
+module load Umbrella/2024
 module load Spark
 spark-submit --master 'local[*]' my_spark_script.py
 ```
@@ -64,6 +66,7 @@ Please update the `#SBATCH` values accordingly to your needs.
 
         srun "$_SCRIPT" srunning
     else # if run by srun, decide via the Slurm procid whether we are master or worker
+        module load Umbrella/2024
         module load Spark
 
         # trim "bin/spark-submit" from the below path to get Spark root
@@ -137,6 +140,7 @@ it has started (time greater than 00:00, nodelist nonempty). You will
 `temp/<JobID>_spark_master` file. This can be used as follows to run an example:
 
 ```shell
+module load Umbrella/2024
 module load Spark
 run-example --master $(<temp/<JobID>_spark_master) SparkPi 100
 ```

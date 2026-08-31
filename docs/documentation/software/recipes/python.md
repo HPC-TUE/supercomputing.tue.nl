@@ -13,6 +13,7 @@ Load a Python version via environment modules.
 
 ```shell
 [user@umbrella]$ module purge
+[user@umbrella]$ module load Umbrella/2024
 [user@umbrella]$ module load Python/3.11.3
 [user@umbrella]$ python --version
 Python 3.11.3
@@ -22,6 +23,7 @@ Using environment modules to make packages available for import.
 
 ```shell
 [user@umbrella]$ module purge
+[user@umbrella]$ module load Umbrella/2024
 [user@umbrella]$ module load PyTorch/2.1.2-foss-2023a
 [user@umbrella]$ python
 Python 3.11.3 (main, Feb  2 2024, 18:52:27) [GCC 12.3.0] on linux
@@ -45,6 +47,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load SciPy-bundle/2023.07-gfbf-2023a
 
 cd $HOME/Jobs/Python
@@ -112,6 +115,7 @@ in your home directory. You can thus activate environments regardless of
 your current working directory.
 
 ```shell
+module load Umbrella/2024
 module load Python/3.13.1-GCCcore-14.2.0
 module load Anaconda3/2025.06-1
 eval "$(conda shell.bash hook)"
@@ -121,6 +125,7 @@ conda create -n myconda
 After that, you can at all times activate your environment as follows:
 
 ```shell
+module load Umbrella/2024
 module load Python/3.13.1-GCCcore-14.2.0
 module load Anaconda3/2025.06-1
 eval "$(conda shell.bash hook)"

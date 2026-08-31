@@ -40,7 +40,9 @@ Copyright 1988-2025 Wolfram Research, Inc.
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=2gb
 #SBATCH --time=00:05:00
+
 module purge
+module load Umbrella/2024
 module load Mathematica/14.3.0
 wolfram -script sample-simple.wl
 ```
@@ -71,7 +73,9 @@ Mathematica can be run in parallel using the built in Parallel commands or by ut
 #SBATCH --cpus-per-task=8
 #SBATCH --mem-per-cpu=2gb
 #SBATCH --time=00:05:00
+
 module purge
+module load Umbrella/2024
 module load Mathematica/14.3.0
 worlfram -script sample-parallel.wl
 ```
@@ -180,6 +184,7 @@ it, using the following Slurm batch script.
     #SBATCH --output=slurm-%j.out
     #SBATCH --time=00:01:00
 
+    module load Umbrella/2024
     module load Mathematica/14.3.0
     wolfram -script hpc.wl
     ```

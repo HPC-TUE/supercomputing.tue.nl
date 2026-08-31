@@ -21,6 +21,7 @@ ANTs is useful for managing, interpreting and visualizing multidimensional data.
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load ANTs/2.5.1-foss-2023a
 
 cd $HOME/Jobs/ANTs

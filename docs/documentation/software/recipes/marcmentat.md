@@ -19,6 +19,7 @@ Use your browser to connect to [Umbrella On Demand](https://hpc.tue.nl){:target=
     
     ```shell 
     [user@umbrella]$ module purge
+    [user@umbrella]$ module load Umbrella/2024
     [user@umbrella]$ module load MarcMentat/2025.1-intel-2024a
     ```
     
@@ -89,6 +90,7 @@ Returned 20 licenses for Group MSCONE (Marc)
     
     ```shell 
     [user@umbrella]$ module purge
+    [user@umbrella]$ module load Umbrella/2024
     [user@umbrella]$ module load MarcMentat/2025.1-intel-2024a
     ```
     Check execution on empty data file (test.dat) and fortran code (main.f)
@@ -117,6 +119,7 @@ Returned 20 licenses for Group MSCONE (Marc)
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load MarcMentat/2025.1-intel-2024a
 
 # The input file input.dat can be referenced without the .dat extension
@@ -138,6 +141,7 @@ run_marc -j input -v no -b no -nte ${SLURM_CPUS_PER_TASK} -nts ${SLURM_CPUS_PER_
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load MarcMentat/2025.1-intel-2024a
 
 # The input file input.dat can be referenced without the .dat extension

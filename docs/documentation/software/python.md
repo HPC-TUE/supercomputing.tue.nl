@@ -3,7 +3,7 @@ title: Python software modules
 tags: [ Software ]
 ---
 
-## Python and related software.
+## Python and related software in Umbrella/2024.
 
 | Name                             | Supported Versions                                                           | Module(s)               |    [https://hpc.tue.nl](https://hpc.tue.nl){:target=_blank}     |
 |----------------------------------|------------------------------------------------------------------------------|-------------------------|:---------------------------------------------------------------:|

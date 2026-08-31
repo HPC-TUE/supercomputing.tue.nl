@@ -33,6 +33,7 @@ Use your browser to connect to [Umbrella On Demand](https://hpc.tue.nl){:target=
 
 cd $HOME/Jobs/Comsol
 
+module load Umbrella/2024
 module load COMSOL/6.3.0.420
 
 MODEL=comsol_smalltest
@@ -55,6 +56,7 @@ comsol batch -inputfile $MODEL.mph -outputfile $MODEL\_out.mph -np ${SLURM_CPUS_
 
 cd $HOME/Jobs/Comsol
 
+module load Umbrella/2024
 module load COMSOL/6.3.0.420-CKL
 
 MODEL=comsol_smalltest

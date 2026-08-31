@@ -18,6 +18,7 @@ Load the module(s)
 
 ```shell
 [user@umbrella]$ module purge
+[user@umbrella]$ module load Umbrella/2024
 [user@umbrella]$ module load foss/2025a # or intel/2025a for -mpi=intel)
 [user@umbrella]$ module load ANSYS/2026R1
 ```
@@ -66,6 +67,7 @@ FLUENT MPI test done.
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load foss/2025a
 module load ANSYS/2026R1
 
@@ -87,6 +89,7 @@ fluent 3ddp -g -t${SLURM_NTASKS} -mpitest -mpi=openmpi
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load foss/2025a
 module load ANSYS/2026R1
 
