@@ -32,7 +32,7 @@
             The server's host key is unknown. Do you trust this host key?
             ```
 
-            Choose `Yes` to add the server's fingerprint to the known hosts, allowing future connections without prompts.
+            After verifying the key is one of the keys shown below, choose `Yes` to add the server's fingerprint to the known hosts, allowing future connections without prompts.
 
         6. **Access the Server**:
 
