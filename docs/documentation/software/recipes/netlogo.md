@@ -39,6 +39,7 @@ Check commandline version of NetLogo
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load NetLogo/6.4.0-64
 
 mdl="model.nlogo"

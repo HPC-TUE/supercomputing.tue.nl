@@ -113,6 +113,7 @@ eppy:
 
 ##### creating the python virtual environment with eppy and geomeppy
 
+-   module load Umbrella/2024
 -   module load anaconda
 -   conda create -n eppy_env python=3.7
 -   conda activate eppy_env

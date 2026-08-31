@@ -6,7 +6,7 @@ To use commercial software a license is needed, depending on the software this i
 
 The command `module avail ansys` finds modules case insensitive, so it will show ansys/2023r1 and ANSYS/2024R1, but `module load` is case sensitive.
 
-Available as [modules](../steps/software/index.md):
+Available as [modules](../steps/software/index.md) (Umbrella/2024):
 
 | Name                                          | Website                                                                                                           | Usage Documentation                         | https://hpc.tue.nl |
 |-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------------------------------------|--------------------|

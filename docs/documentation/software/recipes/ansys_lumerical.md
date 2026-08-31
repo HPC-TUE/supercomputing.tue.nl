@@ -18,6 +18,7 @@ Load the modules
 
 ``` shell
 [user@umbrella]$ module purge
+[user@umbrella]$ module load Umbrella/2024
 [user@umbrella]$ module load intel/2025a
 [user@umbrella]$ module load Lumerical/2025-R2.2
 ```
@@ -43,6 +44,7 @@ Ansys Lumerical 2025 R2.2 FDTD Solver Version 8.34.4251 (Linux 64bit)
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load intel/2025a
 module load Lumerical/2025-R2.2
 
@@ -80,6 +82,7 @@ OpenMPI:
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load intel/2025a
 module load Lumerical/2025-R2.2
 
@@ -101,6 +104,7 @@ mpiexec -n ${SLURM_NTASKS} fdtd-engine-impi-lcl -t ${SLURM_CPUS_PER_TASK} -logal
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load foss/2025a
 module load Lumerical/2025-R2.2
 

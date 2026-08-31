@@ -19,6 +19,7 @@ Load the module(s)
 
 ```shell
 [user@umbrella]$ module purge
+[user@umbrella]$ module load Umbrella/2024
 [user@umbrella]$ module load intel/2025a
 [user@umbrella]$ module load Abaqus/2026
 ```
@@ -70,6 +71,7 @@ Mon 18 May 2026 09:48:38 AM CEST
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load intel/2025a
 module load Abaqus/2026
 

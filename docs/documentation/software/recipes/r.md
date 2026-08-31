@@ -19,6 +19,7 @@ Load the module(s)
 
 ```shell 
 [user@umbrella]$ module purge
+[user@umbrella]$ module load Umbrella/2024
 [user@umbrella]$ module load R/4.5.1-gfbf-2025a
 ```
 
@@ -51,6 +52,7 @@ Check Rscript
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load R/4.5.1-gfbf-2025a
 
 Rscript simple.r

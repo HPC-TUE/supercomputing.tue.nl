@@ -19,6 +19,7 @@ Load the modules
 
 ``` shell
 [user@umbrella]$ module purge
+[user@umbrella]$ module load Umbrella/2024
 [user@umbrella]$ module load StarCCM+/2024.0001
 ```
 
@@ -60,6 +61,7 @@ Simcenter STAR-CCM+ 2402.0001 Build 19.02.013 (linux-x86_64-2.28/gnu11.2)
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load StarCCM+/2024.0001
 
 starccm+ -batch MeshAndSave.java example.sim
@@ -79,6 +81,7 @@ starccm+ -batch MeshAndSave.java example.sim
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load gompi/2023a
 module load StarCCM+/2024.0001
 

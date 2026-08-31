@@ -28,6 +28,7 @@ A CasADi module for MATLAB needs to be loaded so MATLAB can use CasADi.
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load CasADi/3.7.2-linux64-matlab
 module load MATLAB/2025b
 

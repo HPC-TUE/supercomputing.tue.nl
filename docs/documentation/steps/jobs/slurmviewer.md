@@ -7,13 +7,14 @@ available as a [module](../../steps/software/index.md) on the login node and nee
 Load the module
 
 ```shell
-user@umbrella$ module load SlurmViewer
+[user@umbrella]$ module load Umbrella/2024
+[user@umbrella]$ module load SlurmViewer
 ```
 
 Start SlurmViewer
 
 ```shell
-user@umbrella$ slurm-viewer
+[user@umbrella]$ slurm-viewer
 ```
 The interface can be used with a mouse (it's clickable)
 

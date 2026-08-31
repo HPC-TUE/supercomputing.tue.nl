@@ -13,6 +13,7 @@ Load the modules
 
 ``` shell
 [user@umbrella]$ module purge
+[user@umbrella]$ module load Umbrella/2024
 [user@umbrella]$ module load CP2K/2023.1-foss-2023a
 ```
 Check commandline version of Application
@@ -43,6 +44,7 @@ Check commandline version of Application
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load CP2K/2023.1-foss-2023a
 cp2k.psmp example.inp
 ```
@@ -61,6 +63,7 @@ cp2k.psmp example.inp
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load CP2K/2023.1-foss-2023a
 mpirun  -n ${SLURM_NTASKS} cp2k.popt example.inp
 ```

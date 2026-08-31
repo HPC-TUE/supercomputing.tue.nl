@@ -19,6 +19,7 @@ Load the modules
 
 ``` shell
 [user@umbrella]$ module purge
+[user@umbrella]$ module load Umbrella/2024
 [user@umbrella]$ module load intel/2023a
 [user@umbrella]$ module load ANSYS/2024R1
 ```
@@ -45,6 +46,7 @@ IronPython 2.7.0.40 on .NET 4.0.30319.42000
 #SBATCH --time=00:05:00
 
 module purge
+module load Umbrella/2024
 module load intel/2023a
 module load ANSYS/2024R1
 

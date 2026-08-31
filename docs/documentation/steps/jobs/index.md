@@ -39,6 +39,7 @@ Here's an example job script for a CPU only node:
 
 # Load modules or software if needed
 # In the example PyTorch is made available for import in to my_sript.py
+module load Umbrella/2024
 module load PyTorch/2.1.2-foss-2023a
 
 # Execute the script or command
@@ -61,6 +62,7 @@ Here's an example job script for a GPU node:
 
 # Load modules or software if needed optimized for GPU use if available
 # In the example PyTorch is made available for import in to my_sript.py
+module load Umbrella/2024
 module load PyTorch/2.1.2-foss-2023a-CUDA-12.1.1
 
 # Execute the script or command

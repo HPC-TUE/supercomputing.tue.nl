@@ -32,6 +32,7 @@ As Jupyter is an Interactive Development Environment, running it as a batch job 
 
 # Load the module that can run Jupyter Notebooks
 
+module load Umbrella/2024
 module load jupyter-server/2.7.2-GCCcore-12.3.0
 
 # Load modules or software if needed optimized for GPU use if available

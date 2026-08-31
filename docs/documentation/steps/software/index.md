@@ -20,6 +20,12 @@ The most common used module commands are:
 !!! note "Modules are case insensitive"
     The command `module avail` finds and lists modules case insensitive but `module load` is **case sensitive**.
 
+Before using any software module, it is needed to load an Environment module (Umbrella or EESSI) to ensure that the environment is correctly set up. For example, to use the Umbrella 2024 stack, you would run:
+
+```shell
+module load Umbrella/2024
+```
+
 ??? example "Usage Example (Python)"
 
     ??? shell "module avail"
@@ -91,6 +97,7 @@ The most common used module commands are:
     ??? shell "module load Python/3.11.3-GCCcore-12.3.0"
 
         ```shell
+        $ module load Umbrella/2024
         $ module load Python/3.11.3-GCCcore-12.3.0
         $ module list
 
@@ -172,6 +179,7 @@ get
 
 After loading this becomes
 
+    $ module load Umbrella/2024
     $ module load intel
     $ icc
     icc: command line error: no files specified; for help type "icc -help"
