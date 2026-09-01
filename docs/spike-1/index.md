@@ -20,8 +20,7 @@ Spike-1 is a high-performance GPU computing platform at TU/e, built on NVIDIA DG
 |      Container Registry | [Harbor](https://goharbor.io/){:target=_blank}                                            |
 |        Software License | [NVIDIA AI Enterprise](https://www.nvidia.com/en-us/data-center/products/ai-enterprise/){:target=_blank} (full license) |
 |              Access URL | [spike.run.ai](https://spike.run.ai){:target=_blank}                                      |
-|    Public Documentation | [docs.spike.tue.nl](https://docs.spike.tue.nl){:target=_blank}                            |
-|     Admin Documentation | [admin.spike.tue.nl](https://admin.spike.tue.nl){:target=_blank}                          |
+|           Documentation | [docs.spike.tue.nl](https://docs.spike.tue.nl){:target=_blank}                            |
 
 !!! note "Container-Based Workflows"
 
@@ -29,10 +28,7 @@ Spike-1 is a high-performance GPU computing platform at TU/e, built on NVIDIA DG
 
 ## Documentation
 
-To access the official documentation:
-
-- **Public Documentation:** [docs.spike.tue.nl](https://docs.spike.tue.nl){:target=_blank}
-- **Admin Documentation:** [admin.spike.tue.nl](https://admin.spike.tue.nl){:target=_blank}
+Official documentation and user guides for Spike-1 are available at [docs.spike.tue.nl](https://docs.spike.tue.nl){:target=_blank}.
 
 ## Associated Departments
 
