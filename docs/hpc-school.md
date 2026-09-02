@@ -11,6 +11,10 @@ template: hpc-school.html
 
 The next Autumn HPC School edition will take place between 29-Sep-2026 and 09-Oct-2026. Hope to see you there!
 
+# Register for the next Autumn HPC School!
+[Autumn HPC School 2026](https://hpc-training.nl){ .md-button .md-button--primary }
+
+# About HPC Schools
 The HPC School events at the TU/e Supercomputing Center are specialized training sessions focused on high-performance
 computing (HPC). Held twice a year, typically in Autumn and Spring, these events cater to a wide audience, including
 students, researchers, and professionals from academia and industry. Each session provides in-depth training on
