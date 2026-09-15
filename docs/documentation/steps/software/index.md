@@ -5,7 +5,7 @@ tags: [Software]
 
 # --8<-- [start:lmod]
 
-Environment Modules provide a convenient way to dynamically change the users’ environment through modulefiles. With this module system, different versions of software, like compilers or special math libraries, are easily accessable and usable. Different modules are available, varying from GCC  or Intel Compilers, Python versions and software compiled from source and ready to use. Environment modules can activate commercial software and thier licenses.
+Environment Modules provide a convenient way to dynamically change the users’ environment through modulefiles. With this module system, different versions of software, like compilers or special math libraries, are easily accessable and usable. Different modules are available, varying from GCC or Intel Compilers, Python versions and software compiled from source and ready to use. Environment modules can activate commercial software and thier licenses.
 
 The most common used module commands are:
 
@@ -20,7 +20,39 @@ The most common used module commands are:
 !!! note "Modules are case insensitive"
     The command `module avail` finds and lists modules case insensitive but `module load` is **case sensitive**.
 
-Before using any software module, it is needed to load an Environment module (Umbrella or EESSI) to ensure that the environment is correctly set up. For example, to use the Umbrella 2024 stack, you would run:
+### Gateway Environment Modules
+
+Before using any software module, it is needed to load an gateway environment module (Umbrella or EESSI) to ensure that the environment is correctly set up and software modules become available.
+
+### Gateway modules currently available
+
+#### Umbrella/2018 - Legacy Software
+
+The available software modules include older versions of compilers, libraries, and tools that are maintained for compatibility with legacy projects. Commercial software can have license issues or compatiblility problems with the OS of the system. This gateway module will be removed in the near future.
+
+#### Umbrella/2024 - Current Software
+
+The available software modules include the most up-to-date versions of compilers, libraries, and tools that are actively maintained and supported. This gateway module provides access to the latest stable software environment for general use.
+
+#### Umbrella/2026 - New Build Software
+
+The available software modules include the latest versions of compilers, libraries, and tools that are under active development and testing. This gateway module provides access to software optimized for specific hardware achitectures available in the TU/e Umbrella HPC Cluster.
+
+#### EESSI/2023.06 - Legacy Software
+
+The available software modules include older versions of compilers, libraries, and tools that are maintained for compatibility with legacy projects. EESSI modules are optimized for system hardware architectures.
+
+#### EESSI/2025.06 - Current Software
+
+The software modules include the most up-to-date versions of compilers, libraries, and tools that are actively maintained and supported. EESSI modules are optimized for system hardware architectures.
+
+#### EESSI/2026.06 - New Build Software
+
+The software modules include the latest versions of compilers, libraries, and tools that are under active development and testing. EESSI modules are optimized for system hardware architectures.
+
+### Example
+
+To use the **Umbrella 2024** software, which currently has most of the up-to-date modules, you would load the Umbrella/2024 gateway module:
 
 ```shell
 module load Umbrella/2024
@@ -139,6 +171,7 @@ More detailed information about what modules are available in the TU/e Umbrella 
 Currently development of computers is at a point, where you cannot just make a processor run faster (e.g. by increasing its clock frequency), because limits of physics have been reached in semiconductor development. Therefore the current approach is to split the work into multiple, ideally independent parts, which are then executed in parallel. Similar to cleaning your house, where everybody takes care of a few rooms, on a supercomputer this is usually done with parallel programming paradigms like Open Multi-Processing (OpenMP) or Message Passing Interface (MPI). However like the fact that you only have one vacuum cleaner in the whole house which not everybody can use at the same time, there are limits on how fast you can get, even with a big number of processing units/cpus/cores (analogous to people in the metaphor) working on your problem (cleaning the house) in parallel.
 
 ## Software Manipulation
+
 ### Generic software
 
 The clusters have quite a few programs pre-installed. They are managed
