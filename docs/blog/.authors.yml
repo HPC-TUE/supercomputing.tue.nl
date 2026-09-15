@@ -2,7 +2,7 @@ authors:
   "a.c.m.bertens":
     name: Guus Bertens
     description: Quantum Computing / Cluster Administrator
-    avatar: "/assets/images/people/a.c.m.bertens.webp"
+    avatar: "/assets/images/people/a.c.m.bertens.jpg"
   "j.h.m.verbiesen":
     name: Han Verbiesen
     description: Service Manager
@@ -141,3 +141,53 @@ authors:
     avatar: /assets/images/logo/nvidia.svg
     url: https://www.nvidia.com
     description: ""
+  "nxp":
+    name: NXP
+    avatar: /assets/images/sponsor/nxp.png
+    url: https://www.nxp.com
+    description: "Together We Accelerate The Breakthroughs That Advance Our World. NXP builds solutions -- not just products -- that enhance the capabilities of people, organizations and the world at large. We are committed to keeping our customers ahead of the competition and helping them to prepare for change."
+  "a.kashkanova":
+    name: Anna Kashkanova
+    avatar: /assets/images/people/a.kashkanova.jpeg
+    url: https://www.tue.nl/en/research/researchers/anna-kashkanova
+    description: "Anna Kashkanova is an assistant professor of Nanoparticle Metrology in the research cluster for Molecular Biosensing at the TU/e department of Applied Physics. Her research focuses on the development of advanced metrology tools to characterize complex biological and synthetic nanoparticles. Traditional analytical methods often rely on ensemble averages, which obscure the critical multiparametric heterogeneity found in populations of viruses, extracellular vesicles, and gene therapy vectors. Her lab builds platforms that measure multiple physical and chemical properties of every individual particle simultaneously to resolve this diversity."
+  "a.knupfer":
+    name: Andreas Knüpfer
+    avatar: /assets/images/people/a.knupfer.webp
+    url: https://www.casus.science/scientific-computing-core/
+    description: "Dr. Andreas Knüpfer is Head of the Scientific Computing Core at CASUS (Center for Advanced Systems Understanding), Görlitz, Helmholtz-Zentrum Dresden-Rossendorf e.V. (HZDR)."
+  "j.delpozomellado":
+    name: Jesús J. del Pozo Mellado
+    avatar: /assets/images/people/j.delpozomellado.jpg
+    url: https://www.tue.nl/en/research/researchers/
+    description: "Jesús J. del Pozo Mellado works as a postdoc at the Coherence and Quantum Technology group in the Department of Applied Physics at Eindhoven University of Technology. He works on cutting-edge, full-stack quantum computing systems, encompassing quantum hardware, software, and algorithms. His expertise in statistical mechanics, precision measurements, and molecular spectroscopy uniquely position him to tackle the profound challenges posed by quantum computing."
+  "a.torres":
+    name: Ariana Torres
+    avatar: /assets/images/people/a.torres.png
+    url: https://www.surf.nl
+    description: "Ariana Torres did her bachelor in Physics in Mexico, followed by an MSc in Physics and Material Science in a joint program between the ENS-Lyon and the University of Amsterdam. In 2016 she finished her PhD (cum laude) in the Computational Chemistry group at the University of Amsterdam, followed by a postdoc in Polymer Chemistry at the same university. She joined SURF to help with quantum computing projects and currently works on several quantum projects related to chemistry, quantum internet, and emulators, with different Dutch universities."
+  "m.moller":
+    name: Matthias Möller
+    avatar: /assets/images/people/m.moller.png
+    url: https://www.tudelft.nl/staff/m.moller/
+    description: "Matthias Möller is an Associate Professor in the Department of Applied Mathematics, section Numerical Analysis, at TU Delft and the Scientific Director of the Delft Institute for Computational Science and Engineering. His research centers on the development of computational methods for numerical simulation and design optimization, working at the intersection of classical scientific computing and emerging hardware-accelerated paradigms, including quantum computing."
+  "s.dolas":
+    name: Sagar Dolas
+    avatar: /assets/images/people/s.dolas.jpg
+    url: https://www.surf.nl
+    description: "Sagar Dolas is Senior Advisor & Program Manager at SURF. He leads initiatives related to Advanced Computing and focuses on the future of applications and infrastructure for scientific research, with a background in high-performance computing and applied mathematics."
+  "datalad":
+    name: DataLad
+    avatar: /assets/images/sponsor/datalad.png
+    url: https://www.datalad.org
+    description: "DataLad is a free and open source distributed data management system that keeps track of your data, creates structure, ensures reproducibility, supports collaboration, and integrates with widely used data infrastructure."
+  "eurohpc-ju":
+    name: EuroHPC JU
+    avatar: /assets/images/sponsor/eurohpc-ju.png
+    url: https://eurohpc-ju.europa.eu
+    description: "The European High Performance Computing Joint Undertaking (EuroHPC JU) pools European resources to develop top-of-the-range exascale supercomputers for processing big data, based on competitive European technology."
+  "sc-brabant":
+    name: Supercomputing Brabant
+    avatar: /assets/images/sponsor/sc-brabant.jpeg
+    url: https://www.supercomputingbrabant.nl
+    description: "Supercomputing Brabant is a regional initiative connecting Brabant-based knowledge institutions, companies and researchers to supercomputing facilities and expertise."
