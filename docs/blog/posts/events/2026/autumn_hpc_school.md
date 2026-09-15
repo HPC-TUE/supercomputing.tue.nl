@@ -70,12 +70,14 @@ schedule:
 # Autumn HPC School
 
 **Supercomputing at the Autumn HPC School! This 2-week program is perfect for students and researchers keen to explore
-the world of AI and high-performance computing. Join us for our excellent keynotes and workshops and unlock the power of
-HPC.**
+the world of AI, quantum computing, and high-performance computing. Join us for our excellent keynotes and workshops
+and unlock the power of HPC.**
 
 Be part of our free event and select tracks that match your interests. Seats are limited, so make sure to
 [**register**](https://hpc.copernica.tue.nl/HPC_Autumn_2026_subscribe){:target=_blank} quickly to secure your
-spot!
+spot! For the latest information, including up-to-date session locations, always check
+[hpc-training.nl](https://hpc-training.nl){:target=_blank}, and see [quantumeindhoven.nl](https://quantumeindhoven.nl){:target=_blank}
+for the dedicated Eindhoven Quantum Computing Workshop embedded within the school.
 
 This HPC School is made possible through the collaboration between the [TU/e Supercomputing Center](https://www.linkedin.com/in/supercomputing/){:target=_blank}, [SURF](https://www.surf.nl){:target=_blank}, & [EuroCC Netherlands](https://eurocc-netherlands.nl/nl/){:target=_blank}.
 
