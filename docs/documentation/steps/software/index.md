@@ -34,7 +34,7 @@ The available software modules include older versions of compilers, libraries, a
 
 The available software modules include the most up-to-date versions of compilers, libraries, and tools that are actively maintained and supported. This gateway module provides access to the latest stable software environment for general use.
 
-#### Umbrella/2026 - New Build Software
+#### Umbrella/2026 - New Build Software (Work in Progress)
 
 The available software modules include the latest versions of compilers, libraries, and tools that are under active development and testing. This gateway module provides access to software optimized for specific hardware achitectures available in the TU/e Umbrella HPC Cluster.
 
@@ -46,7 +46,7 @@ The available software modules include older versions of compilers, libraries, a
 
 The software modules include the most up-to-date versions of compilers, libraries, and tools that are actively maintained and supported. EESSI modules are optimized for system hardware architectures.
 
-#### EESSI/2026.06 - New Build Software
+#### EESSI/2026.06 - New Build Software (Work in Progress)
 
 The software modules include the latest versions of compilers, libraries, and tools that are under active development and testing. EESSI modules are optimized for system hardware architectures.
 
