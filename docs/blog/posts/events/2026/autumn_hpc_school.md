@@ -4,7 +4,7 @@ start: 2026-09-29T10:00:00
 end: 2026-10-09T16:30:00
 hide: [ sidebar ]
 hero:
-  backdrop: assets/images/2026-autumn_hpc_school.png
+  backdrop: blog/events/2026/autumn_hpc_school.png
   messages:
     - { message: "Autumn HPC School '26", color: "primary" }
     - { message: "29 September - 9 October", size: "medium" }
@@ -13,7 +13,7 @@ categories: [ HPC School ]
 speakers: [ g.t.chepuck.fernandes, a.van.hoof, a.knupfer, nxp, a.kashkanova, j.delpozomellado, a.torres, m.moller, s.dolas, a.c.m.bertens ]
 price: 0.00
 location: TU/e Campus
-image: assets/images/2026-autumn_hpc_school_thumb.png
+image: blog/events/2026/autumn_hpc_school_thumb.png
 type: event
 scheme: autumn
 sponsors: [ surf.nl, eurocc-netherlands.nl, eurohpc-ju, datalad, sc-brabant ]
