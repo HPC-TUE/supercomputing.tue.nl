@@ -60,17 +60,8 @@ module load Umbrella/2024
               Python is a programming language that lets you work more quickly and integrate your systems more effectively.
 
              Versions:
-                Python/2.7.15-foss-2018b
-                Python/2.7.15-GCCcore-7.3.0-bare
-                Python/2.7.16-GCCcore-8.3.0
-                Python/2.7.18-GCCcore-9.3.0
-                Python/2.7.18-GCCcore-10.3.0-bare
                 Python/2.7.18-GCCcore-11.3.0-bare
-                Python/3.7.4-GCCcore-8.3.0
-                Python/3.8.2-GCCcore-9.3.0
                 Python/3.8.20-GCCcore-11.3.0
-                Python/3.9.5-GCCcore-10.3.0-bare
-                Python/3.9.5-GCCcore-10.3.0
                 Python/3.10.4-GCCcore-11.3.0-bare
                 Python/3.10.4-GCCcore-11.3.0
                 Python/3.10.13-GCCcore-11.3.0
