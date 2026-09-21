@@ -17,6 +17,7 @@ nav:
           - software/index.md
           - software/commercial.md
           - software/non-commercial.md
+          - software/eessi.md
           - software/python.md
       - How-To Guides: software/recipes/
       - Licenses: software/licenses.md
