@@ -3,7 +3,7 @@ title: EESSI Software Modules
 tags: [Software]
 ---
 
-![EESSI logo](eessi-logo.png){ style="height:30px"}
+![EESSI logo](EESSI-logo.png){ style="height:30px"}
 
 EESSI, short for the European Environment for Scientific Software Installations, is a collaborated project between different European partners in HPC community to build a common stack of scientific software installations for HPC systems and beyond. Through the EESSI project, a shared stack of scientific software installations is distributed via CVMFS.
 
