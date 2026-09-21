@@ -156,6 +156,8 @@ More detailed information about what modules are available in the TU/e Umbrella 
 
 [Non-Commercial software modules](../../software/non-commercial.md)
 
+[EESSI related software modules](../../software/eessi.md)
+
 [Python related software modules](../../software/python.md)
 
 ---
