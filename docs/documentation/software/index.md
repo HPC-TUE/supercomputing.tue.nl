@@ -7,13 +7,17 @@ Available environment modules in the TU/e Umbrella HPC cluster are for software 
 
 The following modules are already available, on request new ones can be added.
 
-[Commercial software modules](commercial.md)
+[Umbrella Commercial software modules](commercial.md)
 
 :   For most of these modules a license is needed. More info: [Licenses](licenses.md)
 
-[Non-Commercial software modules](non-commercial.md)
+[Umbrella Non-Commercial software modules](non-commercial.md)
 
 :   Open Source software or free to use, the Open Source License may vary.
+
+[EESSI software modules](eessi.md)
+
+:   The European Environment for Scientific Software Installations (EESSI) provides a collection of software modules for research and academic use. EESSI is also available on Snellius [Snellius EESSI wiki](https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/127336516/EESSI+software+environment) and other European HPC clusters.
 
 [Python related software modules](python.md)
 
