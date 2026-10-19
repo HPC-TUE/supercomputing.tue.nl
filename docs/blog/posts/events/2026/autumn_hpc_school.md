@@ -47,7 +47,7 @@ schedule:
   - { title: "Large-Scale Data Version Control for HPC with Git and DataLad", description: "Learn how to version control research data with git and DataLad, including large binary files, collaborate through a git forge, and add machine-actionable reproducibility to your HPC workflows on Slurm.", start: 2026-10-06T09:30:00, end: 2026-10-06T16:00:00, speakers: [ a.knupfer ] }
   - { title: "GPU Computing 1 & 2", description: "An introduction to parallel computing architectures and GPU programming with Python, using Numba and PyCUDA on Snellius' Nvidia A100 and H100 GPUs.", start: 2026-10-07T09:30:00, end: 2026-10-07T16:00:00,
       schedule: [
-        { start: 2026-10-07T11:30:00, end: 2026-10-07T12:15:00, icon: presentation, title: "Keynote: NXP", speakers: [ nxp ] },
+        { start: 2026-10-07T11:30:00, end: 2026-10-07T12:15:00, icon: presentation, title: "Keynote: NXP (Eduardo Stuchi)", speakers: [ nxp ] },
       ]
   }
   - { title: "High-Performance Deep-Learning", description: "Enhance your deep learning efficiency by setting up a software environment, optimizing file I/O, leveraging CPU/GPU capabilities, profiling PyTorch, and utilizing parallel computing.", start: 2026-10-08T09:30:00, end: 2026-10-08T16:00:00,

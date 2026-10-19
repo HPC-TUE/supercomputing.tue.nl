@@ -3,7 +3,7 @@
 <div class="grid cards" markdown>
 - <figure markdown>
     ![NXP](assets/images/sponsor/nxp.png){ width=135px }
-    <figcaption>[NXP](https://www.nxp.com){ target=_blank }</figcaption>
+    <figcaption>[NXP](https://www.nxp.com){ target=_blank } (Eduardo Stuchi)</figcaption>
     <small>October 7, 2026</small>
   </figure>
 
