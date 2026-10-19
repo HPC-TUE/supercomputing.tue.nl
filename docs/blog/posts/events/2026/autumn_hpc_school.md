@@ -17,10 +17,6 @@ image: blog/events/2026/autumn_hpc_school_thumb.png
 type: event
 scheme: autumn
 sponsors: [ surf.nl, eurocc-netherlands.nl, eurohpc-ju, datalad, sc-brabant ]
-registration:
-  enabled: true
-  options:
-    - { title: Register Now, url: https://hpc.copernica.tue.nl/HPC_Autumn_2026_subscribe, qr: true }
 #schedule_hide: True
 schedule:
   - { title: "HPC Primer - 1", description: "An introductory guide to HPC essentials for beginners, covering remote terminal setup, bash scripting, file management, job execution with SLURM, and an overview of TU/e's Supercomputing Center.", start: 2026-09-29T10:00:00, end: 2026-09-29T14:00:00, speakers: [ g.t.chepuck.fernandes ] }
@@ -73,9 +69,7 @@ schedule:
 the world of AI, quantum computing, and high-performance computing. Join us for our excellent keynotes and workshops
 and unlock the power of HPC.**
 
-Be part of our free event and select tracks that match your interests. Seats are limited, so make sure to
-[**register**](https://hpc.copernica.tue.nl/HPC_Autumn_2026_subscribe){:target=_blank} quickly to secure your
-spot! For the latest information, including up-to-date session locations, always check
+Registration for this edition is closed. For the latest information, always check
 [hpc-training.nl](https://hpc-training.nl){:target=_blank}, and see [quantumeindhoven.nl](https://quantumeindhoven.nl){:target=_blank}
 for the dedicated Eindhoven Quantum Computing Workshop embedded within the school.
 

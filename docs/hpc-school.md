@@ -9,10 +9,7 @@ template: hpc-school.html
 
 # HPC School events
 
-The next Autumn HPC School edition will take place between 29-Sep-2026 and 09-Oct-2026. Hope to see you there!
-
-# Register for the next Autumn HPC School!
-[Autumn HPC School 2026](https://hpc-training.nl){ .md-button .md-button--primary }
+The Autumn HPC School 2026 took place between 29-Sep-2026 and 09-Oct-2026. Registration is closed.
 
 # About HPC Schools
 The HPC School events at the TU/e Supercomputing Center are specialized training sessions focused on high-performance
