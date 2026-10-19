@@ -4,8 +4,6 @@ docs_dir: &base_path docs
 repo_name: HPC-TUE/supercomputing.tue.nl
 repo_url: https://github.com/HPC-TUE/supercomputing.tue.nl
 edit_uri: edit/main/docs/
-extra_javascript:
-  - javascripts/bounce-hpc.js
 theme:
   name: material
   custom_dir: overrides
@@ -153,6 +151,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 copyright: TU/e Supercomputing Center
 extra:
+  generator: false
   analytics:
     provider: google
     property: GTM-MSH9NTC5
@@ -168,7 +167,6 @@ extra:
   consent:
     title: Our website uses cookies
     description: >-
-      It allows us to offer you the best website experience. By accepting the cookies,
-      you allow us to use these cookies to optimize the user-friendliness of our website,
-      to analyze website usage, and to support our marketing activities.
+      We use cookies to measure how our website is used, so we can keep improving it.
+      You can accept or reject these cookies, or manage your preferences.
     actions: [accept, reject, manage]

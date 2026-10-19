@@ -21,4 +21,4 @@ All TU/e employees and students can contribute, provided the information is TU/e
 
     Note that at the TU/e, some departments/research groups have several local computation facilities.
     These are **_not_** part of the TU/e HPC Umbrella Cluster,
-    please contact the [Reasearch IT contact of your department](https://tuenl.sharepoint.com/sites/intranet-LIS/SitePages/Research-IT.aspx){:target=_blank} for more information.
+    please contact the [Research IT contact of your department](https://tuenl.sharepoint.com/sites/intranet-LIS/SitePages/Research-IT.aspx){:target=_blank} for more information.

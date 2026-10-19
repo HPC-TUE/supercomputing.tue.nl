@@ -1,7 +1,8 @@
 nav:
   - Home: index.md
+  - Expertise: expertise.md
+  - AI & Spike-1: spike-1
+  - Training: hpc-school.md
   - News: blog
-  - HPC School: hpc-school.md
-  - Spike-1: spike-1
   - Contact: contact.md
-  - Documentation: documentation
+  - Umbrella Docs: documentation

@@ -1,4 +1,4 @@
-﻿---
+---
 date: 2026-09-02
 type: news
 image: &image blog/news/2026/spike1-sovereign-llms.jpg

@@ -53,6 +53,13 @@
   {% endif %}
 {% endblock %}
 
+{% block content %}
+  {% if page.url == "documentation/" %}
+    {% include "partials/status.html" %}
+  {% endif %}
+  {{ super() }}
+{% endblock %}
+
 {% block hero %}
   {% if page.meta and page.meta.hero %}
     {% set item = page.meta.hero %}

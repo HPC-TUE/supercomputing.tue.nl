@@ -1,0 +1,22 @@
+<div class="md-copyright">
+  <div class="md-copyright__highlight">
+    &copy; {{ build_date_utc.year }} {{ config.copyright }} &middot; Eindhoven University of Technology
+  </div>
+  <nav class="md-copyright__links" aria-label="Legal">
+    <a href="https://www.tue.nl/en/our-university/about-the-university/support-services/library-and-information-services/privacy" target="_blank" rel="noopener">Privacy</a>
+    &middot;
+    <a href="https://www.tue.nl/en/storage/disclaimer" target="_blank" rel="noopener">Disclaimer</a>
+    {% if config.extra.consent %}
+      &middot;
+      <a href="#__consent">Cookie settings</a>
+    {% endif %}
+    &middot;
+    <a href="{{ 'contact/' | url }}">Contact</a>
+  </nav>
+  {% if not config.extra.generator == false %}
+    <div>
+      Made with
+      <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a>
+    </div>
+  {% endif %}
+</div>
