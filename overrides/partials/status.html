@@ -1,0 +1,31 @@
+{#- Planned and ongoing maintenance, taken from posts with `type: maintenance` (evaluated at build time). -#}
+{% set upcoming = [] %}
+{% if page.blog %}
+  {% for post in page.blog.posts if post.config.type == "maintenance" and not post.config.draft and post.config.end and post.config.end >= now() %}
+    {% set na = upcoming.append(post) %}
+  {% endfor %}
+{% endif %}
+
+<section class="status md-typeset" aria-label="System status">
+  {% if upcoming %}
+    <ul class="status__list">
+      {% for post in upcoming | sort(attribute = "config.start") %}
+        {% set ongoing = post.config.start <= now() %}
+        <li class="status__item status__item--{{ 'ongoing' if ongoing else 'planned' }}">
+          <span class="status__dot" aria-hidden="true"></span>
+          <span class="status__label">{{ "Maintenance in progress" if ongoing else "Planned maintenance" }}</span>
+          <a href="{{ post.url | url }}">{{ post.title }}</a>
+          <span class="status__dates">
+            {{ post.config.start | date("EEE d MMM, HH:mm") }} – {{ post.config.end | date("EEE d MMM, HH:mm") }}
+          </span>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="status__item status__item--ok">
+      <span class="status__dot" aria-hidden="true"></span>
+      <span class="status__label">No Umbrella maintenance scheduled</span>
+      <span>Planned maintenance is announced here and in the <a href="{{ 'blog/' | url }}">News</a>.</span>
+    </p>
+  {% endif %}
+</section>

@@ -1,13 +1,25 @@
 <div class="hero md-typeset">
-  {% if item.messages or item.button %}
+  {% if item.messages or item.button or item.topics %}
     <div class="hero__inner" data-md-color-scheme="{{ page.meta.scheme }}">
       {% for message in item.messages %}
         <div class="{{ message.size | default("large") }} {{ message.color | default("default") }}">{{ message.message }}</div>
       {% endfor %}
+      {% if item.topics %}
+        <ul class="hero__topics">
+          {% for topic in item.topics %}
+            <li>
+              <a href="{{ topic.url | url }}">
+                {% if topic.icon %}{% include ".icons/" ~ topic.icon ~ ".svg" %}{% endif %}
+                {{ topic.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
       {% if item.button %}
         <a class="md-button" href="{{ item.button.url | url }}">{{ item.button.title }}</a>
       {% endif %}
     </div>
   {% endif %}
-  <img src="{{ item.backdrop | default("/assets/images/backdrop.png") | trim("/") | url }}" alt="backdrop"/>
+  <img src="{{ item.backdrop | default("/assets/images/backdrop.png") | trim("/") | url }}" alt="" aria-hidden="true"/>
 </div>

@@ -8,6 +8,31 @@
       <h2>Latest News & Events</h2>
       {{ events() }}
     </section>
+
+    <section class="alternate partners band band--tint md-typeset">
+      <h2>Partners</h2>
+      <p>
+        We work together with regional, national and European partners to give TU/e researchers access to the right
+        compute, training and expertise. As a founding partner of
+        <a href="https://www.supercomputingbrabant.nl" target="_blank" rel="noopener">Supercomputing Brabant</a>,
+        TU/e hosts and operates the dedicated NVIDIA Blackwell systems that give companies and organisations in the
+        region access to AI computing power and expert support.
+      </p>
+      <ul class="partners__logos">
+        {% for partner in [
+          { "name": "Supercomputing Brabant", "url": "https://www.supercomputingbrabant.nl", "logo": "assets/images/sponsor/sc-brabant.jpeg" },
+          { "name": "SURF", "url": "https://www.surf.nl", "logo": "assets/images/sponsor/surf.nl.svg" },
+          { "name": "EuroCC Netherlands", "url": "https://eurocc-netherlands.nl", "logo": "assets/images/sponsor/eurocc-netherlands.nl.svg" },
+          { "name": "EuroHPC Joint Undertaking", "url": "https://eurohpc-ju.europa.eu", "logo": "assets/images/sponsor/eurohpc-ju.png" },
+        ] %}
+          <li>
+            <a href="{{ partner.url }}" target="_blank" rel="noopener" title="{{ partner.name }}">
+              <img src="{{ partner.logo | url }}" alt="{{ partner.name }}" loading="lazy"/>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
     {##}
     {#    <section class="primary">#}
     {#      <h2 style="text-transform: uppercase">Partners</h2>#}

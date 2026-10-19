@@ -47,7 +47,7 @@ starts, or that they can safely be interrupted and rerun.
 
 These so-called gateway modules will make it easier to deprecate old software and to clearly communicate about this.
 
-- Many old software modules will be removed. The full list can be found [here](https://supercomputing.tue.nl/maintenance/umbrella/old-modules/). (This list coincides with everything in ```/cm/shared```.) If you use any of these modules, please use newer versions instead. If a newer version is not installed, please let us know, and we’ll try to install it.
+- Many old software modules will be removed. The full list can be found [here](../../../../documentation/kb/articles/umbrella/9-removal-of-old-modules.md). (This list coincides with everything in ```/cm/shared```.) If you use any of these modules, please use newer versions instead. If a newer version is not installed, please let us know, and we’ll try to install it.
 
 - The remaining software will be accessible through the ```Umbrella/2024``` module. This module is deprecated. It, and all modules accessible through it, will remain available for another half year, after which it will be removed.
 

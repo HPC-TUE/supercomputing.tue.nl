@@ -6,6 +6,44 @@ title: Spike-1
 
 Spike-1 is a high-performance GPU computing platform at TU/e, built on NVIDIA DGX infrastructure. It is designed for AI/ML workloads, large-scale deep learning, and GPU-accelerated research across multiple departments.
 
+## Spike 1 and Spike A
+
+Spike is TU/e's shared environment for research that needs serious GPU computing. It comes in two tracks, both hosted
+and operated at TU/e:
+
+<div class="grid cards" markdown>
+
+-   :material-school:{ .lg } __Spike 1: for TU/e research__
+
+    ---
+
+    Dedicated NVIDIA DGX B200 nodes for TU/e researchers and students, with shared project storage, hosted large
+    language models and AI engineering support from the Supercomputing Center.
+
+    [:octicons-arrow-right-24: How to apply](#how-to-apply)
+
+-   :material-domain:{ .lg } __Spike A: for companies__
+
+    ---
+
+    A dedicated NVIDIA DGX B300 pool provided by [Supercomputing Brabant](https://www.supercomputingbrabant.nl){:target=_blank},
+    for custom AI training and inference under an enterprise SLA, with support from Supercomputing Brabant engineers.
+
+    [:octicons-arrow-right-24: Spike A intake](https://docs.spike.tue.nl){:target=_blank}
+
+</div>
+
+[Supercomputing Brabant](https://www.supercomputingbrabant.nl){:target=_blank} is a regional initiative that helps
+companies and organisations in Brabant access AI computing power, expert support and an innovation ecosystem. TU/e is a
+founding partner and hosts and operates its Blackwell systems alongside Spike 1.
+
+## Hosted Large Language Models
+
+TU/e researchers with Spike 1 access can use state-of-the-art, sovereign LLMs hosted on Spike-1 through an internal,
+OpenAI-compatible API, with no external vendor in between. The gateway is reachable from the TU/e network or over VPN.
+See the [announcement](../blog/posts/news/2026/spike1-sovereign-llms.md) for how to request access, and
+[LLM hosting on docs.spike.tue.nl](https://docs.spike.tue.nl/llm-hosting/){:target=_blank} for current details.
+
 ## Technical Specifications
 
 |                         | Details                                                                                    |
@@ -15,7 +53,7 @@ Spike-1 is a high-performance GPU computing platform at TU/e, built on NVIDIA DG
 |                    GPUs | 32x NVIDIA B200                                                                            |
 |                 Storage | 250 TB high-performance [DDN](https://www.ddn.com/){:target=_blank} storage                |
 |                 Interconnect | NVLink Infiniband.                                                                    |
-|        Workload Manager | [Run:AI](https://www.run.ai/){:target=_blank}                                             |
+|        Workload Manager | [Run:AI](https://www.nvidia.com/en-us/software/run-ai/){:target=_blank}                                             |
 |        Containerization | [Docker](https://www.docker.com/){:target=_blank}                                         |
 |      Container Registry | [Harbor](https://goharbor.io/){:target=_blank}                                            |
 |        Software License | [NVIDIA AI Enterprise](https://www.nvidia.com/en-us/data-center/products/ai-enterprise/){:target=_blank} (full license) |
@@ -43,13 +81,13 @@ Spike-1 is a shared resource across the following TU/e departments and institute
 |           ME | Mechanical Engineering                              |
 |           ID | Industrial Design                                   |
 |           CE | Chemical Engineering & Chemistry                                   |
-|           IEIS | Industrial Design & Innovation Sciences                       |
+|           IEIS | Industrial Engineering & Innovation Sciences                       |
 |           EHCI | Eindhovense Hendrik Casimir Instituut                     |
 
 
 ## How to Apply
 
-To request access to Spike-1, submit an application through the [Topdesk service request form](https://tue.topdesk.net/tas/public/ssp/content/serviceflow?unid=93e8b8b00471499593597171aaddaf34){:target=_blank}. Access is available to researchers and students affiliated with the associated departments listed above. You can also use the [Research Cockpit](https://PLACEHOLDER_RESEARCH_COCKPIT_URL){:target=_blank} to explore your project context and available resources.
+To request access to Spike-1, submit an application through the [Topdesk service request form](https://tue.topdesk.net/tas/public/ssp/content/serviceflow?unid=93e8b8b00471499593597171aaddaf34){:target=_blank}. Access is available to researchers and students affiliated with the associated departments listed above.
 
 ### Is Spike-1 the right fit for your project?
 
@@ -100,5 +138,5 @@ For full information about data classification, handling requirements, and what 
 *[ME]: Mechanical Engineering
 *[ID]: Industrial Design
 *[CE]: Chemical Engineering & Chemistry
-*[IEIS]: Industrial Design & Innovation Sciences
+*[IEIS]: Industrial Engineering & Innovation Sciences
 *[EHCI]: Eindhovense Hendrik Casimir Instituut
