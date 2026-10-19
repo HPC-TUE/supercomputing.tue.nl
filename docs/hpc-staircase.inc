@@ -1,6 +1,6 @@
 <figure class="staircase">
 <div class="staircase__scroll">
-<svg viewBox="0 0 1000 580" role="img" aria-labelledby="staircase-title staircase-desc" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1000 580" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="staircase-title staircase-desc" xmlns="http://www.w3.org/2000/svg">
   <title id="staircase-title">HPC solutions: on the HPC staircase</title>
   <desc id="staircase-desc">A researcher asks: do I have an optimal compute job, what HPC solution options do I have, and what are my restrictions? Five ascending steps follow: 1. Personal laptop or workstation. 2. Departmental clusters (specials and silos). 3. Institutional TU/e: Umbrella and Spike-1. 4. National SURF: Snellius. 5. International EuroHPC: LUMI, Leonardo and others. Testing happens at TU/e; improving and scaling up happens at the national and European levels. Underneath all steps, the TU/e Supercomputing Center supports researchers at every step with consulting, code optimization, training, software, and access and paperwork.</desc>
   <defs>
@@ -26,7 +26,7 @@
   <text x="28" y="186" class="st-text">– Do I have an optimal compute job?</text>
   <text x="28" y="214" class="st-text">– What HPC solution options do I have?</text>
   <text x="28" y="242" class="st-text">– What are my restrictions?</text>
-  <use href="#sc-researcher" x="30" y="318" width="100" height="100" class="st-ink-fill"/>
+  <use xlink:href="#sc-researcher" x="30" y="318" width="100" height="100" class="st-ink-fill"/>
   <!-- Process annotations -->
   <text x="594" y="34" text-anchor="middle" class="st-flow">TESTING</text>
   <path d="M594,46 V186" class="st-go" marker-end="url(#staircase-arrow)"/>
@@ -50,24 +50,24 @@
   <text x="918" y="203" text-anchor="middle" class="st-level st-on-dark">INTERNATIONAL</text>
   <text x="918" y="224" text-anchor="middle" class="st-name st-on-dark">EuroHPC</text>
   <!-- Systems on each step -->
-  <use href="#sc-laptop" x="248" y="312" width="44" height="44" class="st-ink-fill"/>
+  <use xlink:href="#sc-laptop" x="248" y="312" width="44" height="44" class="st-ink-fill"/>
   <text x="432" y="252" text-anchor="middle" class="st-label">Specials / Silos</text>
-  <use href="#sc-server" x="392" y="265" width="38" height="38" class="st-ink-fill"/>
-  <use href="#sc-server" x="434" y="265" width="38" height="38" class="st-ink-fill"/>
+  <use xlink:href="#sc-server" x="392" y="265" width="38" height="38" class="st-ink-fill"/>
+  <use xlink:href="#sc-server" x="434" y="265" width="38" height="38" class="st-ink-fill"/>
   <text x="594" y="207" text-anchor="middle" class="st-label">Umbrella · Spike-1</text>
-  <a href="documentation/" class="st-link"><title>Umbrella HPC Cluster</title><use href="#sc-umbrella" x="550" y="218" width="42" height="42" class="st-accent-fill"/></a>
-  <a href="spike-1/" class="st-link"><title>Spike-1</title><use href="#sc-chip" x="598" y="218" width="42" height="42" class="st-accent-fill"/></a>
-  <a href="https://www.surf.nl/en/services/snellius-the-national-supercomputer" target="_blank" class="st-link">
+  <a xlink:href="documentation/" class="st-link"><title>Umbrella HPC Cluster</title><use xlink:href="#sc-umbrella" x="550" y="218" width="42" height="42" class="st-accent-fill"/></a>
+  <a xlink:href="spike-1/" class="st-link"><title>Spike-1</title><use xlink:href="#sc-chip" x="598" y="218" width="42" height="42" class="st-accent-fill"/></a>
+  <a xlink:href="https://www.surf.nl/en/services/snellius-the-national-supercomputer" target="_blank" class="st-link">
     <title>Snellius at SURF</title>
     <text x="756" y="160" text-anchor="middle" class="st-label">Snellius</text>
-    <use href="#sc-server-network" x="733" y="170" width="46" height="46" class="st-ink-fill"/>
+    <use xlink:href="#sc-server-network" x="733" y="170" width="46" height="46" class="st-ink-fill"/>
   </a>
-  <a href="https://eurohpc-ju.europa.eu/" target="_blank" class="st-link">
+  <a xlink:href="https://eurohpc-ju.europa.eu/" target="_blank" class="st-link">
     <title>EuroHPC supercomputers</title>
     <text x="918" y="114" text-anchor="middle" class="st-label">LUMI · Leonardo · …</text>
-    <use href="#sc-server" x="858" y="124" width="40" height="46" class="st-ink-fill"/>
-    <use href="#sc-server" x="898" y="124" width="40" height="46" class="st-ink-fill"/>
-    <use href="#sc-server" x="938" y="124" width="40" height="46" class="st-ink-fill"/>
+    <use xlink:href="#sc-server" x="858" y="124" width="40" height="46" class="st-ink-fill"/>
+    <use xlink:href="#sc-server" x="898" y="124" width="40" height="46" class="st-ink-fill"/>
+    <use xlink:href="#sc-server" x="938" y="124" width="40" height="46" class="st-ink-fill"/>
   </a>
   <!-- Floor -->
   <path d="M10,420 H998" class="st-floor"/>
@@ -80,19 +80,19 @@
   <text x="58" y="494" class="st-tool-title">Center</text>
   <text x="58" y="512" class="st-tool-sub">With you at every step</text>
   <g class="st-tool-items">
-    <use href="#sc-consulting" x="270" y="461" width="22" height="22"/>
+    <use xlink:href="#sc-consulting" x="270" y="461" width="22" height="22"/>
     <text x="300" y="477">Consulting</text>
     <path d="M407,456 V506" class="st-tool-sep"/>
-    <use href="#sc-speed" x="420" y="461" width="22" height="22"/>
+    <use xlink:href="#sc-speed" x="420" y="461" width="22" height="22"/>
     <text x="450" y="477">Code optimization</text>
     <path d="M590,456 V506" class="st-tool-sep"/>
-    <use href="#sc-school" x="603" y="461" width="22" height="22"/>
+    <use xlink:href="#sc-school" x="603" y="461" width="22" height="22"/>
     <text x="633" y="477">Training</text>
     <path d="M718,456 V506" class="st-tool-sep"/>
-    <use href="#sc-package" x="731" y="461" width="22" height="22"/>
+    <use xlink:href="#sc-package" x="731" y="461" width="22" height="22"/>
     <text x="761" y="477">Software</text>
     <path d="M844,456 V506" class="st-tool-sep"/>
-    <use href="#sc-paperwork" x="857" y="461" width="22" height="22"/>
+    <use xlink:href="#sc-paperwork" x="857" y="461" width="22" height="22"/>
     <text x="887" y="470">Access &amp;</text>
     <text x="887" y="487">paperwork</text>
   </g>
