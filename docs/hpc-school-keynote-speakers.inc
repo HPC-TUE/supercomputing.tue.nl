@@ -1,3 +1,20 @@
+### Autumn School 2026
+
+<div class="grid cards" markdown>
+- <figure markdown>
+    ![NXP](assets/images/sponsor/nxp.png){ width=135px }
+    <figcaption>[NXP](https://www.nxp.com){ target=_blank }</figcaption>
+    <small>October 7, 2026</small>
+  </figure>
+
+- <figure markdown>
+    ![Anna Kashkanova](assets/images/people/a.kashkanova.jpeg){ width=135px }
+    <figcaption>[Anna Kashkanova](https://www.tue.nl/en/research/researchers/anna-kashkanova){ target=_blank }</figcaption>
+    <small>October 8, 2026</small>
+  </figure>
+
+</div>
+
 ### Autumn School 2025
 
 <div class="grid cards" markdown>
@@ -81,6 +98,12 @@
       Modelling of halide perovskites: defects and chirality
     </p>
     <small>November 5, 2024</small>
+  </figure>
+
+- <figure markdown>
+    ![Joaquin Vanschoren](assets/images/people/j.vanschoren.png)
+    <figcaption>[Joaquin Vanschoren](https://www.tue.nl/en/research/researchers/joaquin-vanschoren/){ target=_blank }</figcaption>
+    <small>November 7, 2024</small>
   </figure>
 
 </div>
