@@ -23,6 +23,11 @@ authors:
     name: Richard Zoontjens
     description: Lead, Supercomputing Center
     avatar: "/assets/images/people/r.j.zoontjens.png"
+  "f.van.der.sommen":
+    name: Fons van der Sommen
+    description: Associate Professor, Electrical Engineering (TU/e)
+    avatar: "/assets/images/people/f.van.der.sommen.jpg"
+    url: https://www.tue.nl/en/research/researchers/fons-van-der-sommen
   "r.kotian":
     name: Roshan Kotian
     description: ML/AI application specialist

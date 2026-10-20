@@ -4,7 +4,7 @@ start: 2026-10-26T14:30:00
 end: 2026-10-26T20:30:00
 title: "NVIDIA GTC Viewing Party at TU/e"
 categories: [ Workshop ]
-speakers: [ r.j.zoontjens ]
+speakers: [ f.van.der.sommen, r.j.zoontjens ]
 price: 0.00
 location: Blauwe Zaal, Auditorium, TU/e
 image: blog/events/2026/gtc_viewing_party.jpg
