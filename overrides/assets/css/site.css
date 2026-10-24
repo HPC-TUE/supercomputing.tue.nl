@@ -1365,3 +1365,452 @@ ul.author__list {
   .st-link use, .st-link text { transition: opacity 150ms; }
   .st-link:hover use, .st-link:hover text { opacity: .65; }
 }
+
+/* Platforms: audience tags and equal-height cards */
+.md-typeset .platform-tag {
+  display: inline-block;
+  margin-left: .4em;
+  padding: 0 .5em;
+  font-size: .7em;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: .03em;
+  vertical-align: middle;
+  color: #fafafa;
+  background: var(--md-accent-fg-color);
+  border-radius: .2rem;
+}
+
+.md-typeset .platform-tag--national {
+  background: #6a6a6a;
+}
+
+.md-typeset .grid.cards.platforms > ul > li {
+  display: flex;
+  flex-direction: column;
+
+  > p:last-child {
+    margin-top: auto;
+  }
+
+  ul {
+    margin: .5em 0;
+    font-size: .95em;
+  }
+}
+
+/* Header: room for all tabs next to the search box */
+@media screen and (min-width: 76.25em) {
+  .md-header .md-header__title {
+    margin-right: 1em;
+  }
+
+  .md-header .md-tabs__item {
+    padding-left: .45rem;
+    padding-right: .45rem;
+  }
+
+  [data-md-toggle=search]:not(:checked) ~ .md-header .md-search__inner {
+    width: 8.5rem;
+  }
+}
+
+@media screen and (min-width: 76.25em) and (max-width: 87.5em) {
+  .md-header .md-tabs .md-tabs__list .md-tabs__link {
+    font-size: .68rem;
+  }
+
+  .md-header .md-tabs__item {
+    padding-left: .35rem;
+    padding-right: .35rem;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Visual consistency pass
+   --------------------------------------------------------------------------- */
+
+/* 1. Same section heading style on every page with a hero (as on the homepage) */
+body:has(.hero) .md-content .md-typeset h2 {
+  margin-top: 1.5em;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 2.5rem;
+    height: .2rem;
+    margin-top: .4rem;
+    background: var(--md-accent-fg-color);
+  }
+}
+
+/* 2. Same icon tiles and hover behaviour for every card grid */
+.md-typeset .grid.cards > ul > li {
+  > p:first-child {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .2em 0;
+  }
+
+  .twemoji.lg {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-right: .6rem;
+    border-radius: .3rem;
+    color: var(--md-accent-fg-color);
+    background: color-mix(in srgb, var(--md-accent-fg-color) 10%, transparent);
+
+    svg {
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+  }
+}
+
+.md-typeset .grid.cards.quick-links > ul > li,
+.md-typeset .grid.cards.platforms > ul > li {
+  border-top: .15rem solid transparent;
+  transition: transform 150ms, box-shadow 150ms, border-color 150ms;
+
+  &:hover {
+    transform: translateY(-.15rem);
+    border-top-color: var(--md-accent-fg-color);
+    box-shadow: 0 .4rem 1.2rem rgba(0, 0, 0, .08);
+  }
+}
+
+/* 3. News and event titles wrap to two lines instead of being cut after one */
+.post .post__title,
+.post .post__title h1 {
+  white-space: normal;
+}
+
+.post .post__title > a {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  line-height: 1.3;
+}
+
+/* 4. Keep small print readable (minimum 11px) */
+.post .meta-bar,
+.post .post__meta,
+.post.small .post__meta {
+  font-size: max(.6rem, 11px);
+}
+
+.post .badge {
+  font-size: max(1em, 11px);
+}
+
+.post.small .post__badge {
+  font-size: max(.5rem, 10px);
+}
+
+.post .post__registration .post__registration--link .post__registration--title {
+  font-size: max(.45rem, 11px);
+}
+
+/* 5. Staircase: swipe hint on small screens */
+.md-typeset figure.staircase .staircase__hint {
+  display: none;
+  margin-top: .4em;
+  font-size: .75em;
+  color: var(--md-default-fg-color--light);
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset figure.staircase .staircase__hint {
+    display: block;
+  }
+}
+
+/* Small news cards: date badge at least 11px */
+.post.small .post__badge {
+  font-size: max(.5rem, 11px);
+}
+
+/* Contact: whole team card opens the person's LinkedIn profile */
+.md-typeset .team__member {
+  position: relative;
+  border-radius: .3rem;
+  transition: background-color 150ms;
+}
+
+.md-typeset .team__member:has(.team__link):hover {
+  background: var(--md-default-fg-color--lightest);
+}
+
+.md-typeset .team__member .team__photo {
+  transition: box-shadow 150ms;
+}
+
+.md-typeset .team__member:has(.team__link):hover .team__photo {
+  box-shadow: 0 0 0 .15rem var(--md-accent-fg-color);
+}
+
+.md-typeset a.team__link {
+  color: var(--md-default-fg-color);
+
+  /* stretch the link over the whole card */
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+
+  /* small LinkedIn mark after the name */
+  &::before {
+    content: "";
+    display: inline-block;
+    width: .85em;
+    height: .85em;
+    margin-right: .3em;
+    vertical-align: -.05em;
+    background-color: #0a66c2;
+    -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/></svg>') center / contain no-repeat;
+            mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/></svg>') center / contain no-repeat;
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--md-accent-fg-color);
+  }
+}
+
+/* Training: speaker cards with uniform photos and logos */
+.md-typeset .grid.cards.speakers {
+  > ul > li {
+    display: flex;
+    text-align: center;
+  }
+
+  figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  img.speaker__photo,
+  img.speaker__logo {
+    width: 6rem;
+    height: 6rem;
+    margin: .2rem 0 .6rem;
+  }
+
+  img.speaker__photo {
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 0 .1rem var(--md-default-fg-color--lightest);
+  }
+
+  img.speaker__logo {
+    box-sizing: border-box;
+    width: 9rem;
+    padding: .9rem 1rem;
+    object-fit: contain;
+    background: #fff;
+    border: .05rem solid var(--md-default-fg-color--lightest);
+    border-radius: .3rem;
+  }
+
+  figcaption {
+    margin: 0;
+    max-width: none;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  figure > p {
+    margin: .3em 0 .2em;
+    color: var(--md-default-fg-color--light);
+  }
+
+  small {
+    margin-top: auto;
+    padding-top: .3em;
+    color: var(--md-default-fg-color--light);
+  }
+}
+
+/* In the media: coverage cards (media page and homepage teaser) */
+.md-typeset ul.media-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  gap: .6rem;
+  margin: 1em 0;
+  padding: 0;
+  list-style: none;
+
+  > li {
+    margin: 0;
+  }
+}
+
+.md-typeset a.media-card {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  height: 100%;
+  box-sizing: border-box;
+  padding: .9rem 1rem .8rem;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color--light);
+  border: .05rem solid var(--md-default-fg-color--lightest);
+  border-top: .15rem solid transparent;
+  border-radius: .125rem;
+  transition: transform 150ms, box-shadow 150ms, border-color 150ms;
+
+  &:hover,
+  &:focus {
+    color: var(--md-default-fg-color);
+    transform: translateY(-.15rem);
+    border-top-color: var(--md-accent-fg-color);
+    box-shadow: 0 .4rem 1.2rem rgba(0, 0, 0, .08);
+  }
+
+  .media-card__meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .35em .5em;
+    font-size: max(.6rem, 11px);
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--md-default-fg-color--light);
+  }
+
+  .media-card__outlet {
+    font-weight: 700;
+    color: var(--md-default-fg-color);
+  }
+
+  .media-card__lang {
+    padding: 0 .4em;
+    font-weight: 700;
+    line-height: 1.6;
+    color: var(--md-default-fg-color--light);
+    border: .05rem solid var(--md-default-fg-color--lighter);
+    border-radius: .2rem;
+  }
+
+  .media-card__date {
+    margin-left: auto;
+  }
+
+  .media-card__title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+  .media-card__more {
+    display: inline-flex;
+    align-items: center;
+    gap: .3em;
+    margin-top: auto;
+    font-size: .85em;
+    font-weight: 700;
+    color: var(--md-accent-fg-color);
+
+    svg {
+      width: 1em;
+      height: 1em;
+      fill: currentColor;
+    }
+  }
+}
+
+.md-typeset .media-group {
+  .media-group__icon {
+    display: inline-flex;
+    vertical-align: middle;
+    margin: -.2em .5rem 0 0;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: .3rem;
+    color: var(--md-accent-fg-color);
+    background: color-mix(in srgb, var(--md-accent-fg-color) 10%, transparent);
+
+    svg {
+      width: 1.1rem;
+      height: 1.1rem;
+      fill: currentColor;
+    }
+  }
+
+  .media-group__count {
+    display: inline-block;
+    vertical-align: middle;
+    margin: -.2em 0 0 .3rem;
+    padding: 0 .5em;
+    font-size: .6em;
+    line-height: 1.7;
+    color: var(--md-default-fg-color--light);
+    background: var(--md-default-fg-color--lightest);
+    border-radius: 1rem;
+  }
+
+}
+
+.md-typeset .media-teaser__all {
+  margin: .4em 0 0;
+  font-weight: 700;
+}
+
+/* Header: all tabs sit together (Umbrella docs now live under Platforms) */
+.md-header .md-tabs .md-tabs__list li:last-child {
+  margin-left: 0;
+}
+
+/* In the media: outlet logo next to the outlet name */
+.md-typeset a.media-card {
+  .media-card__head {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+  }
+
+  .media-card__meta {
+    flex: 1;
+  }
+
+  .media-card__logo {
+    flex: none;
+    width: 2.2rem;
+    height: 2.2rem;
+    object-fit: contain;
+    background: #fff;
+    border: .05rem solid var(--md-default-fg-color--lightest);
+    border-radius: .3rem;
+  }
+
+  .media-card__logo--text {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: "Gilroy", var(--md-text-font), sans-serif;
+    font-size: .6rem;
+    font-weight: 700;
+    letter-spacing: .02em;
+    color: #fafafa;
+    background: #1a1a1a;
+    border-color: #1a1a1a;
+  }
+}

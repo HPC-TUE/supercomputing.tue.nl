@@ -1,0 +1,14 @@
+{% extends "main.html" %}
+
+{#- Lightweight redirect page: set `redirect: <path>` in the page's front matter. -#}
+{% block extrahead %}
+  {{ super() }}
+  <meta http-equiv="refresh" content="0; url={{ page.meta.redirect | url }}">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="{{ config.site_url }}{{ page.meta.redirect }}">
+{% endblock %}
+
+{% block content %}
+  <h1>{{ page.title }}</h1>
+  <p>This page has moved to <a href="{{ page.meta.redirect | url }}">{{ page.meta.redirect }}</a>.</p>
+{% endblock %}

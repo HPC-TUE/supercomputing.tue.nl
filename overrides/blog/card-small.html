@@ -27,7 +27,7 @@
     {% if post.meta.image or post.config.type != "kb" %}
       <div class="post__image--thumbnail">
         <a href="{{ post_url | default(post.url) | url }}">
-          <img src="{{ post.meta.image | default("assets/images/112x63.svg") | url }}" alt="{{ post.title }}"/>
+          <img src="{{ post.meta.image | default("assets/images/112x63.svg") | url }}" alt="" aria-hidden="true"/>
         </a>
       </div>
     {% endif %}

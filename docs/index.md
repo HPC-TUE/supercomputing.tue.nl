@@ -9,12 +9,6 @@ hero:
   backdrop: assets/images/backdrops/home.png
   messages:
     - { message: "Compute to Compete" }
-    - { message: "Consulting, training and computing power for research and innovation", size: "medium" }
-  topics:
-    - { title: "High-Performance Computing", url: "expertise/#hpc", icon: "material/server-network" }
-    - { title: "AI & LLMs", url: "expertise/#ai", icon: "material/brain" }
-    - { title: "Simulation", url: "expertise/#simulation", icon: "material/cube-scan" }
-    - { title: "Quantum Computing", url: "expertise/#quantum", icon: "material/atom" }
 ---
 
 # TU/e Supercomputing Center
@@ -35,53 +29,6 @@ even simply getting bureaucratic or financial hurdles out of the way.
   <li><strong>15+</strong><span>trainings and workshops since 2023</span></li>
   <li><strong>2</strong><span>HPC Schools every year</span></li>
 </ul>
-</div>
-
-## What we work on
-
-<div class="topics" markdown>
-
-<div class="topic" id="hpc" markdown>
-:material-server-network:{ .topic__icon }
-
-### [High-Performance Computing](expertise.md#hpc)
-
-Running large simulations and data analyses on parallel clusters, from the TU/e Umbrella cluster to national and
-European supercomputers.
-
-[Find the right platform](#find-the-right-platform) · [Umbrella docs](documentation/index.md)
-</div>
-
-<div class="topic" id="ai" markdown>
-:material-brain:{ .topic__icon }
-
-### [AI & LLMs](expertise.md#ai)
-
-GPU computing for deep learning, and sovereign large language models hosted at TU/e on Spike-1.
-
-[Spike-1](spike-1/index.md) · [LLM hosting workshop](blog/posts/events/2026/academic_llm_hosting_workshop.md)
-</div>
-
-<div class="topic" id="simulation" markdown>
-:material-cube-scan:{ .topic__icon }
-
-### [Simulation](expertise.md#simulation)
-
-Support for simulation software such as ANSYS, COMSOL, Abaqus, STAR-CCM+ and OpenFOAM, from setup to scaling up.
-
-[Available software](documentation/software/index.md) · [OpenFOAM training](blog/posts/events/2026/doug-openfoam-cfd.md)
-</div>
-
-<div class="topic" id="quantum" markdown>
-:material-atom:{ .topic__icon }
-
-### [Quantum Computing](expertise.md#quantum)
-
-What quantum computing is, how it relates to HPC, and hands-on workshops with Quantum Inspire at our HPC School.
-
-[HPC School](hpc-school.md)
-</div>
-
 </div>
 
 ## How we can help
@@ -147,6 +94,9 @@ What quantum computing is, how it relates to HPC, and hands-on workshops with Qu
     [:octicons-arrow-right-24: About Spike-1](spike-1/index.md)
 
 </div>
+
+[:octicons-arrow-right-24: Compare all platforms](platforms/index.md) ·
+[Already have access?](platforms/index.md#quick-access)
 
 <div class="band band--tint" markdown>
 

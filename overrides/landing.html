@@ -6,8 +6,27 @@
 
     <section class="alternate">
       <h2>Latest News & Events</h2>
-      {{ events() }}
+      {{ events(type = ["news", "event"]) }}
     </section>
+
+    {#- Featured press coverage, taken from docs/media.md (items with `featured: true`) -#}
+    {% set media_page = nav.pages | selectattr("url", "equalto", "media/") | first %}
+    {% if media_page and media_page.meta.coverage %}
+      {% set featured = media_page.meta.coverage | selectattr("featured") | list %}
+      {% if featured %}
+        <section class="alternate media-teaser md-typeset">
+          <h2>In the media</h2>
+          <ul class="media-list">
+            {% for item in featured[:3] %}
+              <li>{% include "partials/media-card.html" %}</li>
+            {% endfor %}
+          </ul>
+          <p class="media-teaser__all">
+            <a href="{{ media_page.url | url }}">All media coverage &rarr;</a>
+          </p>
+        </section>
+      {% endif %}
+    {% endif %}
 
     <section class="alternate partners band band--tint md-typeset">
       <h2>Partners</h2>
@@ -20,7 +39,7 @@
       </p>
       <ul class="partners__logos">
         {% for partner in [
-          { "name": "Supercomputing Brabant", "url": "https://www.supercomputingbrabant.nl", "logo": "assets/images/sponsor/sc-brabant.jpeg" },
+          { "name": "Supercomputing Brabant", "url": "https://www.supercomputingbrabant.nl", "logo": "assets/images/logo/sc-brabant-wall.png" },
           { "name": "SURF", "url": "https://www.surf.nl", "logo": "assets/images/sponsor/surf.nl.svg" },
           { "name": "EuroCC Netherlands", "url": "https://eurocc-netherlands.nl", "logo": "assets/images/sponsor/eurocc-netherlands.nl.svg" },
           { "name": "EuroHPC Joint Undertaking", "url": "https://eurohpc-ju.europa.eu", "logo": "assets/images/sponsor/eurohpc-ju.png" },

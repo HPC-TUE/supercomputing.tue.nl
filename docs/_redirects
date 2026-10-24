@@ -14,3 +14,6 @@ https://hpclab.tue.nl/*  https://supercomputing.tue.nl/:splat 301
 
 # Temporary redirects for changed slug urls - post_url_date_format: yyyy
 /blog/:year/:month/:date/* /blog/:year/:splat 301
+
+# Redirect /umbrella to the Umbrella documentation.
+/umbrella /documentation 301
