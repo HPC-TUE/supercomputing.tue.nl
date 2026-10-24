@@ -55,6 +55,8 @@ theme:
 extra_css:
   - assets/css/scheme.css
   - assets/css/site.css
+extra_javascript:
+  - assets/js/copy.js
 plugins:
   - awesome-nav
   - glightbox
