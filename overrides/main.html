@@ -54,7 +54,7 @@
 {% endblock %}
 
 {% block content %}
-  {% if page.url == "documentation/" %}
+  {% if page.url in ["documentation/", "platforms/"] %}
     {% include "partials/status.html" %}
   {% endif %}
   {{ super() }}

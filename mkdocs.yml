@@ -19,6 +19,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
+    - navigation.prune
     - navigation.top
     - toc.follow
 #    - toc.integrate

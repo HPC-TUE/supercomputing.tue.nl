@@ -1,8 +1,12 @@
 nav:
   - Home: index.md
+  - Platforms:
+      - platforms/index.md
+      - Umbrella HPC Cluster: documentation
+      - Spike-1: spike-1
   - Expertise: expertise.md
-  - AI & Spike-1: spike-1
   - Training: hpc-school.md
-  - News: blog
+  - News:
+      - blog
+      - In the media: media.md
   - Contact: contact.md
-  - Umbrella Docs: documentation

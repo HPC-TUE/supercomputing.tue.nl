@@ -1,0 +1,22 @@
+<a class="media-card" href="{{ item.url }}" target="_blank" rel="noopener">
+  <span class="media-card__head">
+    {% if item.logo %}
+      <img class="media-card__logo" src="{{ item.logo | url }}" alt="" aria-hidden="true" loading="lazy">
+    {% else %}
+      {% set words = item.outlet.split() %}
+      <span class="media-card__logo media-card__logo--text" aria-hidden="true">
+        {%- if words | length > 1 %}{% for w in words[:3] %}{{ w[0] }}{% endfor %}{% else %}{{ item.outlet[:3] }}{% endif -%}
+      </span>
+    {% endif %}
+    <span class="media-card__meta">
+      <span class="media-card__outlet">{{ item.outlet }}</span>
+      {% if item.lang %}<span class="media-card__lang">{{ item.lang }}</span>{% endif %}
+      {% if item.date %}<span class="media-card__date">{{ item.date }}</span>{% endif %}
+    </span>
+  </span>
+  <span class="media-card__title">{{ item.title }}</span>
+  <span class="media-card__more">
+    {{ "Listen or read" if item.type == "radio" else "Read article" }}
+    {% include ".icons/octicons/link-external-16.svg" %}
+  </span>
+</a>

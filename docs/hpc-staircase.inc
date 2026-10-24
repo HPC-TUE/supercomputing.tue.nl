@@ -100,4 +100,5 @@
   <text x="998" y="566" text-anchor="end" class="st-title">HPC solutions: on the HPC “staircase”</text>
 </svg>
 </div>
+<figcaption class="staircase__hint">Swipe sideways to see the whole staircase →</figcaption>
 </figure>

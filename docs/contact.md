@@ -61,61 +61,61 @@ right expert.
 
 <div class="team__member" markdown>
 ![Richard Zoontjens](assets/images/people/r.j.zoontjens.png){ .team__photo .off-glb loading=lazy }
-<span class="team__name">Richard Zoontjens</span>
+<a class="team__name team__link" href="https://www.linkedin.com/in/richardzoontjens/" target="_blank" rel="noopener" title="Richard Zoontjens on LinkedIn">Richard Zoontjens</a>
 <span class="team__role">Lead, Supercomputing Center</span>
 </div>
 
 <div class="team__member" markdown>
 ![Han Verbiesen](assets/images/people/j.h.m.verbiesen.png){ .team__photo .off-glb loading=lazy }
-<span class="team__name">Han Verbiesen</span>
+<a class="team__name team__link" href="https://www.linkedin.com/in/han-verbiesen-b637435/" target="_blank" rel="noopener" title="Han Verbiesen on LinkedIn">Han Verbiesen</a>
 <span class="team__role">Service Manager</span>
 </div>
 
 <div class="team__member" markdown>
 ![Remco Fugers](assets/images/people/r.fugers.png){ .team__photo .off-glb loading=lazy }
-<span class="team__name">Remco Fugers</span>
+<a class="team__name team__link" href="https://www.linkedin.com/in/remcofugers/" target="_blank" rel="noopener" title="Remco Fugers on LinkedIn">Remco Fugers</a>
 <span class="team__role">Operational Manager</span>
 </div>
 
 <div class="team__member" markdown>
 ![Gérson Chepuck Fernandes](assets/images/people/g.t.chepuck.fernandes.jpg){ .team__photo .off-glb loading=lazy }
-<span class="team__name">Gérson Chepuck Fernandes</span>
+<a class="team__name team__link" href="https://www.linkedin.com/in/gersonfernandes/" target="_blank" rel="noopener" title="Gérson Chepuck Fernandes on LinkedIn">Gérson Chepuck Fernandes</a>
 <span class="team__role">HPC Simulation Specialist</span>
 </div>
 
 <div class="team__member" markdown>
 ![Alain van Hoof](assets/images/people/a.van.hoof.webp){ .team__photo .off-glb loading=lazy }
-<span class="team__name">Alain van Hoof</span>
+<a class="team__name team__link" href="https://www.linkedin.com/in/alainvanhoof/" target="_blank" rel="noopener" title="Alain van Hoof on LinkedIn">Alain van Hoof</a>
 <span class="team__role">HPC Consultant</span>
 </div>
 
 <div class="team__member" markdown>
 ![Guus Bertens](assets/images/people/a.c.m.bertens.jpg){ .team__photo .off-glb loading=lazy }
-<span class="team__name">Guus Bertens</span>
+<a class="team__name team__link" href="https://www.linkedin.com/in/guus-bertens/" target="_blank" rel="noopener" title="Guus Bertens on LinkedIn">Guus Bertens</a>
 <span class="team__role">Supercomputing Expert</span>
 </div>
 
 <div class="team__member" markdown>
 ![Amin Livani](assets/images/people/a.livani.png){ .team__photo .off-glb loading=lazy }
-<span class="team__name">Amin Livani</span>
+<a class="team__name team__link" href="https://www.linkedin.com/in/amin-livani-753a07114/" target="_blank" rel="noopener" title="Amin Livani on LinkedIn">Amin Livani</a>
 <span class="team__role">HPC Application Support Engineer</span>
 </div>
 
 <div class="team__member" markdown>
 ![Hengjian Zhang](assets/images/people/h.zhang.jpg){ .team__photo .off-glb loading=lazy }
-<span class="team__name">Hengjian Zhang</span>
+<a class="team__name team__link" href="https://www.linkedin.com/in/hengjianzhang/" target="_blank" rel="noopener" title="Hengjian Zhang on LinkedIn">Hengjian Zhang</a>
 <span class="team__role">Machine Learning Engineer</span>
 </div>
 
 <div class="team__member" markdown>
 ![Bram van Berlo](assets/images/people/b.van.berlo.png){ .team__photo .off-glb loading=lazy }
-<span class="team__name">Bram van Berlo</span>
+<a class="team__name team__link" href="https://www.linkedin.com/in/bram-van-berlo-71833b66/" target="_blank" rel="noopener" title="Bram van Berlo on LinkedIn">Bram van Berlo</a>
 <span class="team__role">Machine Learning Engineer</span>
 </div>
 
 <div class="team__member" markdown>
 ![Nick Brummans](assets/images/people/n.brummans.png){ .team__photo .off-glb loading=lazy }
-<span class="team__name">Nick Brummans</span>
+<a class="team__name team__link" href="https://www.linkedin.com/in/nick-brummans-5a308830a/" target="_blank" rel="noopener" title="Nick Brummans on LinkedIn">Nick Brummans</a>
 <span class="team__role">Product Owner AI</span>
 </div>
 
@@ -127,8 +127,8 @@ right expert.
 
 <div class="team__member" markdown>
 ![Siddharth Ganjoo](assets/images/people/s.ganjoo.jpg){ .team__photo .off-glb loading=lazy }
-<span class="team__name">Siddharth Ganjoo</span>
-<span class="team__role">Machine Learning Engineer, Supercomputing Brabant</span>
+<a class="team__name team__link" href="https://www.linkedin.com/in/siddharthganjoo/" target="_blank" rel="noopener" title="Siddharth Ganjoo on LinkedIn">Siddharth Ganjoo</a>
+<span class="team__role">Machine Learning Engineer</span>
 </div>
 
 </div>
