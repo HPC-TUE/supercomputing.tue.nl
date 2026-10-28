@@ -1,4 +1,5 @@
-<a class="media-card" href="{{ item.url }}" target="_blank" rel="noopener">
+{%- set external = item.url.startswith("http") -%}
+<a class="media-card" href="{{ item.url if external else (item.url | url) }}"{% if external %} target="_blank" rel="noopener"{% endif %}>
   <span class="media-card__head">
     {% if item.logo %}
       <img class="media-card__logo" src="{{ item.logo | url }}" alt="" aria-hidden="true" loading="lazy">
@@ -16,7 +17,12 @@
   </span>
   <span class="media-card__title">{{ item.title }}</span>
   <span class="media-card__more">
-    {{ "Listen or read" if item.type == "radio" else "Read article" }}
-    {% include ".icons/octicons/link-external-16.svg" %}
+    {% if external %}
+      {{ "Listen or read" if item.type == "radio" else "Read article" }}
+      {% include ".icons/octicons/link-external-16.svg" %}
+    {% else %}
+      Read our summary
+      {% include ".icons/octicons/arrow-right-16.svg" %}
+    {% endif %}
   </span>
 </a>

@@ -11,12 +11,14 @@ hero:
 # How to add coverage: copy one line below into the right place (newest first) and fill in the fields.
 #   type:   radio | newspaper | press | international | university
 #   lang:   NL | EN
+#   url:    full link to the article, or a page on this site (e.g. "blog/2026/my-post/") for print-only coverage
 #   date:   as you want it shown, e.g. "4 Nov 2024" (leave empty if unknown)
 #   featured: true   (optional) also show it on the homepage, max. 3
 #   logo:   (optional) outlet icon in assets/images/media/; without one, the outlet's initials are shown
 coverage:
   - { type: radio, outlet: "BNR De Technoloog", logo: "assets/images/media/bnr.nl.png", lang: NL, date: "8 Jan 2026", title: "Wat Big Tech kan leren van de supercomputer uit Eindhoven", url: "https://www.bnr.nl/podcast/de-technoloog/10591663/waarom-big-tech-wat-kan-leren-van-de-supercomputer-uit-eindhoven", featured: true }
   - { type: radio, outlet: "BNR Nieuwsradio", logo: "assets/images/media/bnr.nl.png", lang: NL, date: "", title: "Hoe een AI-supercomputer in Finland de chipindustrie in Nederland moet versnellen", url: "https://www.bnr.nl/nieuws/tech-innovatie/10563173/hoe-een-ai-supercomputerin-finland-de-chipindustrie-in-nederland-moet-versnellen" }
+  - { type: newspaper, outlet: "Eindhovens Dagblad", logo: "assets/images/media/ed.nl.png", lang: NL, date: "28 Oct 2026", title: "De supercomputer van de TU/e is maar het begin", url: "blog/2026/eindhovens-dagblad-the-tue-supercomputer-is-just-the-beginning/", featured: true }
   - { type: newspaper, outlet: "Het Financieele Dagblad", logo: "assets/images/media/fd.nl.png", lang: NL, date: "", title: "Europese primeur voor TU Eindhoven met nieuwe AI-supercomputer", url: "https://fd.nl/tech-en-innovatie/1537117/europese-primeur-voor-tu-eindhoven-met-nieuwe-ai-supercomputer", featured: true }
   - { type: international, outlet: "Ohio Supercomputer Center", lang: EN, date: "12 Nov 2025", title: "Eindhoven University of Technology builds connection through Open OnDemand", url: "https://www.osc.edu/press/eindhoven_university_of_technology_builds_connection_through_open_ondemand" }
   - { type: international, outlet: "DatacenterDynamics", logo: "assets/images/media/datacenterdynamics.com.png", lang: EN, date: "6 Nov 2024", title: "Eindhoven University of Technology among first European customers to receive Nvidia DGX B200 systems", url: "https://www.datacenterdynamics.com/en/news/eindhoven-university-of-technology-among-first-european-customers-to-receive-nvidia-dgx-b200-systems/", featured: true }
