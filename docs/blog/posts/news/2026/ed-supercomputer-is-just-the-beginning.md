@@ -4,7 +4,7 @@ type: news
 image: blog/news/2026/ed-gtc-viewing-party.jpg
 title: "Eindhovens Dagblad: “The TU/e supercomputer is just the beginning”"
 slug: eindhovens-dagblad-the-tue-supercomputer-is-just-the-beginning
-source: { title: "Eindhovens Dagblad", url: "https://www.ed.nl" }
+source: { title: "Eindhovens Dagblad", url: "https://www.ad.nl/eindhoven/chipgigant-nvidia-ziet-ook-rol-voor-eindhoven-in-ai-revolutie-de-supercomputer-van-de-tu-e-is-maar-het-begin~afe3d753a/" }
 hero:
   backdrop: assets/images/backdrops/home.png
 ---
@@ -45,5 +45,8 @@ including TU/e and Prodrive Technologies, which the article also features.
 
     Peter Scholtes, “De supercomputer van de TU/e is maar het begin”, *Eindhovens Dagblad*, Wednesday 28 October 2026,
     Regio, page 11.
+
+    Read the full article online: [“Chipgigant Nvidia ziet ook rol voor Eindhoven in AI-revolutie: De supercomputer van de
+    TU/e is maar het begin”](https://www.ad.nl/eindhoven/chipgigant-nvidia-ziet-ook-rol-voor-eindhoven-in-ai-revolutie-de-supercomputer-van-de-tu-e-is-maar-het-begin~afe3d753a/){:target=_blank} (AD.nl; a subscription may be required).
 
 More press coverage of the Supercomputing Center is collected on our [In the media](../../../../media.md) page.
