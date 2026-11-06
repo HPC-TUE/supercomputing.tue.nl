@@ -25,6 +25,8 @@ _Your current quota usage can be checked with shell command `myquota`._
 
     The HPC Cluster is not a solution for archiving your work. Please consult the [Storage Finder](https://storagefinder.tue.nl){:target=_blank}, your local hub, or your [Research IT representative](https://tuenl.sharepoint.com/sites/intranet-LIS/SitePages/Research-IT.aspx) for available options to store your data for long term!
 
+    High-classified data should **NOT** be stored on the HPC Cluster! Please consult a [Data Steward](<https://tuenl.sharepoint.com/sites/intranet-LIS/SitePages/Data-stewards(1).aspx>) to determine the classification tier of your data.
+
 ### Disk load
 
 Sometimes you just have to do a lot of operations on a lot of files.
