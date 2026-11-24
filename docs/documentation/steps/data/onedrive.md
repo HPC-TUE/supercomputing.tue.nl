@@ -55,7 +55,67 @@ If everything went well OneDrive should now be visible in [Open OnDemand > Files
 rclone ls OneDrive:
 ```
 
-If this is not the case, please try again starting from [step 1](#1-start-an-interactive-desktop-session).
+If this shows only files in ```WebPartCache``` and not the files on your OneDrive, try the following:
+
+Open a desktop session, start up the terminal within the desktop session, and run the following command:
+
+```shell
+rclone config reconnect OneDrive:
+```
+
+And answer the questions (Don't replace the Token and select the correct driveid):
+
+```text
+Token already configured - replace it?
+y) Yes (default)
+n) No
+y/n> n
+
+Option config_type.
+Type of connection
+Choose a number from below, or type in an existing value of type string.
+Press Enter for the default (onedrive).
+ 1 / OneDrive Personal or Business
+   \ (onedrive)
+ 2 / Root Sharepoint site
+   \ (sharepoint)
+   / Sharepoint site name or URL
+ 3 | E.g. mysite or https://contoso.sharepoint.com/sites/mysite
+   \ (url)
+ 4 / Search for a Sharepoint site
+   \ (search)
+ 5 / Type in driveID (advanced)
+   \ (driveid)
+ 6 / Type in SiteID (advanced)
+   \ (siteid)
+   / Sharepoint server-relative path (advanced)
+ 7 | E.g. /teams/hr
+   \ (path)
+config_type> 1
+
+Option config_driveid.
+Select drive you want to use
+Choose a number from below, or type in your own value of type string.
+Press Enter for the default (XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX).
+ 1 / PersonalCacheLibrary (business)
+   \ (XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX)
+ 2 / VivaEngage (business)
+   \ (XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX)
+ 3 / OneDrive (business)
+   \ (XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX)
+config_driveid> 3
+
+Drive OK?
+
+Found drive "root" of type "business"
+URL: https://tuenl-my.sharepoint.com/personal/email_with_under_scores/Documents
+
+y) Yes (default)
+n) No
+y/n> y
+```
+
+If ```rclone ls OneDrive:``` still doesn't show the correct files, please try again starting from [step 1](#1-start-an-interactive-desktop-session).
 Please [contact us](../../../contact.md) if you keep running into issues or require further assistance.
 
 ## Usage
