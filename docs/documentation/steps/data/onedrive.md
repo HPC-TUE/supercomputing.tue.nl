@@ -57,7 +57,7 @@ rclone ls OneDrive:
 
 If this shows only files in ```WebPartCache``` and not the files on your OneDrive, try the following:
 
-Open a desktop session, start up the terminal within the desktop session, and run the following command:
+Open a terminal (either via SSH login or a desktop session) and run the following command:
 
 ```shell
 rclone config reconnect OneDrive:
