@@ -6,6 +6,7 @@ title: "Spike-1 Model Hosting: Webinar & Q&A"
 slug: spike-1-model-hosting-webinar
 description: "One-hour webinar on the Spike-1 LLM hosting service: gateway walkthrough, model catalogue, token budgets and the 8× inference speed-up."
 categories: [ Webinar ]
+speakers: [ h.zhang, m.czaplicki, m.jiang ]
 price: 0.00
 location: Microsoft Teams
 image: &image blog/news/2026/spike1-sovereign-llms.jpg
@@ -15,7 +16,7 @@ type: event
 registration:
   enabled: true
   options:
-    - { title: Join on Microsoft Teams, url: "https://teams.microsoft.com/l/meetup-join/REPLACE-WITH-TEAMS-LINK", qr: true }
+    - { title: Join on Microsoft Teams, url: "https://teams.microsoft.com/l/channel/19%3A674a138cd7f34730a461500eab35205d%40thread.tacv2/SPIKE-1?groupId=a07b9e15-8538-4889-8610-502177c36dc7&tenantId=cc7df247-60ce-4a0f-9d75-704cf60efc64", qr: true }
 schedule:
   - { title: "Welcome & introduction", start: 2026-12-08T13:00:00, end: 2026-12-08T13:05:00 }
   - { title: "Gateway walkthrough", start: 2026-12-08T13:05:00, end: 2026-12-08T13:25:00 }
@@ -37,9 +38,9 @@ Spike-1 gives TU/e researchers API access to hosted LLMs through Spike-gateway, 
 ## What we'll cover
 
 - **Getting started & updates.** Models, API keys, the usage dashboard and token budgets, plus the latest changes to the
-  service. Presented by Michal Czaplicki and Hengjian Zhang (AI Engineers, SCC).
+  service.
 - **Under the hood.** What SM cores are, how we implemented KV caching, and how optimising SM-core utilisation delivered
-  an **8× speed-up**. Presented by Mark Jiang (AI Engineer, SCC; previously at OpenAI working on GPT-6 training).
+  an **8× speed-up**.
 - **Live Q&A.** Two dedicated slots for your questions, one after each part of the programme.
 
 ## Practical information

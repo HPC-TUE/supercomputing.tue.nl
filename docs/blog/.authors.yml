@@ -15,6 +15,14 @@ authors:
     name: Hengjian Zhang
     description: AI Application Support Engineer
     avatar: "/assets/images/people/h.zhang.jpg"
+  "m.czaplicki":
+    name: Michal Czaplicki
+    description: AI Engineer, Supercomputing Center (TU/e)
+    avatar: "/assets/images/people/m.czaplicki.svg"
+  "m.jiang":
+    name: Mark Jiang
+    description: AI Engineer, Supercomputing Center (TU/e); previously at OpenAI working on GPT-6 training
+    avatar: "/assets/images/people/m.jiang.svg"
   "e.loomeijer":
     name: Emily Loomeijer
     description: Cluster Administrator
