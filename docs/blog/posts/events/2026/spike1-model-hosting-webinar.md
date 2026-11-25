@@ -33,8 +33,6 @@ gateway, a look under the hood of the inference stack, and two live Q&A rounds.
 
 <!-- more -->
 
-Spike-1 gives TU/e researchers API access to hosted LLMs through Spike-gateway, a custom-built OpenAI-compatible gateway with a model catalogue, usage dashboard and token budgets. The service is run by SCC's AI engineering team and is open to everyone at TU/e, from first-time users to teams running high-volume workloads.
-
 ## What we'll cover
 
 - **Getting started & updates.** Models, API keys, the usage dashboard and token budgets, plus the latest changes to the
