@@ -13,10 +13,6 @@ image: blog/news/2026/spike1-sovereign-llms.jpg
 hero:
   backdrop: blog/news/2026/spike1-sovereign-llms.jpg
 type: event
-registration:
-  enabled: true
-  options:
-    - { title: Join on Microsoft Teams, url: "https://teams.microsoft.com/meet/3783508019037486?p=5JpGQYJCpYUIsoyune", qr: true }
 schedule:
   - { title: "Welcome & introduction", start: 2026-12-08T13:00:00, end: 2026-12-08T13:05:00 }
   - { title: "Gateway walkthrough", start: 2026-12-08T13:05:00, end: 2026-12-08T13:25:00 }
@@ -44,7 +40,7 @@ gateway, a look under the hood of the inference stack, and two live Q&A rounds.
 ## Practical information
 
 - **When:** Tuesday 8 December 2026, 13:00–14:00 CET.
-- **Where:** Microsoft Teams. Use the join button on this page.
+- **Where:** Microsoft Teams. [Join the meeting](https://teams.microsoft.com/meet/3783508019037486?p=5JpGQYJCpYUIsoyune){:target=_blank}.
 - **Language:** English.
 - **Admission:** free. Open to everyone at TU/e.
 - **Contact:** [supercomputing@tue.nl](mailto:supercomputing@tue.nl)
