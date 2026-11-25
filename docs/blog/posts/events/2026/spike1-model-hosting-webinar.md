@@ -9,9 +9,9 @@ categories: [ Webinar ]
 speakers: [ h.zhang, m.czaplicki, m.jiang ]
 price: 0.00
 location: Microsoft Teams
-image: &image blog/news/2026/spike1-sovereign-llms.jpg
+image: blog/news/2026/spike1-sovereign-llms.jpg
 hero:
-  backdrop: *image
+  backdrop: blog/news/2026/spike1-sovereign-llms.jpg
 type: event
 registration:
   enabled: true
