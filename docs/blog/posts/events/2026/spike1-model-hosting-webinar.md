@@ -16,7 +16,7 @@ type: event
 registration:
   enabled: true
   options:
-    - { title: Join on Microsoft Teams, url: "https://teams.microsoft.com/l/channel/19%3A674a138cd7f34730a461500eab35205d%40thread.tacv2/SPIKE-1?groupId=a07b9e15-8538-4889-8610-502177c36dc7&tenantId=cc7df247-60ce-4a0f-9d75-704cf60efc64", qr: true }
+    - { title: Join on Microsoft Teams, url: "https://teams.microsoft.com/meet/3783508019037486?p=5JpGQYJCpYUIsoyune", qr: true }
 schedule:
   - { title: "Welcome & introduction", start: 2026-12-08T13:00:00, end: 2026-12-08T13:05:00 }
   - { title: "Gateway walkthrough", start: 2026-12-08T13:05:00, end: 2026-12-08T13:25:00 }
