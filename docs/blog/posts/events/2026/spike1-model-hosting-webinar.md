@@ -23,7 +23,7 @@ schedule:
 
 # Spike-1 Model Hosting: Webinar & Q&A
 
-Curious about using hosted LLMs at TU/e — or how to get more speed out of them? Join the TU/e Supercomputing Center
+Curious about using Spike-1 hosted LLMs — or how to get more speed out of them? Join the TU/e Supercomputing Center
 (SCC) for a **one-hour webinar** on the **Spike-1 LLM hosting service** supported by EAISI: a walkthrough of the
 gateway, a look under the hood of the inference stack, and two live Q&A rounds.
 
